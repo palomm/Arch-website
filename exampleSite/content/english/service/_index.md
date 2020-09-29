@@ -1,6 +1,6 @@
 ---
-title: "Service"
-description: "this is meta description"
-draft: false
-bg_image: "images/featue-bg.jpg"
+title: Servicios
+description: especialsitas en arquitectura y construcción
+bg_image: "/images/wrapper-img.png"
+
 ---
