@@ -1,7 +1,6 @@
 ---
 title: Servicios
-description: especialsitas en arquitectura y construcción
-bg_image: "/images/wrapper-img.png"
-draft: true
+description: especialistas en arquitectura y construccion
+bg_image: images/featue-bg.jpg
 
 ---
