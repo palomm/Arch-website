@@ -40,10 +40,6 @@ URL = "about"
 name = "Sobre nosotras"
 weight = 2
 [[Languages.en.menu.main]]
-URL = "project"
-name = "Proyectos"
-weight = 3
-[[Languages.en.menu.main]]
 URL = "service"
 name = "Servicios"
 weight = 4
