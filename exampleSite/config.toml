@@ -13,43 +13,43 @@ languageName = "En"
 weight = 1
 [[Languages.en.menu.footer]]
 URL = "about"
-name = "Mi vida"
+name = "Sobre nosotras"
 weight = 1
 [[Languages.en.menu.footer]]
 URL = "project"
-name = "Project"
+name = "Proyectos"
 weight = 2
 [[Languages.en.menu.footer]]
 URL = "service"
-name = "Service"
+name = "Servicios"
 weight = 3
 [[Languages.en.menu.footer]]
 URL = "pricing"
-name = "Pricing"
+name = "Precios"
 weight = 4
 [[Languages.en.menu.footer]]
 URL = "faq"
-name = "FAQ"
+name = "Certificados energéticos"
 weight = 5
 [[Languages.en.menu.footer]]
 URL = "contact"
-name = "Contact"
+name = "Contacto"
 weight = 6
 [[Languages.en.menu.main]]
 URL = "/"
-name = "Home"
+name = "Inicio"
 weight = 1
 [[Languages.en.menu.main]]
 URL = "about"
-name = "About"
+name = "Sobre nosotras"
 weight = 2
 [[Languages.en.menu.main]]
 URL = "project"
-name = "Project"
+name = "Proyectos"
 weight = 3
 [[Languages.en.menu.main]]
 URL = "service"
-name = "Service"
+name = "Servicios"
 weight = 4
 [[Languages.en.menu.main]]
 URL = "blog"
@@ -57,19 +57,19 @@ name = "Blog"
 weight = 5
 [[Languages.en.menu.main]]
 hasChildren = true
-name = "Pages"
+name = "CEE/IEE"
 weight = 6
 [[Languages.en.menu.main]]
 URL = "faq"
-name = "FAQ"
-parent = "Pages"
+name = "Certificado energético"
+parent = "CEE/IEE"
 [[Languages.en.menu.main]]
 URL = "pricing"
-name = "Pricing"
-parent = "Pages"
+name = "IEE"
+parent = "CEE/IEE"
 [[Languages.en.menu.main]]
 URL = "contact"
-name = "Contact"
+name = "Contacto"
 weight = 7
 [Languages.fr]
 contentDir = "content/french"
