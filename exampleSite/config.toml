@@ -136,11 +136,11 @@ home = ["HTML"]
 [params]
 author = "Themefisher"
 contact_form_action = "#"
-description = "This is meta description"
-email = "demo@email.com"
+description = "Contacta con nosotras"
+email = "estudio.blablabla@gmail.com"
 google_analitycs_id = ""
-location = "North Main Street,Brooklyn Australia"
-logo = "images/logo.png"
+location = "Áncora 5, 6ºD - 28045 MADRID"
+logo = "images/LOGO-PRUEBA.png"
 logo_width = "150px"
 mobile = "0124857985320"
 multi_author = false
