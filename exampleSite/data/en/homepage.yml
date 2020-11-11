@@ -1,10 +1,10 @@
 ############################### Banner ##############################
 banner:
   enable : true
-  bg_image : "images/slider-bg.jpg"
+  bg_image : "images/imgen prueba.jpg"
   bg_overlay : true
-  title : "hola guille <br/> & Git Master"
-  content : "We love the Web and the work we do.We work closely with our clients to deliver  the best possible solutions for their needs"
+  title : "Sierra-Meléndez <br/> Arquitectas"
+  content : "tenemos web!!"
   button:
     enable : true
     label : "Discover Our Project"

@@ -3,7 +3,7 @@ disableLanguages = []
 disqusShortname = ""
 paginate = "4"
 summaryLength = "30"
-theme = "airspace-hugo"
+theme = "Arch-website"
 title = "Airspace | Creative Agency Hugo Template"
 [Languages.en]
 contentDir = "content/english"
@@ -13,7 +13,7 @@ languageName = "En"
 weight = 1
 [[Languages.en.menu.footer]]
 URL = "about"
-name = "Sobre nosotras"
+name = "Quiénes Somos"
 weight = 1
 [[Languages.en.menu.footer]]
 URL = "service"
@@ -37,20 +37,30 @@ name = "Inicio"
 weight = 1
 [[Languages.en.menu.main]]
 URL = "about"
-name = "Sobre nosotras"
+name = "Quiénes Somos"
 weight = 2
 [[Languages.en.menu.main]]
 URL = "service"
 name = "Servicios"
 weight = 4
 [[Languages.en.menu.main]]
+URL = "service"
+name = "Reformas"
+parent = "Servicios" #desplegables
+[[Languages.en.menu.main]]
+URL = "project"
+name = "proyectos"
+weight = 5
+#porqué sale en modo blog (pendiente)
+
+[[Languages.en.menu.main]]
 URL = "blog"
 name = "Blog"
-weight = 5
+weight = 6
 [[Languages.en.menu.main]]
 hasChildren = true
 name = "CEE/IEE"
-weight = 6
+weight = 7
 [[Languages.en.menu.main]]
 URL = "faq"
 name = "Certificado energético"
