@@ -1,38 +1,32 @@
 ############################### Banner ##############################
 banner:
   enable : true
-  bg_image : "images/imgen prueba.jpg"
+  bg_image : "images/homepage_1.jpg" #imagen de estudio?
   bg_overlay : true
   title : "Sierra-Meléndez <br/> Arquitectas"
-  content : "tenemos web!!"
+  content : "acercando la arquitectura a las personas"
   button:
     enable : true
-    label : "Discover Our Project"
-    link : "project"
+    label : "¿te ayudamos?" #¿QUÉ OFRECEMOS
+    link : "service"
 
 ############################# About #################################
 about:
   enable : true
-  title : "About Us"
-  description : "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
-              blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id."
-  image : "images/wrapper-img.png"
+  title : "NUESTRO MÉTODO"
+  description : "En Sierra-Meléndez Arquitectas entendemos la arquitectura como un servicio para las personas, resolviendo las necesidades de cada cliente desde nuestra experiencia técnica y mediante un acompañamiento cercano."
+  content : "Promovemos el diseño y la construcción como un ejercicio consciente y sostenible con el entorno. (?) " #qué ponemos
+  image : "images/homepage_2.png" 
 
 
 ######################### Portfolio ###############################
 portfolio:
   enable : true
-  bg_image : "images/featue-bg.jpg"
-  title : "WE BELIEVE IN GREAT IDEAS"
+  bg_image : "images/homepage_3.jpg"
+  title : "MÁS QUE ARQUITECTURA"
   content : "
-  Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-
-
+  Aquí deberiamos hablar de los proyectos que queremos enseñar.<br/> Qué proyectos queremos/podemos enseñar? <br/> GRAN PREGUNTA <br/>
+ 
   Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
 
 
@@ -40,7 +34,7 @@ portfolio:
   "
   button:
     enable : true
-    label : "View Works"
+    label : "NUESTROS PROYECTOS"
     link : "project"
 
 
@@ -49,20 +43,21 @@ service:
   enable : true
   # service content comes from "data/*/service.yml" file
 
+# LO DE LOS ICONOS ES UNA PUTA MOVIDA. SE DEFINE EN STATIC/PLUGINS. ¿CÓMO LOS CAMBIAMOS?
 
 ############################ call to action ###########################
 cta:
   enable : true
   bg_image : "images/call-to-action-bg.jpg"
-  title : "We design delightful digital experiences."
-  content : "Read more about what we do and our philosophy of design. Judge for yourself The work and results <br> we’ve achieved for other clients, and meet our highly experienced Team who just love to design."
+  title : "No te quedes con dudas"
+  content : "¿Necesitas más información o asesoramiento? <br/> Escríbenos tus dudas y nos pondremos en contacto contigo"
   button:
     enable : true
-    label : "Tell Us Your Story"
+    label : "CONTACTA CON NOSOTRAS"
     link : "contact"
 
 ############################# Funfacts ###############################
-funfacts:
+funfacts: #QUÉ HACEMOS CON ESTO?
   enable : true
   title : "Fun Facts About Us"
   description : "'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, <br> there live the
