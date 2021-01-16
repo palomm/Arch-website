@@ -14,24 +14,25 @@
   }
 
   .block {
-    color: #E3E3E4;
+    color: #ff7f4a;
     text-align: center;
 
     h1 {
-      font-weight: 100;
-      font-size: 45px;
+      font-weight: 500;
+      font-size: 60px;
       line-height: 60px;
-      letter-spacing: 10px;
-      padding-bottom: 15px;
+      letter-spacing: 12px;
+      padding-bottom: 12px;
       text-transform: uppercase;
     }
 
     p {
       margin-bottom: 30px;
-      color: #b9b9b9;
-      font-size: 18px;
-      line-height: 27px;
+      color: #FAFAFF;
+      font-size: 14.5px;
+      line-height: 40px;
       font-weight: 300;
+      letter-spacing: 2px;
     }
   }
 }

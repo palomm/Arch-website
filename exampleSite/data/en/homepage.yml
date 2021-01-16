@@ -1,38 +1,32 @@
-############################### Banner ##############################
+############################### portada ##############################
 banner:
   enable : true
-  bg_image : "images/slider-bg.jpg"
+  bg_image : "images/homepage_1.png" #imagen de estudio?
   bg_overlay : true
-  title : "hola guille <br/> & Git Master"
-  content : "We love the Web and the work we do.We work closely with our clients to deliver  the best possible solutions for their needs"
+  title : "Ra:Ma"
+  content : "acercando la arquitectura a las personas"
   button:
     enable : true
-    label : "Discover Our Project"
-    link : "project"
+    label : "nuestros servicios" #¿QUÉ OFRECEMOS
+    link : "service"
 
-############################# About #################################
+############################# nuestro metodo #################################
 about:
   enable : true
-  title : "About Us"
-  description : "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
-              blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id."
-  image : "images/wrapper-img.png"
+  title : "NUESTRO MÉTODO"
+  description : "En Sierra-Meléndez Arquitectas entendemos la arquitectura como un servicio para las personas, resolviendo las necesidades de cada cliente desde nuestra experiencia técnica y mediante un acompañamiento cercano."
+  content : "Promovemos el diseño y la construcción como un ejercicio consciente y sostenible con el entorno. (?) " #qué ponemos
+  image : "images/homepage_2.png" 
 
 
-######################### Portfolio ###############################
+######################### nuestros proyectos ###############################
 portfolio:
   enable : true
-  bg_image : "images/featue-bg.jpg"
-  title : "WE BELIEVE IN GREAT IDEAS"
+  bg_image : "images/homepage_3.jpg"
+  title : "MÁS QUE ARQUITECTURA"
   content : "
-  Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-
-
+  Aquí deberiamos hablar de los proyectos que queremos enseñar.<br/> Qué proyectos queremos/podemos enseñar? <br/> GRAN PREGUNTA <br/>
+ 
   Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
 
 
@@ -40,72 +34,25 @@ portfolio:
   "
   button:
     enable : true
-    label : "View Works"
+    label : "NUESTROS PROYECTOS"
     link : "project"
 
 
-############################# Service ############################
+############################# Nuestros servicios ############################
 service:
   enable : true
   # service content comes from "data/*/service.yml" file
 
 
-############################ call to action ###########################
+############################ contacta ###########################
 cta:
   enable : true
   bg_image : "images/call-to-action-bg.jpg"
-  title : "We design delightful digital experiences."
-  content : "Read more about what we do and our philosophy of design. Judge for yourself The work and results <br> we’ve achieved for other clients, and meet our highly experienced Team who just love to design."
+  title : "No te quedes con dudas"
+  content : "¿Necesitas más información o asesoramiento? <br/> Escríbenos tus dudas y nos pondremos en contacto contigo"
   button:
     enable : true
-    label : "Tell Us Your Story"
+    label : "CONTACTA CON NOSOTRAS"
     link : "contact"
 
 ############################# Funfacts ###############################
-funfacts:
-  enable : true
-  title : "Fun Facts About Us"
-  description : "'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, <br> there live the
-          blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics'"
-  funfact_item:
-    # funfacts item loop
-    - icon : "ion-ios-chatboxes-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "Cups Of Coffee"
-      count : "99"
-      
-    # funfacts item loop
-    - icon : "ion-ios-glasses-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "Article Written"
-      count : "45"
-      
-    # funfacts item loop
-    - icon : "ion-ios-compose-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "Projects Completed"
-      count : "125"
-      
-    # funfacts item loop
-    - icon : "ion-ios-timer-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "Combined Projects"
-      count : "200"
-
-  testimonial_slider:
-    # testimonial item loop
-    - name : "Raymond Roy"
-      image : "images/clients/avater-1.jpg"
-      designation : "CEO-Themefisher"
-      content : "This Company created an e-commerce site with the tools to make our business a success, with innovative
-                ideas we feel that our site has unique elements that make us stand out from the crowd."
-                
-    # testimonial item loop
-    - name : "Randi Renin"
-      image : "images/clients/avater-1.jpg"
-      designation : "CEO-Themefisher"
-      content : "This Company created an e-commerce site with the tools to make our business a success, with innovative
-                ideas we feel that our site has unique elements that make us stand out from the crowd."
-                
-    # testimonial item loop
-    - name : "Rose Rio"
-      image : "images/clients/avater-3.jpg"
-      designation : "CEO-Themefisher"
-      content : "This Company created an e-commerce site with the tools to make our business a success, with innovative
-                ideas we feel that our site has unique elements that make us stand out from the crowd."
