@@ -13,57 +13,51 @@ languageName = "En"
 weight = 1
 [[Languages.en.menu.footer]]
 URL = "about"
-name = "Quiénes Somos"
+name = "EQUIPO RA:MA"
 weight = 1
 [[Languages.en.menu.footer]]
 URL = "service"
-name = "Servicios"
+name = "SERVICIOS"
 weight = 3
 [[Languages.en.menu.footer]]
 URL = "pricing"
-name = "Precios"
+name = "PRECIOS"
 weight = 4
 [[Languages.en.menu.footer]]
 URL = "faq"
-name = "Certificados energéticos"
+name = "CERTIFICADO ENERGÉTICO"
 weight = 5
-[[Languages.en.menu.footer]]
-URL = "contact"
-name = "Contacto"
-weight = 6
 [[Languages.en.menu.main]]
 URL = "/"
 name = "Inicio"
 weight = 1
 [[Languages.en.menu.main]]
 URL = "about"
-name = "Quiénes Somos"
+name = "EQUIPO RA:MA"
 weight = 2
 [[Languages.en.menu.main]]
 URL = "service"
-name = "Servicios"
-weight = 4
+name = "SERVICIOS"
+weight = 3
 [[Languages.en.menu.main]]
-URL = "service"
-name = "Reformas"
-parent = "Servicios" #desplegables
+hasChildren = true
+name = "CEE/IEE"
+weight = 4
 [[Languages.en.menu.main]]
 URL = "project"
 name = "proyectos"
 weight = 5
-#porqué sale en modo blog (pendiente)
-
 [[Languages.en.menu.main]]
 URL = "blog"
 name = "Blog"
 weight = 6
-[[Languages.en.menu.main]]
-hasChildren = true
-name = "CEE/IEE"
+[[Languages.en.menu.footer]]
+URL = "contact"
+name = "CONTACTO"
 weight = 7
 [[Languages.en.menu.main]]
 URL = "faq"
-name = "Certificado energético"
+name = "Certificado Energético"
 parent = "CEE/IEE"
 [[Languages.en.menu.main]]
 URL = "pricing"
@@ -147,12 +141,12 @@ home = ["HTML"]
 author = "Themefisher"
 contact_form_action = "#"
 description = "Contacta con nosotras"
-email = "estudio.blablabla@gmail.com"
+email = "estudio.rama@gmail.com"
 google_analitycs_id = ""
 location = "Áncora 5, 6ºD - 28045 MADRID"
 logo = "images/LOGO-PRUEBA.png"
 logo_width = "150px"
-mobile = "0124857985320"
+mobile = "654 89 67 95"
 multi_author = false
 [params.gmap]
 enable = true

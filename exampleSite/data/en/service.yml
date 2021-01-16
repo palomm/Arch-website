@@ -43,44 +43,44 @@ service:
   description : "Contacta con nosostras y pide presupuesto sin compromiso"
   service_item:
     # service item loop
-    - icon : ion-coffee #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
+    - icon : ion-ios-home #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
       name: PROYECTOS DE EDIFICACIÓN Y REFORMA
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      content: "Redacción y dirección de proyectos de obras de edificación y reformas de viviendas, locales u oficinas."
 
     # service item loop
-    - icon : ion-compass #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
+    - icon : ion-document-text #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
       name: TRAMITACIÓN DE LICENCIAS
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      content: "Tramite de licencias urbanísticas de obras y reformas de viviendas, locales u oficinas."
 
     # service item loop
-    - icon : ion-image #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
+    - icon : ion-eye #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
       name: SEGURIDAD Y SALUD
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
-
-    # service item loop
-    - icon : ion-bug #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
-      name: CERTIFICADOS ENERGÉTICOS
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
-
-    # service item loop
-    - icon : ion-headphone #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
-      name: IEE / ITE
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      content: "Elaboración y coordinación de estudios de seguridad y salud en obra."
 
     # service item loop
     - icon : ion-leaf #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
-      name: PLAN DE AUTOPROTECCION
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      name: CERTIFICADOS ENERGÉTICOS
+      content: "Elaboración de Certificados de Eficiencia Energética para vender o alquilar su vivienda."
 
     # service item loop
-    - icon : ion-planet #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
+    - icon : ion-checkmark-round #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
+      name: IEE / ITE
+      content: "Elaboración del Informe de Evaluación del Edificio y de la Inspección Técnica del Edificio."
+
+    # service item loop
+    - icon : ion-flame #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
+      name: PLAN DE AUTOPROTECCION
+      content: "Asesoramiento, diagnosis de riesgos y planes de autoproteccion para empresas y comunidades de propietarios."
+
+    # service item loop
+    - icon : ion-paintbrush #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
       name: DISEÑO DE INTERIORES
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      content: "Realización de proyectos de reformas, diseño, decoración e interiorismo en viviendas, locales y oficinas."
 
     # service item loop
     - icon : ion-earth #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
       name: REHABILITACIÓN ENERGÉTICA
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      content: "Gestión de ayudas y subvenciones. Redacción y dirección de obras de rehabilitación energética según normativa vigente."
       
 ############################# call to action #################################
 cta:

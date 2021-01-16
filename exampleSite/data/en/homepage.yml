@@ -1,16 +1,16 @@
-############################### Banner ##############################
+############################### portada ##############################
 banner:
   enable : true
-  bg_image : "images/homepage_1.jpg" #imagen de estudio?
+  bg_image : "images/homepage_1.png" #imagen de estudio?
   bg_overlay : true
-  title : "Sierra-Meléndez <br/> Arquitectas"
+  title : "Ra:Ma"
   content : "acercando la arquitectura a las personas"
   button:
     enable : true
-    label : "¿te ayudamos?" #¿QUÉ OFRECEMOS
+    label : "nuestros servicios" #¿QUÉ OFRECEMOS
     link : "service"
 
-############################# About #################################
+############################# nuestro metodo #################################
 about:
   enable : true
   title : "NUESTRO MÉTODO"
@@ -19,7 +19,7 @@ about:
   image : "images/homepage_2.png" 
 
 
-######################### Portfolio ###############################
+######################### nuestros proyectos ###############################
 portfolio:
   enable : true
   bg_image : "images/homepage_3.jpg"
@@ -38,14 +38,13 @@ portfolio:
     link : "project"
 
 
-############################# Service ############################
+############################# Nuestros servicios ############################
 service:
   enable : true
   # service content comes from "data/*/service.yml" file
 
-# LO DE LOS ICONOS ES UNA PUTA MOVIDA. SE DEFINE EN STATIC/PLUGINS. ¿CÓMO LOS CAMBIAMOS?
 
-############################ call to action ###########################
+############################ contacta ###########################
 cta:
   enable : true
   bg_image : "images/call-to-action-bg.jpg"
@@ -57,50 +56,3 @@ cta:
     link : "contact"
 
 ############################# Funfacts ###############################
-funfacts: #QUÉ HACEMOS CON ESTO?
-  enable : true
-  title : "Fun Facts About Us"
-  description : "'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, <br> there live the
-          blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics'"
-  funfact_item:
-    # funfacts item loop
-    - icon : "ion-ios-chatboxes-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "Cups Of Coffee"
-      count : "99"
-      
-    # funfacts item loop
-    - icon : "ion-ios-glasses-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "Article Written"
-      count : "45"
-      
-    # funfacts item loop
-    - icon : "ion-ios-compose-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "Projects Completed"
-      count : "125"
-      
-    # funfacts item loop
-    - icon : "ion-ios-timer-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "Combined Projects"
-      count : "200"
-
-  testimonial_slider:
-    # testimonial item loop
-    - name : "Raymond Roy"
-      image : "images/clients/avater-1.jpg"
-      designation : "CEO-Themefisher"
-      content : "This Company created an e-commerce site with the tools to make our business a success, with innovative
-                ideas we feel that our site has unique elements that make us stand out from the crowd."
-                
-    # testimonial item loop
-    - name : "Randi Renin"
-      image : "images/clients/avater-1.jpg"
-      designation : "CEO-Themefisher"
-      content : "This Company created an e-commerce site with the tools to make our business a success, with innovative
-                ideas we feel that our site has unique elements that make us stand out from the crowd."
-                
-    # testimonial item loop
-    - name : "Rose Rio"
-      image : "images/clients/avater-3.jpg"
-      designation : "CEO-Themefisher"
-      content : "This Company created an e-commerce site with the tools to make our business a success, with innovative
-                ideas we feel that our site has unique elements that make us stand out from the crowd."

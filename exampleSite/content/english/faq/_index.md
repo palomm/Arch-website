@@ -1,6 +1,6 @@
 ---
-title: "Frequently Asked Questions"
-description: "this is meta description"
+title: "CEE"
+description: "CERTIFICADO DE EFICIENCIA ENERGÉTICA"
 subtitle : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, repudiandae."
 date: 2020-03-23T13:05:29+06:00
 draft: false
