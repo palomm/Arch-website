@@ -3,7 +3,7 @@ banner:
   enable : true
   bg_image : "images/homepage_1.png" #imagen de estudio?
   bg_overlay : true
-  title : "Ra:Ma"
+  title : "Ra·Ma"
   content : "acercando la arquitectura a las personas"
   button:
     enable : true
@@ -13,30 +13,10 @@ banner:
 ############################# nuestro metodo #################################
 about:
   enable : true
-  title : "NUESTRO MÉTODO"
-  description : "En Sierra-Meléndez Arquitectas entendemos la arquitectura como un servicio para las personas, resolviendo las necesidades de cada cliente desde nuestra experiencia técnica y mediante un acompañamiento cercano."
-  content : "Promovemos el diseño y la construcción como un ejercicio consciente y sostenible con el entorno. (?) " #qué ponemos
-  image : "images/homepage_2.png" 
-
-
-######################### nuestros proyectos ###############################
-portfolio:
-  enable : true
-  bg_image : "images/homepage_3.jpg"
-  title : "MÁS QUE ARQUITECTURA"
-  content : "
-  Aquí deberiamos hablar de los proyectos que queremos enseñar.<br/> Qué proyectos queremos/podemos enseñar? <br/> GRAN PREGUNTA <br/>
- 
-  Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-
-
-  Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-  "
-  button:
-    enable : true
-    label : "NUESTROS PROYECTOS"
-    link : "project"
-
+  title : "NUESTRA FILOSOFÍA"
+  description : "En RA·MA entendemos la arquitectura como un servicio para las personas y una herramienta capaz de mejorar el bienestar de nuestro día a día."
+  content : "El espacio es un elemento transformador de la sociedad y, por ello, diseñamos para resolver las necesidades de cada cliente desde nuestra experiencia técnica y mediante un acompañamiento cercano. " #qué ponemos
+  image : "images/portfolio/work4.jpg" 
 
 ############################# Nuestros servicios ############################
 service:
@@ -47,12 +27,12 @@ service:
 ############################ contacta ###########################
 cta:
   enable : true
-  bg_image : "images/call-to-action-bg.jpg"
+  bg_image : "images/portfolio/work6.jpg"
   title : "No te quedes con dudas"
-  content : "¿Necesitas más información o asesoramiento? <br/> Escríbenos tus dudas y nos pondremos en contacto contigo"
+  content : "¿Necesitas más información o asesoramiento?"
   button:
     enable : true
-    label : "CONTACTA CON NOSOTRAS"
+    label : "CONTACTA CON RA·MA"
     link : "contact"
 
 ############################# Funfacts ###############################

@@ -1,4 +1,4 @@
-baseURL = "http://palomamelendez-arquitectura.org"
+baseURL = "http://ramaarquitectura.org"
 disableLanguages = []
 disqusShortname = ""
 paginate = "4"
@@ -9,11 +9,11 @@ title = "Airspace | Creative Agency Hugo Template"
 contentDir = "content/english"
 copyright = "Copyright &copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved"
 languageCode = "en-us"
-languageName = "En"
+languageName = "Es"
 weight = 1
 [[Languages.en.menu.footer]]
 URL = "about"
-name = "EQUIPO RA:MA"
+name = "EQUIPO RA·MA"
 weight = 1
 [[Languages.en.menu.footer]]
 URL = "service"
@@ -27,42 +27,46 @@ weight = 4
 URL = "faq"
 name = "CERTIFICADO ENERGÉTICO"
 weight = 5
+[[Languages.en.menu.footer]]
+URL = "contact"
+name = "CONTACTO"
+weight = 6
 [[Languages.en.menu.main]]
 URL = "/"
 name = "Inicio"
 weight = 1
 [[Languages.en.menu.main]]
 URL = "about"
-name = "EQUIPO RA:MA"
+name = "EQUIPO RA·MA"
 weight = 2
 [[Languages.en.menu.main]]
 URL = "service"
 name = "SERVICIOS"
 weight = 3
 [[Languages.en.menu.main]]
-hasChildren = true
-name = "CEE/IEE"
+URL = "faq"
+name = "CERTIFICADO ENERGÉTICO"
 weight = 4
-[[Languages.en.menu.main]]
-URL = "project"
-name = "proyectos"
-weight = 5
+# desactivado [[Languages.en.menu.main]]
+# desactivado URL = "project"
+# desactivado name = "proyectos"
+# desactivado weight = 5
 [[Languages.en.menu.main]]
 URL = "blog"
 name = "Blog"
 weight = 6
-[[Languages.en.menu.footer]]
-URL = "contact"
-name = "CONTACTO"
-weight = 7
-[[Languages.en.menu.main]]
-URL = "faq"
-name = "Certificado Energético"
-parent = "CEE/IEE"
+#desactivado [[Languages.en.menu.main]]
+#desactivado URL = "faq"
+#desactivado name = "Certificado Energético"
+#desactivado parent = "CEE/IEE"
+#desactivado [[Languages.en.menu.main]]
+#desactivado URL = "pricing"
+#desactivado name = "IEE"
+#desactivado parent = "CEE/IEE"
 [[Languages.en.menu.main]]
 URL = "pricing"
-name = "IEE"
-parent = "CEE/IEE"
+name = "PRECIOS"
+weight = 6
 [[Languages.en.menu.main]]
 URL = "contact"
 name = "Contacto"
@@ -71,7 +75,7 @@ weight = 7
 contentDir = "content/french"
 copyright = "Copyright &copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved"
 languageCode = "fr-fr"
-languageName = "Fr"
+languageName = "En"
 weight = 2
 [[Languages.fr.menu.footer]]
 URL = "about"
@@ -99,19 +103,19 @@ name = "Contact"
 weight = 6
 [[Languages.fr.menu.main]]
 URL = "/"
-name = "Accueil"
+name = "Home"
 weight = 1
 [[Languages.fr.menu.main]]
 URL = "about"
-name = "À propos"
+name = "about"
 weight = 2
 [[Languages.fr.menu.main]]
 URL = "project"
-name = "Projet"
+name = "Project"
 weight = 3
 [[Languages.fr.menu.main]]
 URL = "service"
-name = "Un service"
+name = "service"
 weight = 4
 [[Languages.fr.menu.main]]
 URL = "blog"
@@ -127,7 +131,7 @@ name = "FAQ"
 parent = "Pages"
 [[Languages.fr.menu.main]]
 URL = "pricing"
-name = "Tarification"
+name = "pricing"
 parent = "Pages"
 [[Languages.fr.menu.main]]
 URL = "contact"
@@ -140,19 +144,19 @@ home = ["HTML"]
 [params]
 author = "Themefisher"
 contact_form_action = "#"
-description = "Contacta con nosotras"
+description = "CONTACTA CON NOSOTRAS"
 email = "estudio.rama@gmail.com"
 google_analitycs_id = ""
 location = "Áncora 5, 6ºD - 28045 MADRID"
-logo = "images/LOGO-PRUEBA.png"
-logo_width = "150px"
-mobile = "654 89 67 95"
+logo = "images/logo1.jpg"
+logo_width = "70px"
+phone = "654 89 67 95"
 multi_author = false
 [params.gmap]
 enable = true
 gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
-map_latitude = "51.5223477"
-map_longitude = "-0.1622023"
+map_latitude = "40.403328079361586"
+map_longitude = "-3.6927922958572226"
 map_marker = "images/marker.png"
 [params.nav_button]
 enable = true
@@ -183,21 +187,24 @@ enable = true
 preloader = ""
 [params.widgets]
 sidebar = ["recent_posts", "taxonomy_category", "taxonomy_tags"]
-[[params.social]]
-icon = "ion-social-googleplus-outline"
-link = "#"
+#desactivado [[params.social]]
+#desactivado icon = "ion-social-googleplus-outline"
+#desactivado link = "#"
 [[params.social]]
 icon = "ion-social-linkedin-outline"
-link = "#"
+link = "https://www.linkedin.com/in/paloma-melendez-martinez"
 [[params.social]]
-icon = "ion-social-pinterest-outline"
-link = "#"
-[[params.social]]
-icon = "ion-social-dribbble-outline"
-link = "#"
-[[params.social]]
-icon = "ion-social-twitter-outline"
-link = "#"
-[[params.social]]
-icon = "ion-social-facebook-outline"
-link = "#"
+icon = "ion-social-linkedin-outline"
+link = "https://www.linkedin.com/in/belén-sierra-marco-941834134"
+#desactivado [[params.social]]
+#desactivado icon = "ion-social-pinterest-outline"
+#desactivado link = "#"
+#desactivado [[params.social]]
+#desactivado icon = "ion-social-dribbble-outline"
+#desactivado link = "#"
+#desactivado [[params.social]]
+#desactivado icon = "ion-social-twitter-outline"
+#desactivado link = "#"
+#desactivado [[params.social]]
+#desactivado icon = "ion-social-facebook-outline"
+#desactivado link = "#"
