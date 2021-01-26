@@ -1,62 +1,30 @@
 ---
-title: "CEE"
-description: "CERTIFICADO DE EFICIENCIA ENERGÉTICA"
-subtitle : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, repudiandae."
+title: "CERTIFICADO DE EFICIENCIA ENERGÉTICA"
+description: "Calificación energética de un edificio o parte del mismo"
+subtitle : "Ponte en contacto con nosotras si necesitas el CEE de tu propiedad."
 date: 2020-03-23T13:05:29+06:00
 draft: false
 bg_image: "images/featue-bg.jpg"
 ---
 
-### Welcome to Airspace!
+### ¿Qué es el CEE? 
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia ullam sint quas pariatur ipsam nemo
-repellendus suscipit quod accusantium numquam tempora assumenda sequi, velit voluptatem soluta voluptatibus
-nesciunt ducimus iure. Excepturi voluptatum ullam tenetur perspiciatis alias delectus beatae voluptatibus
-magni facere aspernatur, qui, quas nesciunt blanditiis assumenda a expedita accusantium quos consectetur neque
-nemo. Necessitatibus est quod quo deserunt, dicta aut voluptatem blanditiis, alias quos sed vel unde enim
-dolore aliquam quis reiciendis qui vitae reprehenderit. Similique nemo accusamus, vel possimus error cumque
-quas, tempora repellendus velit, unde cupiditate impedit deserunt fugit labore et nostrum sapiente est
-obcaecati maiores voluptates.
+Este certificado contiene información sobre las características energéticas y la calificación energética de un edificio o de parte del mismo.
 
-#### 1.Overview
+El objetivo de este documento es poner en conocimiento de los ciudadanos o las ciudadanas el consumo energético de sus hogares o locales  para que potenciales compradores o arrendatarios a la hora de elegir vivienda o local puedan saber cómo es de eficiente y hacerse una idea del gasto en energía que supondrá vivir o trabajar en ellos.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas iusto, alias, tempora fuga quam eveniet
-neque excepturi aliquid. Eligendi, mollitia.
+#### 1.Arrendamiento
 
-#### 2. Data We Collect
+Para los contratos de arrendamiento de edificios, locales o viviendas, el propietario o la propietaria deberá disponer del certificado de eficiencia energética, o copia de este, que deberá mostrar a cualquier comprador o arrendatario potencial interesado en la vivienda o local y que deberá entregar al comprador o arrendatario definitivo.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, earum, quibusdam? Accusantium, eaque at
-quasi dicta quis consectetur. Temporibus, natus illo quasi, magni neque fugiat ducimus omnis, ab ullam
-reprehenderit obcaecati. Inventore ut nisi repellendus dolores odit. Ea molestias perspiciatis enim, tenetur
-impedit suscipit quidem optio asperiores quibusdam. Minus, vel.
+#### 2. Compraventa
 
-#### 3. How We Use Data
+En contratos de compraventa, el certificado original será puesto a disposición del adquirente.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus repellat id, laboriosam ipsa
-repudiandae quisquam, suscipit officiis, praesentium itaque facilis distinctio dolorum. Velit reiciendis
-libero laudantium corporis, delectus impedit sunt.
 
-#### 4. How We Disclose Data.
+#### 3. Validez del CEE
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur itaque ut culpa totam ratione! Iste
-possimus beatae consequuntur, fugit iusto fugiat id, dignissimos culpa obcaecati voluptatum omnis est
-quibusdam quos, et illo rerum quae dolorem error quis suscipit asperiores facilis? Ratione, facere architecto
-modi incidunt voluptatibus iusto maiores, at libero accusamus aliquam dolor minus autem possimus illum maxime,
-fugit fuga! A libero adipisci molestias praesentium distinctio odio, alias accusantium, dolorum itaque,
-necessitatibus labore! Facilis explicabo pariatur laudantium quibusdam consequatur ex odio labore sequi animi.
-Voluptatem impedit, maiores, cupiditate, iure possimus neque quaerat natus aut minima quibusdam tempora
-magnam, vero itaque!
+Dicho certificado tendrá una validez máxima de 10 años a partir de la fecha de inscripción en el registro, siendo el propietario o propietaria responsable de su renovación. El propietario podrá proceder voluntariamente a su actualización, cuando considere que existen variaciones en aspectos del edificio que puedan modificar el certificado de eficiencia energética.
 
-#### 5. Security
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae blanditiis quod saepe, inventore ipsum sint
-cum iste quae ratione nobis laborum minima autem totam similique, quia neque deleniti! Provident, suscipit.
-
-#### 6. Advertising.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, eaque repellendus placeat aperiam fugit.
-Quod inventore quis quos, molestias nostrum tempora quae adipisci dolorem ipsam repellendus officia,
-voluptatem assumenda porro possimus, eius eum enim qui natus! Quas numquam voluptas reiciendis eveniet ab at
-provident omnis mollitia ipsa. Asperiores vero rem cum minima voluptas, vitae magni accusantium quae. Sed,
-expedita, ad.
   

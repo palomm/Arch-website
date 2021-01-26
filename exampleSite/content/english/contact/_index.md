@@ -1,6 +1,6 @@
 ---
-title: Contacta con nosotras
-description: 'y nos pondremos en contacto '
+title: CONTACTO
+description: 'cuéntanos tu proyecto '
 bg_image: images/featue-bg.jpg
 
 ---
