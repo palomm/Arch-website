@@ -1,10 +1,10 @@
 ---
-title: "CERTIFICADO DE EFICIENCIA ENERGÉTICA"
-description: "Calificación energética de un edificio o parte del mismo"
+title: "CERTIFICADO ENERGÉTICO"
+description: "calificación energética de un edificio o parte del mismo"
 subtitle : "Ponte en contacto con nosotras si necesitas el CEE de tu propiedad."
 date: 2020-03-23T13:05:29+06:00
 draft: false
-bg_image: "images/featue-bg.jpg"
+bg_image: "images/Fotos web/certificado energetico.jpg"
 ---
 
 ### ¿Qué es el CEE? 

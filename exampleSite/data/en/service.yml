@@ -11,22 +11,22 @@ featured_service:
   enable : true
   service_item:
     # featured service item loop
-    - name : "Interface Design"
-      icon : "ion-erlenmeyer-flask"
+    - name : "Diseño de espacios saludables"
+      icon : "ion-heart"
       color : "primary"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe enim impedit repudiandae omnis est temporibus."
+      content : ""
       
     # featured service item loop
-    - name : "Product Branding"
-      icon : "ion-leaf"
+    - name : "Uso eficiente de la energía"
+      icon : "ion-outlet"
       color : "primary-dark"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe enim impedit repudiandae omnis est temporibus."
+      content : ""
       
     # featured service item loop
-    - name : "Game Development"
-      icon : "ion-lightbulb"
+    - name : "Responsabilidad sobre el medio ambiente"
+      icon : "ion-loop"
       color : "primary-darker"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe enim impedit repudiandae omnis est temporibus."
+      content : ""
 
       
 ############################# Service ###############################

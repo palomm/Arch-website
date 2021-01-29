@@ -1,6 +1,6 @@
 ---
-title: "IEE/ITE"
-description: "INFORME DE EVALUACIÓN DEL EDIFICIO / INSPECCIÓN TÉCNICA DE EDIFICIOS"
+title: "PRECIOS"
+description: "servicios de arquitectura"
 draft: false
-bg_image: "images/featue-bg.jpg"
+bg_image: "images/Fotos web/precios.jpg"
 ---
