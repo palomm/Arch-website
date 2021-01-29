@@ -1,7 +1,7 @@
 ############################### portada ##############################
 banner:
   enable : true
-  bg_image : "images/homepage_1.png" #imagen de estudio?
+  bg_image : "images/Fotos web/inicio.jpg" #imagen de estudio?
   bg_overlay : true
   title : "Ra·Ma"
   content : "acercando la arquitectura a las personas"
@@ -16,7 +16,7 @@ about:
   title : "NUESTRA FILOSOFÍA"
   description : "En RA·MA entendemos la arquitectura como un servicio para las personas y una herramienta capaz de mejorar el bienestar de nuestro día a día."
   content : "El espacio es un elemento transformador de la sociedad y, por ello, diseñamos para resolver las necesidades de cada cliente desde nuestra experiencia técnica y mediante un acompañamiento cercano. " #qué ponemos
-  image : "images/portfolio/work4.jpg" 
+  image : "images/Fotos web/nuestra filosofia.jpg" 
 
 ############################# Nuestros servicios ############################
 service:
@@ -27,7 +27,7 @@ service:
 ############################ contacta ###########################
 cta:
   enable : true
-  bg_image : "images/portfolio/work6.jpg"
+  bg_image : "images/Fotos web/contacto.jpg"
   title : "No te quedes con dudas"
   content : "¿Necesitas más información o asesoramiento?"
   button:

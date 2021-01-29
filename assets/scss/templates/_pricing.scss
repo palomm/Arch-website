@@ -5,8 +5,8 @@
 .pricing-table {
   .pricing-item {
     padding: 40px 20px;
-    background: $light;
-    box-shadow: 0 8px 15px 0 rgba(5, 57, 106, .06);
+    /*background: $light;*/
+    box-shadow: 0 8px 15px 0 rgba(5, 57, 106, .06); 
 
     a.btn-main {
       text-transform: uppercase;
@@ -42,9 +42,13 @@
       margin-top: 5px;
     }
 
+    >img {
+      margin-bottom: 20px;
+    }
+
     .value {
       color: $primary-color;
-      font-size: 50px;
+      font-size: 26px;
       padding: 10px 0;
     }
   }

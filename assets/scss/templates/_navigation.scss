@@ -14,7 +14,7 @@
   .navbar-brand {
     padding-top: 0px;
     padding-left: 0px;
-    padding-right: 20px
+    padding-right: 0px
 
 
   }
@@ -26,12 +26,12 @@
 
     .navbar-nav { /*esto es bloque de menu*/
       padding-top: 70px;
-      padding-left: 30px;
+      padding-left: 50px;
 
       >li {
         >a {
           color: #0D0D0D;
-          padding: 10px 23px; /*esto es espacio entre botones*/
+          padding: 10px 20px; /*esto es espacio entre botones*/
 
           font : {
             weight: 390;

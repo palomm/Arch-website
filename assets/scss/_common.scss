@@ -213,15 +213,15 @@ input[type="tel"] {
 }
 
 .bg-primary {
-  background: $border-color;
+  background: #0FAB96;
 }
 
 .bg-primary-dark {
-  background: darken($border-color, 30%);
+  background: lighten(#0FAB96, 5%);
 }
 
 .bg-primary-darker {
-  background: darken($border-color, 50%);
+  background: lighten(#0FAB96, 10%);
 
 }
 
@@ -259,9 +259,9 @@ input[type="tel"] {
   }
 
   p {
-    font-style: italic;
-    color: #666;
-    font-family: $secondary-font;
+    font-style: normal;
+    color: rgb(123, 123, 123);
+    font-family: $primary-font;
   }
 }
 
@@ -283,7 +283,7 @@ input[type="tel"] {
 
     h1 {
       color: #ff7f4a;
-      font-weight: 300;
+      font-weight: 600;
       letter-spacing: 6px;
       margin-top: 0;
       text-transform: capitalize;
