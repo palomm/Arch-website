@@ -1,30 +1,42 @@
 ---
 title: "CERTIFICADO ENERGÉTICO"
 description: "calificación energética de un edificio o parte del mismo"
-subtitle : "Ponte en contacto con nosotras si necesitas el CEE de tu propiedad."
+subtitle : "¿Quieres más información sobre los Certificados de Eficiencia Energética en la Comunidad de Madrid?
+Visita la página web:
+www.comunidad.madrid/servicios/consumo/eficiencia-energetica-edificios "
 date: 2020-03-23T13:05:29+06:00
 draft: false
 bg_image: "images/Fotos web/certificado energetico.jpg"
 ---
 
-### ¿Qué es el CEE? 
+### ¿Cómo obtener el Certificado de Eficiencia Energética? 
 
-Este certificado contiene información sobre las características energéticas y la calificación energética de un edificio o de parte del mismo.
+En RA·MA Arquitectura tenemos dilatada experiencia en la realización de Certificados de Eficiencia Energética en inmuebles comerciales y residenciales. 
+A continuación te contamos los pasos a seguir para su obtención: 
 
-El objetivo de este documento es poner en conocimiento de los ciudadanos o las ciudadanas el consumo energético de sus hogares o locales  para que potenciales compradores o arrendatarios a la hora de elegir vivienda o local puedan saber cómo es de eficiente y hacerse una idea del gasto en energía que supondrá vivir o trabajar en ellos.
+#### 1.Visitamos tu vivienda o local
 
-#### 1.Arrendamiento
+Tras ponerse en contacto con RA·MA, fijaremos una fecha de visita de su inmueble. Esta visita es importante para inspeccionar los elementos involucrados en el comportamiento energético del local o vivienda. 
 
-Para los contratos de arrendamiento de edificios, locales o viviendas, el propietario o la propietaria deberá disponer del certificado de eficiencia energética, o copia de este, que deberá mostrar a cualquier comprador o arrendatario potencial interesado en la vivienda o local y que deberá entregar al comprador o arrendatario definitivo.
+#### 2. Cálculo de la eficiencia energética de su inmueble
 
-#### 2. Compraventa
+Con los datos tomados en la visita procederemos a realizar un informe en el que se incluyen todas las carácterísticas energéticas y los cálculos de demanda y consumo energético del inmueble. 
 
-En contratos de compraventa, el certificado original será puesto a disposición del adquirente.
+#### 3. Obtención del Certificado de Eficiencia Energética
 
+Con los resultados obtenidos de los cálculos realizados, se genera el Certificado Energético que indica la eficiencia energética de su inmueble. Ésta se indica mediante una letra, que va desde la "A" siendo ésta la  calificación más eficiente, y la "G" la menor. 
+El Certificado Energético contendrá también un pequeño dossier con las sugerencias de mejora para rehabilitar el inmueble y conseguir una mejor calificación. 
+Es importante resaltar que el resultado de esta calificación es meramente informativo para el propietario. El objetivo del Certificado Energético es que los usuarios puedan disponer de la información energética de sus inmuebles. 
 
-#### 3. Validez del CEE
+#### 4. Registro y obtención de la Etiqueta Energética
 
-Dicho certificado tendrá una validez máxima de 10 años a partir de la fecha de inscripción en el registro, siendo el propietario o propietaria responsable de su renovación. El propietario podrá proceder voluntariamente a su actualización, cuando considere que existen variaciones en aspectos del edificio que puedan modificar el certificado de eficiencia energética.
+Nos encargamos del registro del Certificado Enerético en la Comunidad Autónoma correspondiente. 
+Este registro es indispensable para la validez del certificado ya que la autoridad competente debe dar el visto bueno de dicha certificación y es la responsable de emitir la Etiqueta Energética. 
+En la Comunidad de Madrid, los tiempos para la emisión de la Etiqueta Energética desde su registro son de 48 horas aproximadamente.
+
+#### 4. Validez del Certificado de Eficiencia Energética
+
+Dicho certificado tendrá una validez máxima de 10 años a partir de la fecha de inscripción en el registro, siendo el propietario o propietaria responsable de su renovación. Como propietario puede proceder voluntariamente a su actualización, cuando considere que existan variaciones en aspectos del edificio que puedan modificar el certificado de eficiencia energética.
 
 
   

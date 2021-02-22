@@ -173,7 +173,7 @@ pricing:
 
     # pricing table loop
     - name : "Proyecto de rehabilitación energética"
-      image: "images/Fotos web/contacto.jpg"
+      image: "images/precios/sate.png"
       price: "1500 €*"
       content : "*Incluye gestión de subvenciones"
 #      link : "#"
