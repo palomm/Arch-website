@@ -1,11 +1,11 @@
 <head>
   <meta charset="utf-8">
-  <title>{{ .Title }}</title>
+  <title> Estudio de Arquitectura - Arquitectura Sostenible | RA.MA </title> 
 
   {{ "<!-- mobile responsive meta -->" | safeHTML }}
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="{{ with .Params.Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
+  <meta name="description" content="RA.MA, estudio de arquitectura en Madrid, con valores de cercánía y sostenibilidad">
   {{ with site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
   {{ hugo.Generator }}
 
