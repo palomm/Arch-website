@@ -1,4 +1,4 @@
-baseURL = "http://ramaarquitectura.org"
+baseURL = "http://rama-arquitectas.es"
 disableLanguages = []
 disqusShortname = ""
 paginate = "4"
@@ -31,10 +31,10 @@ weight = 5
 URL = "contact"
 name = "CONTACTO"
 weight = 6
-[[Languages.en.menu.main]]
-URL = "/"
-name = "Inicio"
-weight = 1
+# desactivado [[Languages.en.menu.main]]
+# desactivado URL = "/"
+# desactivado name = "Inicio"
+# desactivado weight = 1
 [[Languages.en.menu.main]]
 URL = "about"
 name = "EQUIPO RA·MA"
@@ -42,6 +42,7 @@ weight = 2
 [[Languages.en.menu.main]]
 URL = "service"
 name = "SERVICIOS"
+hasChildren = "PRECIOS"
 weight = 3
 [[Languages.en.menu.main]]
 URL = "faq"
@@ -51,10 +52,10 @@ weight = 4
 # desactivado URL = "project"
 # desactivado name = "proyectos"
 # desactivado weight = 5
-[[Languages.en.menu.main]]
-URL = "blog"
-name = "Blog"
-weight = 6
+# desactivado [[Languages.en.menu.main]]
+#desactivado URL = "blog"
+# desactivado name = "Blog"
+# desactivado weight = 6
 #desactivado [[Languages.en.menu.main]]
 #desactivado URL = "faq"
 #desactivado name = "Certificado Energético"
@@ -66,6 +67,7 @@ weight = 6
 [[Languages.en.menu.main]]
 URL = "pricing"
 name = "PRECIOS"
+hasChildren = "SERVICIOS"
 weight = 6
 [[Languages.en.menu.main]]
 URL = "contact"
@@ -145,7 +147,7 @@ home = ["HTML"]
 author = "Themefisher"
 contact_form_action = "#"
 description = "CONTACTA CON NOSOTRAS"
-email = "estudio.rama@gmail.com"
+email = "rama.arquitectas@gmail.com"
 google_analitycs_id = ""
 location = "Áncora 5, 6ºD - 28045 MADRID"
 logo = "images/logo1.jpg"

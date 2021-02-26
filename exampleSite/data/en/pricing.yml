@@ -3,10 +3,10 @@ pricing:
   enable : true
   pricing_table:
     # pricing table loop
-    - name : "Proyecto de Obra Nueva"
-      image: "images/Fotos web/contacto.jpg"
-      price: "7000 €*"
-      content : "*Precio estimado para construcción de 100 m2"
+    #- name : "Proyecto de Obra Nueva"
+    #  image: "images/Fotos web/contacto.jpg"
+    #  price: "7000 €*"
+    #  content : "*Precio estimado para construcción de 100 m2"
 #      link : "#"
 #      services:
 #        - Unlimited agents
@@ -17,10 +17,10 @@ pricing:
 #        - 24/7 Tech Support
 
     # pricing table loop
-    - name : "Proyecto de reforma"
-      image: "images/Fotos web/contacto.jpg"
-      price: "1000 €*"
-      content : "*Precio estimado para reforma de 100 m2"
+    #- name : "Proyecto de reforma"
+    #  image: "images/Fotos web/contacto.jpg"
+    #  price: "1000 €*"
+    #  content : "*Precio estimado para reforma de 100 m2"
 #      link : "#"
 #      services:
 #        - Unlimited agents
@@ -31,10 +31,10 @@ pricing:
 #        - 24/7 Tech Support
 
     # pricing table loop
-    - name : "Redacción de planos"
-      image: "images/Fotos web/contacto.jpg"
-      price: "1500 €*"
-      content : "*Precio estimado para inmueble de 100 m2"
+    #- name : "Redacción de planos"
+    #  image: "images/Fotos web/contacto.jpg"
+    #  price: "1500 €*"
+    #  content : "*Precio estimado para inmueble de 100 m2"
 #      link : "#"
 #      services:
 #        - Unlimited agents
@@ -46,7 +46,7 @@ pricing:
 
     # pricing table loop
     - name : "Licencia de apertura"
-      image: "images/Fotos web/contacto.jpg"
+    #  image: "images/Fotos web/contacto.jpg"
       price: "700 €*"
       content : "*Tasas municipales no incluidas"
 #      link : "#"
@@ -60,7 +60,7 @@ pricing:
 
     # pricing table loop
     - name : "Licencia de primera ocupación"
-      image: "images/Fotos web/contacto.jpg"
+    #  image: "images/Fotos web/contacto.jpg"
       price: "400 €"
       content : "Antes denominada Cédula de Habitabilidad"
 #      link : "#"
@@ -74,7 +74,7 @@ pricing:
 
     # pricing table loop
     - name : "Declaración responsable"
-      image: "images/Fotos web/contacto.jpg"
+    #  image: "images/Fotos web/contacto.jpg"
       price: "150 €*"
       content : "*Tasas municipales no incluidas"
 #      link : "#"
@@ -88,7 +88,7 @@ pricing:
 
     # pricing table loop
     - name : "Plan de Seguridad y Salud"
-      image: "images/Fotos web/contacto.jpg"
+    #  image: "images/Fotos web/contacto.jpg"
       price: "400* €"
       content : "Precio estimado para inmueble de 100 m2"
 #      link : "#"
@@ -101,8 +101,8 @@ pricing:
 #        - 24/7 Tech Support
         
     # pricing table loop
-    - name : "certificado de eficiencia energética"
-      image: "images/Fotos web/contacto.jpg"
+    - name : "Certificado de Eficiencia Energética"
+    #  image: "images/Fotos web/contacto.jpg"
       price: "80 €*"
       content : "*visita de inmueble y tasas incluidas"
 #      link : "#"
@@ -115,10 +115,10 @@ pricing:
 #        - 24/7 Tech Support
 
     # pricing table loop
-    - name : "Inspección técnica del edificio (ITE)"
-      image: "images/Fotos web/contacto.jpg"
-      price: "150 €*"
-      content : "Precio estimado para vivienda unifamiliar"
+    #- name : "Inspección técnica del edificio (ITE)"
+    #  image: "images/Fotos web/contacto.jpg"
+    #  price: "150 €*"
+    #  content : "Precio estimado para vivienda unifamiliar"
 #      link : "#"
 #      services:
 #        - Unlimited agents
@@ -129,10 +129,10 @@ pricing:
 #        - 24/7 Tech Support
 
     # pricing table loop
-    - name : "Informe de evaluación del edificio (IEE)"
-      image: "images/Fotos web/contacto.jpg"
-      price: "300 €*"
-      content : "Precio estimado para vivienda unifamiliar"
+    #- name : "Informe de evaluación del edificio (IEE)"
+    #  image: "images/Fotos web/contacto.jpg"
+    #  price: "300 €*"
+    #  content : "Precio estimado para vivienda unifamiliar"
 #      link : "#"
 #      services:
 #        - Unlimited agents
@@ -144,7 +144,7 @@ pricing:
 
     # pricing table loop
     - name : "Plan de autoproteccion"
-      image: "images/Fotos web/contacto.jpg"
+    #  image: "images/Fotos web/contacto.jpg"
       price: "500 €*"
       content : "*Para superficies menores de 500 m2"
 #      link : "#"
@@ -157,10 +157,10 @@ pricing:
 #        - 24/7 Tech Support
 
     # pricing table loop
-    - name : "Proyecto de diseño de interiores"
-      image: "images/Fotos web/contacto.jpg"
-      price: "2500 €*"
-      content : "*Precio estimado para vivienda de 100 m2"
+    #- name : "Proyecto de diseño de interiores"
+    #  image: "images/Fotos web/contacto.jpg"
+    #  price: "2500 €*"
+    #  content : "*Precio estimado para vivienda de 100 m2"
 #      link : "#"
 #      services:
 #        - Unlimited agents
@@ -172,10 +172,10 @@ pricing:
 
 
     # pricing table loop
-    - name : "Proyecto de rehabilitación energética"
-      image: "images/precios/sate.png"
-      price: "1500 €*"
-      content : "*Incluye gestión de subvenciones"
+    #- name : "Proyecto de rehabilitación energética"
+    #  image: "images/precios/sate.png"
+    #  price: "1500 €*"
+    #  content : "*Incluye gestión de subvenciones"
 #      link : "#"
 #      services:
 #        - Unlimited agents

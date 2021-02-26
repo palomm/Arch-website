@@ -1,11 +1,11 @@
 ################################## About #####################################
 about:
   enable : true
-  image : "images/company/about.jpg"
-  title : "Paloma Meléndez Martínez"
-  content : "Descripción de lo guay que es Paloma"
+  image : ""
+  title : "" #definido en .html en about
+  content : "" #definido en .html en about
 
-  button:
+button:
     enable : true
     label : "Descarga Portfolio"
     link : "#"

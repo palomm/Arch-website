@@ -3,77 +3,77 @@ about:
   enable : true
   title : "Arquitectura y Diseño de Interiores"
   content : "En RA·MA ofrecemos servicios de arquitectura en función de las necesidades de cada cliente. Los servicios en arquitectura que ofrecemos incluyen proyectos de obra nueva de edificios de vivienda y locales comerciales, reformas de espacios ya existentes, rehabilitación energética de comunidades de propietarios y la gestión global de cada proyecto en todas de sus fases (Project & Construct Management), informes y certificados para avalar la seguridad y eficiencia de sus propiedades.  "
-  image : "images/Fotos web/servicios_2.jpg"
-
+  image : "images/Fotos web/libros_2.jpg"
 
 ########################## featured service ############################
 featured_service:
   enable : true
+  title: "nuestros pilares"
   service_item:
     # featured service item loop
-    - name : "Diseñamos espacios saludables"
+    - name : "Confianza"
       icon : "ion-heart"
       color : "primary"
-      content : ""
+      content : "Para nosotras es importante el vínculo con nuestros clientes. Como arquitectas es nuestra responsabilidad asesorar y estar presentes en todas las fases de cada proyecto."
       
     # featured service item loop
-    - name : "Hacemos un uso eficiente de la energía"
-      icon : "ion-outlet"
-      color : "primary-dark"
-      content : ""
-      
-    # featured service item loop
-    - name : "Fomentamos el uso de materiales naturales"
+    - name : "Integridad"
       icon : "ion-loop"
+      color : "primary-dark"
+      content : "Una de las premisas en nuestros trabajos es ser coherente con nuestros valores. Fomentamos el uso de materiales locales y contribuimos en el respeto al medio ambiente. "
+      
+    # featured service item loop
+    - name : "Motivación técnica"
+      icon : "ion-wrench"
       color : "primary-darker"
-      content : ""
+      content : "Nos interesa incentivar el uso de soluciones constructivas alternativas. Valoramos en cada proyecto las opciones más acordes respecto a las tendencias actuales en la arquitectura."
 
       
 ############################# Service ###############################
 service:
   enable : true
-  title : "nuestros servicios"
+  title : "áreas de actividad"
   description : "Contacta con nosostras y pide presupuesto sin compromiso"
   service_item:
     # service item loop
     - icon : ion-ios-home #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
-      name: PROYECTOS DE EDIFICACIÓN Y REFORMA
+      name: PROYECTOS DE EDIFICACIÓN
       content: "Redacción y dirección de proyectos de obras de edificación y reformas de viviendas, locales u oficinas."
 
     # service item loop
-    - icon : ion-document-text #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
-      name: TRAMITACIÓN DE LICENCIAS
+    - icon : ion-edit #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
+      name: PROYECTOS  DE REFORMAS
       content: "Tramite de licencias urbanísticas de obras y reformas de viviendas, locales u oficinas."
-
-    # service item loop
-    - icon : ion-eye #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
-      name: SEGURIDAD Y SALUD
-      content: "Elaboración y coordinación de estudios de seguridad y salud en obra."
-
-    # service item loop
-    - icon : ion-leaf #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
-      name: CERTIFICADOS ENERGÉTICOS
-      content: "Elaboración de Certificados de Eficiencia Energética para vender o alquilar su vivienda."
-
-    # service item loop
-    - icon : ion-checkmark-round #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
-      name: IEE / ITE
-      content: "Elaboración del Informe de Evaluación del Edificio y de la Inspección Técnica del Edificio."
-
-    # service item loop
-    - icon : ion-flame #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
-      name: PLAN DE AUTOPROTECCION
-      content: "Asesoramiento, diagnosis de riesgos y planes de autoproteccion para empresas y comunidades de propietarios."
-
-    # service item loop
-    - icon : ion-paintbrush #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
-      name: DISEÑO DE INTERIORES
-      content: "Realización de proyectos de reformas, diseño, decoración e interiorismo en viviendas, locales y oficinas."
 
     # service item loop
     - icon : ion-earth #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
       name: REHABILITACIÓN ENERGÉTICA
-      content: "Gestión de ayudas y subvenciones. Redacción y dirección de obras de rehabilitación energética según normativa vigente."
+      content: "Elaboración y coordinación de estudios de seguridad y salud en obra."
+
+    # service item loop
+    - icon : ion-leaf #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
+      name: BIOCONSTRUCCIÓN
+      content: "Elaboración de Certificados de Eficiencia Energética para vender o alquilar su vivienda."
+
+    # service item loop
+  #  - icon : ion-checkmark-round #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
+  #   name: IEE / ITE
+  #    content: "Elaboración del Informe de Evaluación del Edificio y de la Inspección Técnica del Edificio."
+
+    # service item loop
+  #  - icon : ion-flame #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
+  #    name: PLAN DE AUTOPROTECCION
+  #    content: "Asesoramiento, diagnosis de riesgos y planes de autoproteccion para empresas y comunidades de propietarios."
+
+    # service item loop
+  #  - icon : ion-paintbrush #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
+  #   name: DISEÑO DE INTERIORES
+  #    content: "Realización de proyectos de reformas, diseño, decoración e interiorismo en viviendas, locales y oficinas."
+
+    # service item loop
+  #  - icon : ion-earth #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
+  #    name: REHABILITACIÓN ENERGÉTICA
+  #    content: "Gestión de ayudas y subvenciones. Redacción y dirección de obras de rehabilitación energética según normativa vigente."
       
 ############################# call to action #################################
 cta:
