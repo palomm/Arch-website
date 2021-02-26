@@ -2,6 +2,7 @@
   background: #fff;
   padding-top: 5px;
   padding-bottom: 0px;
+  padding-left: 100px;
 /*esto esta listo. margenes globales de menu*/
 
   .navbar {
@@ -26,7 +27,7 @@
 
     .navbar-nav { /*esto es bloque de menu*/
       padding-top: 70px;
-      padding-left: 50px;
+      padding-left: 120px;
 
       >li {
         >a {
@@ -35,7 +36,7 @@
 
           font : {
             weight: 390;
-            size: 16px;
+            size: 17px;
           }
 
           text-transform:uppercase;
