@@ -7,7 +7,7 @@ banner:
   content : "estudio de arquitectura cercano y sostenible"
   button:
     enable : true
-    label : "A QUÉ NOS DEDICAMOS" #¿QUÉ OFRECEMOS
+    label : "QUÉ HACEMOS" #¿QUÉ OFRECEMOS
     link : "service"
 
 ############################# nuestro metodo #################################
