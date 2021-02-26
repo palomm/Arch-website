@@ -4,7 +4,7 @@ banner:
   bg_image : "images/Fotos web/inicio.jpg" #imagen de estudio?
   bg_overlay : true
   title : "Ra·Ma"
-  content : "estudio de arquitectura cercano y sostenible"
+  content : "estudio de arquitectura | por una arquitectura cercana y sostenible"
   button:
     enable : true
     label : "QUÉ HACEMOS" #¿QUÉ OFRECEMOS
@@ -29,7 +29,7 @@ cta:
   enable : true
   bg_image : "images/Fotos web/contacto_3.jpg"
   title : "¿Nos tomamos un café?"
-  content : "Contacta con nosotras para resolver tus dudas y estudiar la mejor oferta acorde a tus objetivos y presupuesto"
+  content : "resolvemos tus dudas y estudiamos juntos la mejor oferta acorde a tus objetivos y presupuesto"
   button:
     enable : true
     label : "QUIERO UN CAFÉ CON RA·MA"
