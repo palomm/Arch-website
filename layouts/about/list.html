@@ -11,18 +11,22 @@
     <div class="row">
       <div class="col-md-6">
         <div class="about-img">
-          <img class="img-responsive" src="{{ .image | relURL }}">
+          <img class="img-responsive" src="/images/company/about.jpg">
         </div>
       </div>
       <div class="col-md-6"> 
         <h2 class="mt-40">Belén Sierra Marco</h2>
-        Descripcíón de lo guay que es Belén
+        Arquitecta Superior por la Universidad de Alcalá.
+        <p>
+        <p>
+        No hay conflicto que se le resista. Nuestra maestra en las relaciones públicas gracias a su carácter conciliador.
+        Su experiencia en la gestión de obras la ha llevado a resolver con éxito proyectos a gran escala por todo el país.
         {{ if .button.enable }}
         {{ with .button }}
+        <p> 
+        <a href="{{ .link | relURL }}" class="btn btn-small mt-20">{{ .label }}</a> 
         <p>
-        <a href="{{ .link | relURL }}" class="btn btn-small mt-20">{{ .label }}</a>
-        <p>
-        <p>
+        <p> 
         {{ end }}
         {{ end }}
       </div>
@@ -36,8 +40,11 @@
         </div>
       </div>
       <div class="col-md-6">
-        <h2 class="mt-40">{{ .title | markdownify }}</h2>
-        {{ .content | markdownify }}
+        <h2 class="mt-40">Paloma Meléndez Martínez</h2>
+        Arquitecta Superior por la Universidad Politécnica de Madrid.
+        <p>
+        <p> Su pasión por la naturaleza la ha llevado a especializarse en el campo de la bioconstrucción. 
+        Curiosa y meticulosa, navega en las normativas y en las nuevas soluciones técnicas para llegar siempre a la mejor solución. 
         {{ if .button.enable }}
         {{ with .button }}
         <p>

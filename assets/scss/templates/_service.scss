@@ -27,6 +27,7 @@
 .dark-service {
   .title {
     color: $light;
+
   }
 
   .service-item {
@@ -57,6 +58,10 @@
   p {
     line-height: 28px;
   }
+  img {
+    width: 75%;
+    margin-left: 90px;
+  }
 }
 
 
@@ -67,14 +72,18 @@
   .block {
     padding: 30px 30px;
     padding-left: 70px;
+    text-align: center;
 
     i {
-      font-size: 40px;
+      color: #FFFF;
+      font-size: 50px;
 
     }
-
+    h3 {
+      color: #FFFF;
+    }
     p {
-      color: $light;
+      color: #FFFF;
     }
   }
 }

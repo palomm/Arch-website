@@ -4,18 +4,18 @@ banner:
   bg_image : "images/Fotos web/inicio.jpg" #imagen de estudio?
   bg_overlay : true
   title : "Ra·Ma"
-  content : "arquitectura cercana y consciente"
+  content : "estudio de arquitectura cercano y sostenible"
   button:
     enable : true
-    label : "nuestros servicios" #¿QUÉ OFRECEMOS
+    label : "A QUÉ NOS DEDICAMOS" #¿QUÉ OFRECEMOS
     link : "service"
 
 ############################# nuestro metodo #################################
 about:
   enable : true
   title : "NUESTRA FILOSOFÍA"
-  description : "En RA·MA entendemos la arquitectura como un servicio para las personas y una herramienta capaz de mejorar el bienestar de nuestro día a día."
-  content : "El espacio es un elemento transformador de la sociedad y, por ello, diseñamos para resolver las necesidades de cada cliente desde nuestra experiencia técnica y mediante un acompañamiento cercano. " #qué ponemos
+  description : ""
+  content : ""
   image : "images/Fotos web/nuestra filosofia.jpg" 
 
 ############################# Nuestros servicios ############################
@@ -27,12 +27,12 @@ service:
 ############################ contacta ###########################
 cta:
   enable : true
-  bg_image : "images/Fotos web/contacto.jpg"
-  title : "No te quedes con dudas"
-  content : "¿Necesitas más información o asesoramiento?"
+  bg_image : "images/Fotos web/contacto_3.jpg"
+  title : "¿Nos tomamos un café?"
+  content : "Contacta con nosotras para resolver tus dudas y estudiar la mejor oferta acorde a tus objetivos y presupuesto"
   button:
     enable : true
-    label : "CONTACTA CON RA·MA"
+    label : "QUIERO UN CAFÉ CON RA·MA"
     link : "contact"
 
 ############################# Funfacts ###############################
