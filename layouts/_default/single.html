@@ -2,6 +2,10 @@
 
 {{ partial "page-title.html" . }}
 
+{{ $data := index site.Data site.Language.Lang }}
+
+{{ with $data.privacity.about }}
+
 <section class="page-wrapper">
 	<div class="container">
 		<div class="row">
@@ -44,4 +48,5 @@
 	</div>
 </section>
 
+{{ end }}
 {{ end }}

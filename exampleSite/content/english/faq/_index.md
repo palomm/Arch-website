@@ -1,6 +1,6 @@
 ---
 title: "CERTIFICADO ENERGÉTICO"
-description: "calificación energética de un edificio o parte del mismo"
+description: "certificado de eficiencia energética"
 subtitle : "¿Quieres más información sobre los Certificados de Eficiencia Energética en la Comunidad de Madrid?
 Visita la página web:
 www.comunidad.madrid/servicios/consumo/eficiencia-energetica-edificios "

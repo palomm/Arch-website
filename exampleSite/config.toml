@@ -12,8 +12,8 @@ languageCode = "en-us"
 languageName = "Es"
 weight = 1
 [[Languages.en.menu.footer]]
-URL = "about"
-name = "EQUIPO RA·MA"
+URL = "privacity"
+name = "POLÍTICA DE PRIVACIDAD"
 weight = 1
 [[Languages.en.menu.footer]]
 URL = "service"
