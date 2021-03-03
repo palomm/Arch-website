@@ -14,7 +14,6 @@
       <div class="col-md-4 col-sm-6 col-xs-12">
         <div class="pricing-item text-center">
           <div class="price-title">
-            <img class="img-responsive" src="{{ .image | relURL }}">
             <h3>{{ .name }}</h3>
             <strong class="value">{{ .price }}</strong>
             <p>{{ .content | markdownify }}</p>
@@ -24,7 +23,7 @@
             <li>{{ . | markdownify }}</li>
             {{ end }}
           </ul>
-      <!--    <a class="btn btn-small" href="{{ .link | safeURL }}">{{ i18n "buy_now" }}</a> -->
+          <a class="btn btn-small" href="{{ .link | safeURL }}">{{ .label }}</a> 
         </div>
       </div>
       {{ end }}
