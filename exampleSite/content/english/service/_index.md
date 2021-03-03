@@ -1,6 +1,6 @@
 ---
 title: SERVICIOS
-description: especialistas en arquitectura y construccion
+description: "arquitectura sostenible en obra nueva y reformas"
 bg_image: images/Fotos web/servicios.jpg
 
 ---

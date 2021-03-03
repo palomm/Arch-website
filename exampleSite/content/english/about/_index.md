@@ -1,6 +1,6 @@
 ---
 title: "EQUIPO RA·MA"
-description: "quiénes somos"
+description: "sostenibilidad y confianza"
 draft: false
 bg_image: "images/Fotos web/quienes somos_2.jpg/"
 ---
