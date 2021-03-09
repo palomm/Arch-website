@@ -7,6 +7,7 @@ www.comunidad.madrid/servicios/consumo/eficiencia-energetica-edificios "
 date: 2020-03-23T13:05:29+06:00
 draft: false
 bg_image: "images/Fotos web/certificado energetico.jpg"
+has_form: true
 ---
 
 ### ¿Cómo obtener el Certificado de Eficiencia Energética? 
