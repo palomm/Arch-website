@@ -5,7 +5,7 @@
   {{ "<!-- mobile responsive meta -->" | safeHTML }}
   <meta name="viewport" content="width=device-width, initial-scale=1"> 
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="{{ with .Params.Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
+  <meta name="description" content='{{ if (isset .Params "seo") }}{{ .Params.seo }}{{ else if (isset .Params "description") }}{{ .Params.description }}{{ else }}{{site.Params.description }}{{ end }}'>
   {{ with site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
   {{ hugo.Generator }}
 

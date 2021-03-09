@@ -54,7 +54,7 @@ name = "PRECIOS"
 parent = "QUÉ HACEMOS"
 weight = 5
 [[Languages.en.menu.main]]
-URL = "faq"
+URL = "cee"
 name = "CERTIFICADO ENERGÉTICO"
 weight = 6
 # desactivado [[Languages.en.menu.main]]
@@ -151,6 +151,7 @@ home = ["HTML"]
 [params]
 author = "Themefisher"
 contact_form_action = "#"
+# ToDo := Change this to something reasonable
 description = "CONTACTA CON NOSOTRAS"
 email = "rama.arquitectas@gmail.com"
 google_analitycs_id = ""

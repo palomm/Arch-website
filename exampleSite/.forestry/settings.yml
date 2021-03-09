@@ -56,7 +56,7 @@ sections:
   label: Others Pages
 - type: directory
   path: exampleSite/content/english/about
-  label: About (en)
+  label: about (en)
   create: none
   match: "*"
 - type: directory
