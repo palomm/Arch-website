@@ -3,19 +3,24 @@
 {{ partial "page-title.html" . }}
 
 {{ $data := index site.Data site.Language.Lang }}
+<script>
+  function ccb(response) {
+    $(':input[type="submit"]').prop('disabled', false);
+  }
+</script>
 
 <section class="contact form cee">
   <div class="container">
     <div class="row">
       <div style="padding:20px">
-      <form method="GET" action="mailto:pmelendez.rama@gmail.com">
+      <form method="POST" action="?">
         <div class="col-md-6 col-sm-12">
           <div class="block">
             <div class="form-group">
-              <input name="user_name" type="text" class="form-control" placeholder="Nombre completo">
+              <input name="fullname" type="text" class="form-control" placeholder="Nombre completo">
             </div>
             <div class="form-group">
-              <input name="user_email" type="text" class="form-control" placeholder="Teléfono de contacto">
+              <input name="email" type="text" class="form-control" placeholder="Teléfono de contacto">
             </div>
             <div class="form-group">
               <input name="subject" type="text" class="form-control" placeholder="Dirección del inmueble">
@@ -25,9 +30,10 @@
         <div class="col-md-6 col-sm-12">
           <div class="block">
             <div class="form-group-2">
-              <textarea name="body" class="form-control" rows="4" placeholder="Indique si su inmueble es una vivienda, un bloque de viviendas o un local comercial"></textarea>
+              <textarea name="message" class="form-control" rows="4" placeholder="Indique si su inmueble es una vivienda, un bloque de viviendas o un local comercial"></textarea>
             </div>
-            <button class="btn btn-main" type="submit" style="margin-top: 20px" > solicite su certificado </button>
+            <div class="g-recaptcha" data-sitekey="6LcM2XgaAAAAAF4-dSINI1lOk5FxmfqlcjVvFuvO" data-callback="ccb"></div>
+            <button class="btn btn-main" type="submit" disabled style="margin-top: 20px" > solicite su certificado </button>
           </div>
         </div>
       </form>

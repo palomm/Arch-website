@@ -12,23 +12,23 @@ languageCode = "en-us"
 languageName = "Es"
 weight = 1
 [[Languages.en.menu.footer]]
-URL = "privacity"
+URL = "privacidad"
 name = "POLÍTICA DE PRIVACIDAD"
 weight = 1
 [[Languages.en.menu.footer]]
-URL = "service"
+URL = "servicios"
 name = "SERVICIOS"
 weight = 3
 [[Languages.en.menu.footer]]
-URL = "pricing"
+URL = "precios"
 name = "PRECIOS"
 weight = 4
 [[Languages.en.menu.footer]]
-URL = "faq"
+URL = "cee"
 name = "CERTIFICADO ENERGÉTICO"
 weight = 5
 [[Languages.en.menu.footer]]
-URL = "contact"
+URL = "contacto"
 name = "CONTACTO"
 weight = 6
 # desactivado [[Languages.en.menu.main]]
@@ -36,20 +36,20 @@ weight = 6
 # desactivado name = "Inicio"
 # desactivado weight = 1
 [[Languages.en.menu.main]]
-URL = "about"
+URL = "equipo"
 name = "EQUIPO RA·MA"
 weight = 2
 [[Languages.en.menu.main]]
-URL = "service"
+URL = "servicios"
 name = "QUÉ HACEMOS"
 weight = 3
 [[Languages.en.menu.main]]
-URL = "service"
+URL = "servicios"
 name = "SERVICIOS"
 parent = "QUÉ HACEMOS"
 weight = 4
 [[Languages.en.menu.main]]
-URL = "pricing"
+URL = "precios"
 name = "PRECIOS"
 parent = "QUÉ HACEMOS"
 weight = 5
@@ -75,7 +75,7 @@ weight = 6
 #desactivado parent = "CEE/IEE"
 
 [[Languages.en.menu.main]]
-URL = "contact"
+URL = "contacto"
 name = "Contacto"
 weight = 7
 [Languages.fr]
