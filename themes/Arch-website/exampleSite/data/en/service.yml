@@ -2,31 +2,31 @@
 about:
   enable : true
   title : "Arquitectura y Diseño de Interiores"
-  content : "En RA·MA ofrecemos servicios de arquitectura en función de las necesidades de cada cliente. Los servicios en arquitectura que ofrecemos incluyen proyectos de obra nueva de edificios de vivienda y locales comerciales, reformas de espacios ya existentes, rehabilitación energética de comunidades de propietarios y la gestión global de cada proyecto en todas de sus fases (Project & Construct Management), informes y certificados para avalar la seguridad y eficiencia de sus propiedades.  "
+  content : "En RA·MA ofrecemos una visión polifacética de la arquitectura, adaptada a las necesidades de cada cliente. Desde proyectos de nueva edificación de vivienda y locales comerciales a reformas de espacios ya existentes, pasando por la rehabilitación energética de comunidades de propietarios. Todo ello atendiendo a la gestión global de cada proyecto en todas sus fases (Project & Construct Management), informes y certificados de seguridad y eficiencia energética. Nos hacemos cargo del proyecto desde el incio hasta el cierre de obra para que no tengas nada de qué preocuparte."
   image : "images/Fotos web/libros_2.jpg"
 
 ########################## featured service ############################
 featured_service:
   enable : true
-  title: "nuestros pilares"
+  title: "nuestros cimientos"
   service_item:
     # featured service item loop
-    - name : "Confianza"
+    - name : "CONFIANZA ·el soporte·"
       icon : "ion-heart"
       color : "primary"
-      content : "Para nosotras es importante el vínculo con nuestros clientes. Como arquitectas es nuestra responsabilidad asesorar y estar presentes en todas las fases de cada proyecto."
+      content : "Para nosotras, el vínculo con nuestros clientes esclave. Estamos convencidas de que, como arquitectas, nuestra responsabilidad no reside sólo en realizar un proyecto, sino en asesorar y estar presentes en cada fase del mismo."
       
     # featured service item loop
-    - name : "Integridad"
-      icon : "ion-loop"
-      color : "primary-dark"
-      content : "Una de las premisas en nuestros trabajos es ser coherente con nuestros valores. Fomentamos el uso de materiales locales y contribuimos en el respeto al medio ambiente. "
-      
-    # featured service item loop
-    - name : "Motivación técnica"
+    - name : "DISEÑO  ·los pilares·"
       icon : "ion-wrench"
+      color : "primary-dark"
+      content : "Buscamos en cada proyecto las opciones de diseño más acordes a las tendencias actuales en la arquitectura con un doble objetivo: satisfacer las necesidades de nuestros clientes y progresar continuamente como profesionales."
+      
+    # featured service item loop
+    - name : "INTEGRIDAD ·la envolvente·"
+      icon : "ion-loop"
       color : "primary-darker"
-      content : "Nos interesa incentivar el uso de soluciones constructivas alternativas. Valoramos en cada proyecto las opciones más acordes respecto a las tendencias actuales en la arquitectura."
+      content : "La premisa fundamental de nuestro trabajo es  ser coherentes con nuestros valores esenciales. Por ello, fomentamos soluciones arquitectónicas alternativas y materiales locales que contribuyan al respeto del medioambiente."
 
       
 ############################# Service ###############################
@@ -38,12 +38,12 @@ service:
     # service item loop
     - icon : ion-ios-home #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
       name: PROYECTOS DE EDIFICACIÓN
-      content: "Proyectos de construcción y dirección de obras de nueva construcción en todas sus fases, de uso residencial y comercial."
+      content: "Edificación y drección de obras de nueva construcción en todas sus fases, de uso residencial y comercial."
 
     # service item loop
     - icon : ion-edit #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
       name: PROYECTOS  DE REFORMAS
-      content: "Proyectos de construcción y dirección de reformas de viviendas y locales comerciales, inluyendo diseño de interiores y decoración."
+      content: "Planificación y dirección de reformas de viviendas y locales comerciales, inluyendo diseño de interiores y decoración."
 
     # service item loop
     - icon : ion-earth #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
@@ -53,7 +53,7 @@ service:
     # service item loop
     - icon : ion-leaf #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
       name: BIOCONSTRUCCIÓN
-      content: "Redacción y dirección de proyectos de bioconstrucción, incluyendo los roles de autopromotores y autoconstructores."
+      content: "Elaboración y dirección de proyectos de bioconstrucción, incluyendo los roles de autopromotores y autoconstructores."
 
     # service item loop
   #  - icon : ion-checkmark-round #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/

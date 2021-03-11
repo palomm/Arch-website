@@ -152,12 +152,12 @@ home = ["HTML"]
 author = "Themefisher"
 contact_form_action = "#"
 # ToDo := Change this to something reasonable
-description = "CONTACTA CON NOSOTRAS"
+description = "Estudio de Arquitectura Madrid - Arquitectura Sostenible | RA.MA"
 email = "rama.arquitectas@gmail.com"
 google_analitycs_id = ""
 location = "Áncora 5, 6ºD - 28045 MADRID"
-logo = "images/logo1.jpg"
-logo_width = "70px"
+logo = "images/logo2.jpg"
+logo_width = "170px"
 phone = "654 89 67 95"
 multi_author = false
 [params.gmap]
