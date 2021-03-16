@@ -1,4 +1,4 @@
-baseURL = "http://rama-arquitectas.es"
+baseURL = "https://rama-arquitectas.es"
 disableLanguages = []
 disqusShortname = ""
 paginate = "4"
