@@ -1,10 +1,10 @@
-baseURL = "http://rama-arquitectas.es"
+baseURL = "https://rama-arquitectas.es"
 disableLanguages = []
 disqusShortname = ""
 paginate = "4"
 summaryLength = "30"
 theme = "Arch-website"
-title = "Airspace | Creative Agency Hugo Template"
+title = "Estudio de Arquitectura - Arquitectura Sostenible | RA.MA"
 [Languages.en]
 contentDir = "content/english"
 copyright = "Copyright &copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved"

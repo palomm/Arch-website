@@ -3,30 +3,31 @@
   /*padding: 90px 0; */
 
 	.block{
-		
+
+
 		h2{
-			padding-top: 35px;
-			margin:0;
+			padding-top: 35px; 
 		}
 		p{
-			padding-top: 20px;
 			line-height:28px;
 		}
 		img{
 			width: 66%;
-			margin-top: 50px;
 			opacity: .7;
 		}
 	}
 	.about-img {
+		margin-left: 20px;
 		overflow:hidden;
 		&:hover img {
 			transform: scale3D(1.1,1.1,1);
 		}
 		img {
-			opacity: .6;
+			opacity: .9;
 			@include transition (all, 0.5s, ease-out);
+			width: 60%;
 		}
+
 	}
 	.section-title {
 		margin-bottom: 0px;
