@@ -49,7 +49,7 @@ pricing:
     #  image: "images/Fotos web/contacto.jpg"
       price: "700€ *"
       content : "*Tasas municipales no incluidas"
-      link : "/contact/"
+      link : "/contacto/"
       label : "contrátalo"
 #      services:
 #        - Unlimited agents
@@ -64,7 +64,7 @@ pricing:
     #  image: "images/Fotos web/contacto.jpg"
       price: "400€"
       content : "Antes denominada Cédula de Habitabilidad"
-      link : "/contact/"
+      link : "/contacto/"
       label : "contrátalo"
 #      services:
 #        - Unlimited agents
@@ -79,7 +79,7 @@ pricing:
     #  image: "images/Fotos web/contacto.jpg"
       price: "150€ *"
       content : "*Tasas municipales no incluidas"
-      link : "/contact/"
+      link : "/contacto/"
       label : "contrátalo"
 #      services:
 #        - Unlimited agents
@@ -94,7 +94,7 @@ pricing:
     #  image: "images/Fotos web/contacto.jpg"
       price: "400€ *"
       content : "Precio estimado para inmueble de 100 m2"
-      link : "/contact/"
+      link : "/contacto/"
       label : "contrátalo"
 #      services:
 #        - Unlimited agents
@@ -109,7 +109,7 @@ pricing:
     #  image: "images/Fotos web/contacto.jpg"
       price: "80€ *"
       content : "*Visita de inmueble y tasas incluidas"
-      link : "/faq/"
+      link : "/cee/"
       label : "contrátalo"
 #      services:
 #        - Unlimited agents
@@ -152,7 +152,7 @@ pricing:
     #  image: "images/Fotos web/contacto.jpg"
       price: "500€ *"
       content : "*Para superficies menores de 500 m2"
-      link : "/contact/"
+      link : "/contacto/"
       label : "contrátalo"
 #      services:
 #        - Unlimited agents

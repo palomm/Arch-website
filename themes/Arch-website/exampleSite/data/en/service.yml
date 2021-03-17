@@ -33,17 +33,17 @@ featured_service:
 service:
   enable : true
   title : "áreas de actividad"
-  description : "Contacta con nosostras y pide presupuesto sin compromiso"
+  description : "Contacta con nosotras y pide presupuesto sin compromiso"
   service_item:
     # service item loop
     - icon : ion-ios-home #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
       name: PROYECTOS DE EDIFICACIÓN
-      content: "Edificación y drección de obras de nueva construcción en todas sus fases, de uso residencial y comercial."
+      content: "Edificación y dirección de obras de nueva construcción en todas sus fases, de uso residencial y comercial."
 
     # service item loop
     - icon : ion-edit #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
       name: PROYECTOS  DE REFORMAS
-      content: "Planificación y dirección de reformas de viviendas y locales comerciales, inluyendo diseño de interiores y decoración."
+      content: "Planificación y dirección de reformas de viviendas y locales comerciales, incluyendo diseño de interiores y decoración."
 
     # service item loop
     - icon : ion-earth #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/

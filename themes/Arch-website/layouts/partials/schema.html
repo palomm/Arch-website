@@ -1,0 +1,67 @@
+<script type="application/ld+json">
+{{ if eq .Section "posts" }}
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": {{ .Title }},
+  "image": {{ .Params.featuredImage | absURL }},
+  "datePublished": {{ .PublishDate }},
+  "dateModified": {{ .Lastmod }},
+  "author": {
+    "@type": "Person",
+    "name": {{ .Site.Params.author }}
+  },
+  "mainEntityOfPage": { "@type": "WebPage" },
+   "publisher": {
+    "@type": "Organization",
+    "name": {{ .Site.Params.header }},
+    "logo": {
+      "@type": "ImageObject",
+      "url": {{ .Site.Params.logo }}
+    }
+  },
+  "description": {{ .Summary | plainify | safeHTML }},
+  "keywords": [{{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}]
+}
+{{ end }}
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": {{ .Site.Params.header }},
+  "url": {{ .Site.BaseURL }},
+  "sameAs": [
+    "https://www.facebook.com/{{ .Site.Params.facebook }}",
+    "https://www.instagram.com/{{ .Site.Params.instagram }}",
+    "https://twitter.com/{{ .Site.Params.twitter }}",
+    "https://github.com/{{ .Site.Params.github }}"
+  ]
+}
+{
+  "@context": "https://schema.org",
+  "@type": "Architecture Office",
+  "name": "RA·MA Arquitectas",
+  "description": "Ra.Ma Arquitectas. Estudio de arquitectura con valores de cercanía y sostenibilidad. Ofrecemos servicios de arquitectura en reformas y obra nueva, en Madrid.",
+  "openingHours": "Mo,Tu,We,Th,Fr 09:00-18:00",
+  "telephone": "+34654896795"
+}
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Madrid",
+    "addressRegion": "Madrid",
+    "postalCode": "28045",
+    "streetAddress": "Calle Áncora 5, 6D"
+  },
+  "colleague": [
+    "{{ .Site.BaseURL }}",
+  ],
+  "email": "mailto:estudio@rama-arquitectas.es",
+  "image": "",
+  "jobTitle": "Arquitect",
+  "name": "RA·MA Arquitectas",
+  "telephone": "654896795",
+  "url": "{{ .Site.BaseURL }}"
+}
+</script>
