@@ -8,7 +8,7 @@ banner:
   button:
     enable : true
     label : "QUÉ HACEMOS" #¿QUÉ OFRECEMOS
-    link : "service"
+    link : "servicios"
 
 ############################# nuestro metodo #################################
 about:
@@ -33,6 +33,6 @@ cta:
   button:
     enable : true
     label : "TE ESCUCHAMOS"
-    link : "contact"
+    link : "contacto"
 
 ############################# Funfacts ###############################
