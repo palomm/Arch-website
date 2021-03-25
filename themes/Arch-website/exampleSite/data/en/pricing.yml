@@ -77,7 +77,7 @@ pricing:
     # pricing table loop
     - name : "Declaración responsable"
     #  image: "images/Fotos web/contacto.jpg"
-      price: "150€ *"
+      price: "280€ *"
       content : "*Tasas municipales no incluidas"
       link : "/contacto/"
       label : "contrátalo"
