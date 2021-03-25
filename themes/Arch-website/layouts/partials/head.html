@@ -11,6 +11,11 @@
 
   {{ "<!-- plugins -->" | safeHTML }}
   {{ range site.Params.plugins.css }}
+  <meta name="thumbnail" content="/Fotos web/inicio.jpg">
+  {{ if .Params.image }}
+    $original := print "images/" (path.Base .Params.image)
+    $originalImg := .Resources.GetMatch $original
+  {{ end  }}
   <link rel="stylesheet" href="{{ .link | absURL }}">
   {{ end }}
 
