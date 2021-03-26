@@ -22,7 +22,7 @@ Tras ponerte en contacto con RA·MA, fijaremos una fecha de visita de tu inmuebl
 
 #### 2. Cálculo de la eficiencia energética de tu inmueble
 
-Con los datos tomados en la visita procederemos a realizar un informe en el que se incluyen todas las carácterísticas energéticas y los cálculos de demanda y consumo energético del inmueble. 
+Con los datos tomados en la visita procederemos a realizar un informe en el que se incluyen todas las características energéticas y los cálculos de demanda y consumo energético del inmueble. 
 
 #### 3. Obtención del Certificado de Eficiencia Energética
 

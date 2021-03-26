@@ -47,7 +47,7 @@ pricing:
     # pricing table loop
     - name : "Licencia de apertura"
     #  image: "images/Fotos web/contacto.jpg"
-      price: "700€ *"
+      price: "desde 700€ *"
       content : "*Tasas municipales no incluidas"
       link : "/contacto/"
       label : "contrátalo"
@@ -62,7 +62,7 @@ pricing:
     # pricing table loop
     - name : "Licencia de primera ocupación"
     #  image: "images/Fotos web/contacto.jpg"
-      price: "400€"
+      price: "desde 400€"
       content : "Antes denominada Cédula de Habitabilidad"
       link : "/contacto/"
       label : "contrátalo"
@@ -77,7 +77,7 @@ pricing:
     # pricing table loop
     - name : "Declaración responsable"
     #  image: "images/Fotos web/contacto.jpg"
-      price: "280€ *"
+      price: "desde 280€ *"
       content : "*Tasas municipales no incluidas"
       link : "/contacto/"
       label : "contrátalo"
@@ -92,7 +92,7 @@ pricing:
     # pricing table loop
     - name : "Plan de Seguridad y Salud"
     #  image: "images/Fotos web/contacto.jpg"
-      price: "400€ *"
+      price: "desde 400€ *"
       content : "Precio estimado para inmueble de 100 m2"
       link : "/contacto/"
       label : "contrátalo"
@@ -107,7 +107,7 @@ pricing:
     # pricing table loop
     - name : "Certificado de Eficiencia Energética"
     #  image: "images/Fotos web/contacto.jpg"
-      price: "80€ *"
+      price: "desde 80€ *"
       content : "*Visita de inmueble y tasas incluidas"
       link : "/cee/"
       label : "contrátalo"
@@ -148,9 +148,9 @@ pricing:
 #        - 24/7 Tech Support
 
     # pricing table loop
-    - name : "Plan de autoproteccion"
+    - name : "Plan de autoprotección"
     #  image: "images/Fotos web/contacto.jpg"
-      price: "500€ *"
+      price: "desde 500€ *"
       content : "*Para superficies menores de 500 m2"
       link : "/contacto/"
       label : "contrátalo"

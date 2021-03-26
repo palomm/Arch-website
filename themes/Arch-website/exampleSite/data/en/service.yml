@@ -14,7 +14,7 @@ featured_service:
     - name : "CONFIANZA ·el soporte·"
       icon : "ion-heart"
       color : "primary"
-      content : "Para nosotras, el vínculo con nuestros clientes esclave. Estamos convencidas de que, como arquitectas, nuestra responsabilidad no reside sólo en realizar un proyecto, sino en asesorar y estar presentes en cada fase del mismo."
+      content : "Para nosotras, el vínculo con nuestros clientes es clave. Estamos convencidas de que, como arquitectas, nuestra responsabilidad no reside sólo en realizar un proyecto, sino en asesorar y estar presentes en cada fase del mismo."
       
     # featured service item loop
     - name : "DISEÑO  ·los pilares·"
