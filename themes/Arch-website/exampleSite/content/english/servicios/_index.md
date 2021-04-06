@@ -1,6 +1,6 @@
 ---
 title: SERVICIOS
-seo: Reformas - Arquitectura Sostenible | Ra.Ma
+seoTitle: Reformas - Arquitectura Sostenible | RAMA
 description: "¿Hablamos?"
 seo: "arquitectura sostenible en obra nueva y reformas"
 bg_image: images/Fotos web/servicios.jpg
