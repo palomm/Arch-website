@@ -1,6 +1,6 @@
 ---
 title: "CERTIFICACIÓN ENERGÉTICA"
-seoTitle: Certificado Energético | Certificado Eficiencia Energética - RAMA
+seoTitle: Certificado Energético | Certificado Eficiencia Energética - RAMA Arquitectas
 description: "certificado de eficiencia energética"
 seo:
 subtitle : "¿Quieres más información sobre los Certificados de Eficiencia Energética en la Comunidad de Madrid?

@@ -4,7 +4,7 @@ disqusShortname = ""
 paginate = "4"
 summaryLength = "30"
 theme = "Arch-website"
-title = "Estudio de Arquitectura - Arquitectura Sostenible | RAMA"
+seoTitle = "Estudio de Arquitectura - Arquitectura Sostenible | RAMA"
 description = "RAMA Arquitectas. Estudio de arquitectura con valores de cercanía y sostenibilidad. Ofrecemos servicios de arquitectura en reformas y obra nueva, en Madrid."
 [Languages.en]
 contentDir = "content/english"

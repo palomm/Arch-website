@@ -1,6 +1,6 @@
 ---
 title: "BLOG"
-seoTitle: estudio arquitectura sostenible - reformas madrid | RAMA
+seoTitle: estudio arquitectura sostenible - reformas madrid | RAMA Arquitectas
 description: "útlimas noticias"
 seo: " estudio arquitectura sostenible - reformas madrid | RA.MA "
 draft: false
