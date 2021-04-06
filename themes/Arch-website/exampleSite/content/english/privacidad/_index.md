@@ -1,6 +1,6 @@
 ---
 title: "POLÍTICA DE PRIVACIDAD"
-seo: Estudio Arquitectura - Reformas | Ra.Ma
+seoTitle: Estudio Arquitectura - Reformas | RAMA
 description: ""
 draft: false
 bg_image: ""

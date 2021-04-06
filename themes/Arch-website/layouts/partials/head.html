@@ -10,8 +10,7 @@
   ga('send', 'pageview');
   </script>
   <!-- End Google Analytics -->
-  <meta charset="utf-8">
-  <title> Estudio de Arquitectura - Arquitectura Sostenible | RA.MA </title> 
+  <meta charset="utf-8" name="title" content='{{ if (isset .Params "seoTitle") }}{{ .Params.seoTitle }}{{ else if (isset .Params "title") }}{{ .Params.title }}{{ else }}{{site.Params.title }}{{ end }}'>
 
   {{ "<!-- mobile responsive meta -->" | safeHTML }}
   <meta name="viewport" content="width=device-width, initial-scale=1"> 

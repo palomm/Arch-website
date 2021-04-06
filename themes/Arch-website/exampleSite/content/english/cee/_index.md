@@ -1,7 +1,8 @@
 ---
 title: "CERTIFICACIÓN ENERGÉTICA"
-seo: Certificado Energético | Certificado Eficiencia Energética - RA.MA
+seoTitle: Certificado Energético | Certificado Eficiencia Energética - RAMA
 description: "certificado de eficiencia energética"
+seo:
 subtitle : "¿Quieres más información sobre los Certificados de Eficiencia Energética en la Comunidad de Madrid?
 Visita la página web:
 www.comunidad.madrid/servicios/consumo/eficiencia-energetica-edificios "
