@@ -1,22 +1,20 @@
 ---
-title: BLABLABLABLA
-date: 2018-09-24T11:07:10.000+06:00
-author: Mark Dinn
+title: ¿QUÉ ES LA BIOCONSTRUCCIÓN?
+date: 2021-04-01T11:07:10.000+06:00
+author: Paloma Meléndez Martínez
 image: images/blog/blog-post-5.jpg
 bg_image: images/featue-bg.jpg
 categories:
-- Artificial Intelligence
+- Bioconstrucción
 tags:
-- Advice
-- AI
+- Arquitectura Sostenible
+- Temas de interés
 description: this is meta description
+seo: Bioconstrucción - Arquitectura Sostenible | RA.MA
 type: post
 
 ---
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit vitae placeat ad architecto nostrum asperiores
-vel aperiam, veniam eum nulla. Maxime cum magnam, adipisci architecto quibusdam cumque veniam fugiat quae. Lorem
-ipsum dolor sit amet, consectetur adipisicing elit. Odio vitae ab doloremque accusamus sit, eos dolorum officiis
-a perspiciatis aliquid. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, facere. </p>
+La Bioconstrucción es una disciplina dentro del mundo de la arquitectura que busca el respeto y compromiso con el Medio Ambiente, mediante un uso sostenible de la energía, prestando atención al impacto ambiental que ocasiona el ejercicio de la construcción, y aprovechando las herramientas que nos brinda el propio entorno.  </p>
 
 > Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes
 nemo minima rerums unsers sadips amets.. Sed ut perspiciatis unde omnis iste natus error

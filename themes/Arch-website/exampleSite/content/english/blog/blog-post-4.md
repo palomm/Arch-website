@@ -1,5 +1,5 @@
 ---
-title: "How To Wear Bright Shoes"
+title: "LAS COLABORACIONES DE RA·MA"
 date: 2018-09-24T11:07:10+06:00
 author: John Doe
 image : "images/blog/blog-post-4.jpg"
