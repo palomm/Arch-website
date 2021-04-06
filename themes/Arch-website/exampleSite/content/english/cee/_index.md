@@ -1,8 +1,9 @@
 ---
 title: "CERTIFICACIÓN ENERGÉTICA"
-seoTitle: Certificado Energético | Certificado Eficiencia Energética - RAMA Arquitectas
+seoTitle: "Certificado Energético | Certificado Eficiencia Energética - RAMA"
 description: "certificado de eficiencia energética"
-seo:
+seo: "En RAMA Arquitectas tenemos experiencia en la realización de 
+Certificados de Eficiencia Energética en inmuebles comerciales y residenciales. Contacto para certificados energéticos en Madrid."
 subtitle : "¿Quieres más información sobre los Certificados de Eficiencia Energética en la Comunidad de Madrid?
 Visita la página web:
 www.comunidad.madrid/servicios/consumo/eficiencia-energetica-edificios "
@@ -14,7 +15,7 @@ has_form: true
 
 ### ¿Cómo obtener el Certificado de Eficiencia Energética? 
 
-En RA·MA Arquitectura tenemos dilatada experiencia en la realización de Certificados de Eficiencia Energética en inmuebles comerciales y residenciales. 
+En RA·MA Arquitectas tenemos dilatada experiencia en la realización de Certificados de Eficiencia Energética en inmuebles comerciales y residenciales. 
 A continuación, te contamos los pasos a seguir para su obtención: 
 
 #### 1.Visitamos tu vivienda o local
