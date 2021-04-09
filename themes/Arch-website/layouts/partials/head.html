@@ -15,8 +15,13 @@
   {{ "<!-- mobile responsive meta -->" | safeHTML }}
   <meta name="viewport" content="width=device-width, initial-scale=1"> 
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="title" content='{{ if (isset .Params "seoTitle") }}{{ .Params.seoTitle }}{{ else if (isset .Params "title") }}{{ .Params.title }}{{ else }}{{site.Params.title }}{{ end }}'>
+  <title itemprop="name">{{ .Title }} | {{ .Params.seoTitle }}</title>
+  <meta property="og:title" content="{{ .Title }} | {{ .Site.Title }}" />
+  <meta itemprop="name" content='{{ if (isset .Params "seoTitle") }}{{ .Params.seoTitle }}{{ else if (isset .Params "title") }}{{ .Params.title }}{{ else }}{{site.Params.title }}{{ end }}' />
+  <meta name="application-name" content="{{ .Title }} | {{ .Site.Title }}" />
+  <meta property="og:site_name" content="{{ .Site.Params.sitename }}" />
   <meta name="description" content='{{ if (isset .Params "seo") }}{{ .Params.seo }}{{ else if (isset .Params "description") }}{{ .Params.description }}{{ else }}{{site.Params.description }}{{ end }}'>
+  <meta name="keywords" content= "arquitectura sostenible, reformas madrid, bioconstruccion, estudio de arquitectura, arquitectas madrid, RAMA arquitectas"/>
   {{ with site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
   {{ hugo.Generator }}
 
