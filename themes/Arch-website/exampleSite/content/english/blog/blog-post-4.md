@@ -1,11 +1,11 @@
 ---
 title: "LAS COLABORACIONES DE RA·MA"
 date: 2018-09-24T11:07:10+06:00
-author: John Doe
+author: Paloma Meléndez
 image : "images/blog/blog-post-4.jpg"
 bg_image: "images/featue-bg.jpg"
-categories: ["Legacy Support"]
-tags: ["Mechine","Retro"]
+categories: ["Colaboraciones"]
+tags: ["Bioconstrucción","Colaboraciones"]
 description: "this is meta description"
 draft: false
 type: "post"

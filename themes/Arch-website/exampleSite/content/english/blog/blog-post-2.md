@@ -1,11 +1,11 @@
 ---
 title: "QUIERO UN ALTAR EN MI HABITACIÓN"
 date: 2018-09-24T11:07:10+06:00
-author: Mark Dinn
+author: Paloma Meléndez
 image : "images/blog/blog-post-2.jpg"
 bg_image: "images/featue-bg.jpg"
-categories: ["Artificial Intelligence"]
-tags: ["Advice","Retro"]
+categories: ["Proyectos Personales"]
+tags: ["Colaboraciones","Madera"]
 description: "this is meta description"
 draft: false
 type: "post"

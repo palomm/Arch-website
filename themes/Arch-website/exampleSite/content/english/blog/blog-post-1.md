@@ -1,11 +1,11 @@
 ---
 title: "MÁS QUE ARQUITECTAS"
 date: 2018-09-24T11:07:10+06:00
-author: John Doe
+author: Paloma Meléndez
 image : "images/blog/blog-post-1.jpg"
 bg_image: "images/featue-bg.jpg"
-categories: ["Company News"]
-tags: ["Advice","Technology"]
+categories: ["Proyectos Personales"]
+tags: ["Colaboraciones","Artesanía"]
 description: "this is meta description"
 draft: false
 type: "post"
