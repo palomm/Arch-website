@@ -1,6 +1,6 @@
 ---
-title: "Mark Dinn"
-email: "email2@example.org"
+title: "Paloma Meléndez"
+email: "p.melendez@rama-arquitectas.es"
 bg_image: "images/featue-bg.jpg"
 draft: false
 social:

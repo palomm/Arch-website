@@ -1,6 +1,6 @@
 ---
-title: "John Doe"
-email: "email2@example.org"
+title: "Belén Sierra"
+email: "b.sierra@rama-arquitectas.es"
 bg_image: "images/featue-bg.jpg"
 draft: false
 social:
