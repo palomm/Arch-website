@@ -1,14 +1,11 @@
 ---
 title: ¿QUÉ ES LA BIOCONSTRUCCIÓN?
 date: 2021-04-01T11:07:10.000+06:00
-author: Paloma Meléndez Martínez
+author: Paloma Meléndez
 image: images/blog/blog-post-5.jpg
 bg_image: images/featue-bg.jpg
-categories:
-- Bioconstrucción
-tags:
-- Arquitectura Sostenible
-- Temas de interés
+categories: ["Información de interés"]
+tags: ["Bioconstrucción","Arquitectura Sostenible"]
 description: this is meta description
 seo: Bioconstrucción - Arquitectura Sostenible | RA.MA
 type: post
