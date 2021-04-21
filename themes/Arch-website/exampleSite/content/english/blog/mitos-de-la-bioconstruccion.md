@@ -52,7 +52,7 @@ Así, en países como Austria o Alemania, o sin salir de España, ciudades como 
 
 Toda edificación que se construye en España tiene que cumplir los requisitos establecidos por las normativas reguladoras de la construcción, sean del tipo que sean. No hay excusa.
 Que una norma en la construcción no exista, no significa que sea ilegal, sino que no existe un documento genérico y parametrizado al que puedas acudir para justificar tu solución. Por tanto, como técnicos, tendremos que justificar su comportamiento en cada caso. 
-
+    
 El problema actual que presenta la bioconstrucción en España es que las normativas estandarizadas son limitadas. ¿Esto quiere decir, entonces, que la bioconstrucción no cumple con la normativa? No, significa que tendremos que demostrar el cumplimiento de la normativa con ensayos, es decir, aumentando el tiempo y el esfuerzo dedicado en el proyecto para realizar las pruebas necesarias a fin de llegar a los criterios exigidos. 
 
 
