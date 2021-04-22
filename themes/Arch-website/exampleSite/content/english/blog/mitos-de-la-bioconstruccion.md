@@ -12,7 +12,7 @@ description:
 type: "post" 
 ---
 
-La Bioconstrucción es una disciplina dentro del mundo de la arquitectura que aspira a desarrollar un modelo de respeto y compromiso con el medioambiente. Basa sus principios en el uso sostenible de la energía y los recursos, prestando atención al impacto ecológico que ocasiona el ejercicio de la construcción y aprovechando las herramientas y soluciones que nos brinda el propio entorno.<!-more->
+La bioconstrucción es una disciplina dentro del mundo de la arquitectura que aspira a desarrollar un modelo de respeto y compromiso con el medioambiente. Basa sus principios en el uso sostenible de la energía y los recursos, prestando atención al impacto ecológico que ocasiona el ejercicio de la construcción y aprovechando las herramientas y soluciones que nos brinda el propio entorno.
 
 No obstante, el desconocimiento de esta rama de la arquitectura y sus técnicas ha originado una serie de prejuicios que ponen en duda su valía. Por ello, en este artículo vamos a tratar de abordar y desmentir los principales mitos relacionados con la construcción con materiales naturales. 
 
