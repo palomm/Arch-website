@@ -1,0 +1,40 @@
+.slider {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  padding: 170px 0 200px;
+  position: relative;
+  @include tablet {
+    background-attachment: scroll;
+    padding: 150px 0;
+    h1{
+      font-size: 35px;
+    }
+  }
+
+  .block {
+    color: #ff7f4a;
+    text-align: center;
+
+    h1 {
+      font-family: 'Text Me One', sans-serif;
+      font-weight: 500;
+      font-size: 100px;
+      line-height: 20px;
+      letter-spacing: 8px;
+      padding-top: 100px;
+      padding-bottom: 20px;
+      text-transform: uppercase;
+    }
+
+    p {
+      margin-bottom: 30px;
+      color: #FAFAFF;
+      font-size: 20px;
+      line-height: 60px;
+      font-weight: 300;
+      letter-spacing: 1px;
+    }
+  }
+}
