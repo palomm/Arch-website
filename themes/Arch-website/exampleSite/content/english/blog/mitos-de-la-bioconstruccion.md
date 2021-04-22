@@ -12,7 +12,7 @@ description:
 type: "post" 
 ---
 
-La Bioconstrucción es una disciplina dentro del mundo de la arquitectura que aspira a desarrollar un modelo de respeto y compromiso con el medioambiente. Basa sus principios en el uso sostenible de la energía y los recursos, prestando atención al impacto ecológico que ocasiona el ejercicio de la construcción y aprovechando las herramientas y soluciones que nos brinda el propio entorno.<!-more->
+La bioconstrucción es una disciplina dentro del mundo de la arquitectura que aspira a desarrollar un modelo de respeto y compromiso con el medioambiente. Basa sus principios en el uso sostenible de la energía y los recursos, prestando atención al impacto ecológico que ocasiona el ejercicio de la construcción y aprovechando las herramientas y soluciones que nos brinda el propio entorno.
 
 No obstante, el desconocimiento de esta rama de la arquitectura y sus técnicas ha originado una serie de prejuicios que ponen en duda su valía. Por ello, en este artículo vamos a tratar de abordar y desmentir los principales mitos relacionados con la construcción con materiales naturales. 
 
@@ -37,7 +37,7 @@ Dependiendo de la solución constructiva y materiales elegidos, el diseño y ele
 Depende. Es cierto que el hecho de construir con materiales locales y que requieren de poca transformación reduce, además de energía, costes en transporte y en producción.
 Pero también es cierto que, como muchos de ellos no tienen tanta competitividad en el mercado, los precios del material pueden ser más altos. Por otro lado, la bioconstrucción, además de tener principios de respeto a la naturaleza, también lo tiene respecto a las personas que trabajan en ella. Se defenderá que los trabajadores implicados reciban unos honorarios acordes a las labores realizadas. 
 
-La realidad es que el precio de una obra arquitectónica se encarece en función de su complejidad. El precio en una obra puede rondar entre los 1000 y los 1400 el metro cuadrado, en función de las calidades elegidas. A mayor inversión en calidades, mayor ahorro a medio-largo plazo en la vida del edificio. Asimismo, cabe mencionar que, al construir con materiales naturales, además del ahorro energético, se está apostando por elementos menos perjudiciales para la salud.
+La realidad es que el precio de una obra arquitectónica se encarece en función de su complejidad. El precio en una obra puede rondar entre los 1000 y los 1400 el metro cuadrado, en función de las calidades elegidas. A mayor inversión en calidades, mayor ahorro a medio-largo plazo en la vida del edificio. Además, al construir con materiales naturales, además del ahorro energético, se está apostando por elementos menos perjudiciales para la salud.
 
 
 ### "SÓLO VALE PARA LAS CASAS EN EL CAMPO"
@@ -52,7 +52,7 @@ Así, en países como Austria o Alemania, o sin salir de España, ciudades como 
 
 Toda edificación que se construye en España tiene que cumplir los requisitos establecidos por las normativas reguladoras de la construcción, sean del tipo que sean. No hay excusa.
 Que una norma en la construcción no exista, no significa que sea ilegal, sino que no existe un documento genérico y parametrizado al que puedas acudir para justificar tu solución. Por tanto, como técnicos, tendremos que justificar su comportamiento en cada caso. 
-
+    
 El problema actual que presenta la bioconstrucción en España es que las normativas estandarizadas son limitadas. ¿Esto quiere decir, entonces, que la bioconstrucción no cumple con la normativa? No, significa que tendremos que demostrar el cumplimiento de la normativa con ensayos, es decir, aumentando el tiempo y el esfuerzo dedicado en el proyecto para realizar las pruebas necesarias a fin de llegar a los criterios exigidos. 
 
 
