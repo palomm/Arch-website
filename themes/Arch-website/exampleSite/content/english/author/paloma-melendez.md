@@ -2,6 +2,7 @@
 title: "Paloma Meléndez"
 email: "p.melendez@rama-arquitectas.es"
 bg_image: "images/featue-bg.jpg"
+keywords: "arquitecta, paloma melendez, bioconstrucción, eficiencia energética"
 draft: false
 social:
   - icon : "ion-social-facebook-outline" #ionicon pack v2 : https://ionicons.com/v2/

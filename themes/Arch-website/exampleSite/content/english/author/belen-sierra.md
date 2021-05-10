@@ -2,6 +2,7 @@
 title: "Belén Sierra"
 email: "b.sierra@rama-arquitectas.es"
 bg_image: "images/featue-bg.jpg"
+keywords: "arquitecta, belén sierra, project manager"
 draft: false
 social:
   - icon : "ion-social-facebook-outline" #ionicon pack v2 : https://ionicons.com/v2/

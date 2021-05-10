@@ -2,6 +2,7 @@
 title: "RA·MA"
 email: "estudio@rama-arquitectas.es"
 bg_image: "images/logo1.jpg"
+keywords: "RAMA Arquitectas, arquitectura sostenible, bioconstruccion, reformas madrid, estudio de arquitectura"
 draft: false
 social:
   - icon : "ion-social-facebook-outline" #ionicon pack v2 : https://ionicons.com/v2/
