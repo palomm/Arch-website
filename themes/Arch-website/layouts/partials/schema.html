@@ -1,20 +1,20 @@
 <script type="application/ld+json">
-{{ if eq .Section "posts" }}
+{{ if or (eq .Section "post") (eq .Section "posts") (eq .Section "blog") (eq .Section "blogs") (eq .Section "news") (eq .Section "categories") (eq .Section "tags") }}
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
   "headline": {{ .Title }},
-  "image": {{ .Params.featuredImage | absURL }},
-  "datePublished": {{ .PublishDate }},
-  "dateModified": {{ .Lastmod }},
+  "image": {{ .Params.logo | absURL }},
+  "datePublished": {{ .Params.PublishDate}},
+  "dateModified": {{ .Params.PublishDate }},
   "author": {
     "@type": "Person",
-    "name": {{ .Site.Params.author }}
+    "name": {{ .Params.author }}
   },
   "mainEntityOfPage": { "@type": "WebPage" },
    "publisher": {
     "@type": "Organization",
-    "name": {{ .Site.Params.header }},
+    "name": {{ .Site.Params.sitename }},
     "logo": {
       "@type": "ImageObject",
       "url": {{ .Site.Params.logo }}
@@ -27,22 +27,20 @@
 {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": {{ .Site.Params.header }},
+  "name": {{ .Site.Params.sitename }},
   "url": {{ .Site.BaseURL }},
   "sameAs": [
-    "https://www.facebook.com/{{ .Site.Params.facebook }}",
-    "https://www.instagram.com/{{ .Site.Params.instagram }}",
-    "https://twitter.com/{{ .Site.Params.twitter }}",
-    "https://github.com/{{ .Site.Params.github }}"
+    "https://www.linkedin.com/company/71724563/}",
+    "https://www.instagram.com/rama_arquitectas/"
   ]
 }
 {
   "@context": "https://schema.org",
-  "@type": "Architecture Office",
-  "name": "RA·MA Arquitectas",
-  "description": "Ra.Ma Arquitectas. Estudio de arquitectura con valores de cercanía y sostenibilidad. Ofrecemos servicios de arquitectura en reformas y obra nueva, en Madrid.",
+  "@type": "HomeAndConstructionBusiness",
+  "name": {{ .Site.Params.sitename }},
+  "description": {{ .Site.Params.description }},
   "openingHours": "Mo,Tu,We,Th,Fr 09:00-18:00",
-  "telephone": "+34654896795"
+  "telephone": "654896795"
 }
 {
   "@context": "https://schema.org",
@@ -59,8 +57,8 @@
   ],
   "email": "mailto:estudio@rama-arquitectas.es",
   "image": "",
-  "jobTitle": "Arquitect",
-  "name": "RA·MA Arquitectas",
+  "jobTitle": "Architect",
+  "name": "RAMA Arquitectas",
   "telephone": "654896795",
   "url": "{{ .Site.BaseURL }}"
 }

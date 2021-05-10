@@ -150,7 +150,7 @@ unsafe = true
 [outputs]
 home = ["HTML"]
 [params]
-author = "Themefisher"
+author = "RAMA Arquitectas"
 contact_form_action = "#"
 # ToDo := Change this to something reasonable
 description = "Estudio de Arquitectura Madrid - Arquitectura Sostenible | RAMA"
@@ -161,6 +161,7 @@ logo = "images/logo2.jpg"
 logo_width = "170px"
 phone = "654 89 67 95"
 multi_author = false
+sitename = "RAMA Arquitectas"
 [params.gmap]
 enable = true
 gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
@@ -217,3 +218,8 @@ link = "https://www.linkedin.com/in/belén-sierra-marco-941834134"
 #desactivado [[params.social]]
 #desactivado icon = "ion-social-facebook-outline"
 #desactivado link = "#"
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
