@@ -8,7 +8,7 @@ title = "Estudio de Arquitectura - Arquitectura Sostenible | RAMA"
 description = "RAMA Arquitectas. Estudio de arquitectura con valores de cercanía y sostenibilidad. Ofrecemos servicios de arquitectura en reformas y obra nueva, en Madrid."
 [Languages.en]
 contentDir = "content/english"
-copyright = "Copyright &copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved"
+# copyright = "Copyright &copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved"
 languageCode = "en-us"
 languageName = "Es"
 weight = 1

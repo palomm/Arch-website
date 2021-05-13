@@ -9,6 +9,7 @@ $secondary-color:#2E7EED;
 body {
 	font-family: $primary-font;
 	-webkit-font-smoothing: antialiased;
+	overflow: hidden;
 }
 
 h1,

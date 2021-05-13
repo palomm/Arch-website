@@ -1,5 +1,5 @@
-<script type="application/ld+json">
-{{ if or (eq .Section "post") (eq .Section "posts") (eq .Section "blog") (eq .Section "blogs") (eq .Section "news") (eq .Section "categories") (eq .Section "tags") }}
+<script type= "application/ld+json">
+{{ if or (eq .Section "post") (eq .Section "posts") (eq .Section "blog") (eq .Section "blogs") (eq .Section "news") (eq .Section "categories") (eq .Section "tags") }} 
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
@@ -23,7 +23,7 @@
   "description": {{ .Summary | plainify | safeHTML }},
   "keywords": [{{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}]
 }
-{{ end }}
+
 {
   "@context": "https://schema.org",
   "@type": "Organization",
@@ -53,7 +53,7 @@
     "streetAddress": "Calle Áncora 5, 6D"
   },
   "colleague": [
-    "{{ .Site.BaseURL }}",
+    {{ .Site.BaseURL }},
   ],
   "email": "mailto:estudio@rama-arquitectas.es",
   "image": "",
@@ -62,4 +62,6 @@
   "telephone": "654896795",
   "url": "{{ .Site.BaseURL }}"
 }
+{{end}}
 </script>
+
