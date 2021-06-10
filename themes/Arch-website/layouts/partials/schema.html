@@ -1,5 +1,5 @@
-<script type= "application/ld+json">
 {{ if or (eq .Section "post") (eq .Section "posts") (eq .Section "blog") (eq .Section "blogs") (eq .Section "news") (eq .Section "categories") (eq .Section "tags") }} 
+<script type= "application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
@@ -12,7 +12,7 @@
     "name": {{ .Params.author }}
   },
   "mainEntityOfPage": { "@type": "WebPage" },
-   "publisher": {
+  "publisher": {
     "@type": "Organization",
     "name": {{ .Site.Params.sitename }},
     "logo": {
@@ -23,28 +23,17 @@
   "description": {{ .Summary | plainify | safeHTML }},
   "keywords": [{{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}]
 }
-
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": {{ .Site.Params.sitename }},
-  "url": {{ .Site.BaseURL }},
-  "sameAs": [
-    "https://www.linkedin.com/company/71724563/}",
-    "https://www.instagram.com/rama_arquitectas/"
-  ]
-}
+</script>
+{{end}}
+<script type= "application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "HomeAndConstructionBusiness",
   "name": {{ .Site.Params.sitename }},
-  "description": {{ .Site.Params.description }},
-  "openingHours": "Mo,Tu,We,Th,Fr 09:00-18:00",
-  "telephone": "654896795"
-}
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
+  "sameAs": [
+    "https://www.linkedin.com/company/71724563/",
+    "https://www.instagram.com/rama_arquitectas/"
+  ],
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "Madrid",
@@ -52,16 +41,11 @@
     "postalCode": "28045",
     "streetAddress": "Calle Áncora 5, 6D"
   },
-  "colleague": [
-    {{ .Site.BaseURL }},
-  ],
   "email": "mailto:estudio@rama-arquitectas.es",
-  "image": "",
-  "jobTitle": "Architect",
-  "name": "RAMA Arquitectas",
-  "telephone": "654896795",
-  "url": "{{ .Site.BaseURL }}"
+  "image": "{{ .Site.BaseURL }}/images/Fotos%20web/inicio.jpg",
+  "telephone": "+34654896795",
+  "url": "{{ .Site.BaseURL }}",
+  "openingHours": "Mo,Tu,We,Th,Fr 09:00-18:00",
+  "description": {{ .Site.Params.description }}
 }
-{{end}}
 </script>
-
