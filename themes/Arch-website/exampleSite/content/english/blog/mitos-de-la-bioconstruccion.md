@@ -62,3 +62,10 @@ Con la entrada en el mercado de materiales como el cemento o el ladrillo, la arq
 Hay una parte innegable en el desarrollo de los medios de obtención, producción y transformación de los materiales que nos ha permitido alcanzar un alto grado de complejidad en el campo de la arquitectura. Pero la realidad es que los materiales convencionales ocupan un lugar prioritario en el mercado debido a su facilidad para la estandarización y la rapidez en su producción, con la consecuencia de que construimos con calidades bajas y con materiales que son perjudiciales para la salud.
 Tenemos los medios y el conocimiento para construir con altas prestaciones técnicas, ¿por qué no hacerlo con materiales cercanos, sostenibles y saludables?
 
+______________________
+
+¿Quieres saber más sobre **bioconstrucción**? Suscríbete a [NUESTRA NEWSLETTER](https://tinyletter.com/RAMA_Arquitectas) para seguir descubriendo sus virtudes. En el siguiente post, hablaremos de la importancia de tener en cuenta la **TRADICIÓN en la arquitectura.**
+
+¿Tienes algún proyecto entre manos y te interesa la bioconstrucción? [Contacta con nosotras](https://www.rama-arquitectas.es/contacto) y te asesoramos sin compromiso. 
+
+
