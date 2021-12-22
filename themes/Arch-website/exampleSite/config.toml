@@ -4,7 +4,7 @@ disqusShortname = ""
 paginate = "4"
 summaryLength = "30"
 theme = "Arch-website"
-title = "Estudio de Arquitectura - Arquitectura Sostenible | RAMA"
+title = "RAMA Arquitectas. Estudio de Arquitectura - Arquitectura Sostenible | RAMA"
 description = "RAMA Arquitectas. Estudio de arquitectura con valores de cercanía y sostenibilidad. Ofrecemos servicios de arquitectura en reformas y obra nueva, en Madrid."
 [Languages.en]
 contentDir = "content/english"
@@ -20,10 +20,10 @@ weight = 1
 URL = "servicios"
 name = "SERVICIOS"
 weight = 3
-[[Languages.en.menu.footer]]
-URL = "precios"
-name = "PRECIOS"
-weight = 4
+# desactivado [[Languages.en.menu.footer]]
+# desactivado URL = "precios"
+# desactivado name = "PRECIOS"
+# desactivado weight = 4
 [[Languages.en.menu.footer]]
 URL = "cee"
 name = "CERTIFICADO ENERGÉTICO"
@@ -38,30 +38,50 @@ weight = 6
 # desactivado weight = 1
 [[Languages.en.menu.main]]
 URL = "equipo"
-name = "EQUIPO RA·MA"
+name = "QUIÉNES SOMOS"
 weight = 2
 [[Languages.en.menu.main]]
 URL = "servicios"
 name = "QUÉ HACEMOS"
 weight = 3
-[[Languages.en.menu.main]]
-URL = "servicios"
-name = "SERVICIOS"
-parent = "QUÉ HACEMOS"
-weight = 4
-[[Languages.en.menu.main]]
-URL = "precios"
-name = "PRECIOS"
-parent = "QUÉ HACEMOS"
-weight = 5
-[[Languages.en.menu.main]]
-URL = "cee"
-name = "CERTIFICADO ENERGÉTICO"
-weight = 6
 # desactivado [[Languages.en.menu.main]]
-# desactivado URL = "project"
-# desactivado name = "proyectos"
+# desactivado URL = "servicios"
+# desactivado name = "SERVICIOS"
+# desactivado parent = "QUÉ HACEMOS"
+# desactivado weight = 4
+# desactivado [[Languages.en.menu.main]]
+# desactivado URL = "precios"
+# desactivado name = "PRECIOS"
+# desactivado parent = "QUÉ HACEMOS"
 # desactivado weight = 5
+[[Languages.en.menu.main]]
+#desactivado URL = "cee"
+#desactivado name = "CERTIFICADO ENERGÉTICO"
+#desactivado weight = 6
+#en proceso [[Languages.en.menu.main]]
+#en proceso URL = "project"
+#en proceso name = "proyectos"
+#en proceso weight = 5
+#en proceso [[Languages.en.menu.main]]
+#en proceso URL = "project"
+#en proceso name = "REFORMAS DE VIVIENDAS Y LOCALES"
+#en proceso parent = "proyectos"
+#en proceso weight= 5
+#en proceso [[Languages.en.menu.main]]
+#en proceso URL = "rehabilitacion"
+#en proceso name = "REHABILITACIÓN DE ACCESIBILIDAD"
+#en proceso parent = "proyectos"
+#en proceso weight= 6
+#en proceso [[Languages.en.menu.main]]
+#en proceso URL = "project"
+#en proceso name = "CONSULTORIA BIO"
+#en proceso parent = "proyectos"
+#en proceso weight= 7
+#en proceso [[Languages.en.menu.main]]
+#en proceso URL = "precios"
+#en proceso name = "TALLERES Y FORMACIONES"
+#en proceso parent = "proyectos"
+#en proceso weight= 8
 [[Languages.en.menu.main]]
 URL = "blog"
 name = "Blog"
@@ -156,10 +176,11 @@ contact_form_action = "#"
 description = "Estudio de Arquitectura Madrid - Arquitectura Sostenible | RAMA"
 email = "estudio@rama-arquitectas.es"
 google_analitycs_id = "G-F7TQXXKCXZ"
-location = "Áncora 5 - 28045 MADRID"
-logo = "images/logo2.jpg"
-logo_width = "170px"
-phone = "654 89 67 95"
+location = "Calle Áncora 5, 28045 Madrid"
+instagram = "@rama_arquitectas"
+logo = "images/logo_vectorizado_2.png"
+logo_width = "150px"
+phone = "Paloma: 654 89 67 95 / Belén: 662 51 69 12"
 multi_author = false
 sitename = "RAMA Arquitectas"
 [params.gmap]

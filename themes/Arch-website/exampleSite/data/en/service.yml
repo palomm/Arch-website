@@ -1,30 +1,77 @@
-########################### about service #############################
-about:
+  ########################### reforma service #############################
+reforma:
   enable : true
-  title : "Arquitectura y Diseño de Interiores"
-  content : "En RA·MA ofrecemos una visión polifacética de la arquitectura, adaptada a las necesidades de cada cliente. Desde proyectos de nueva edificación de vivienda y locales comerciales a reformas de espacios ya existentes, pasando por la rehabilitación energética de comunidades de propietarios. Todo ello atendiendo a la gestión global de cada proyecto en todas sus fases (Project & Construct Management), informes y certificados de seguridad y eficiencia energética. Nos hacemos cargo del proyecto desde el incio hasta el cierre de obra para que no tengas nada de qué preocuparte."
-  image : "images/Fotos web/libros_2.jpg"
+  title : "REGENERACIÓN URBANA"
+  content : "**Agrupamos nuestros servicios en función de tus necesidades**"
+  content2 : "Tramitamos toda la documentación relativa a la **gestión documental** del proyecto, para la consecución de la licencia de obra y otros trámites administrativos. Te acompañamos en el **diseño** de tu proyecto, adaptándonos a tus ideas y a tu presupuesto. Realizamos la **dirección de obra** de la reforma, gestionando a los proveedores y a los especialistas que intervengan en ella."
+  image : ""
 
-########################## featured service ############################
-featured_service:
+########################### accesibilidad service #############################
+accesibilidad:
+  enable : true
+  title : "REHABILITACIÓN DE ACCESIBILIDAD"
+  content : "Redactamos los proyectos y realizamos la dirección de obra e instalaciones para **mejorar la accesibilidad de tu edificio**. Tenemos amplia experiencia en el trabajo de **rehabilitación** en edificios de comunidades de propietarios y en la **gestión de subvenciones para edificios existentes**. Somos especialistas en la mejora de recorridos de acuerdo a la normativa vigente, diseñando la construcción de entornos a los que **todas las personas puedan acceder**. "
+  image : "images/Fotos web/ascensor2.jpg"
+
+########################### consultoria service #############################
+consultoria:
+  enable : true
+  title : "CONSULTORÍA ENERGÉTICA SOSTENIBLE"
+  content : "En RAMA te ayudamos a mejorar las condiciones de **eficiencia energética de tu local o vivienda**. Tanto si necesitas un **Certificado de Eficiencia Energética**, como si quieres recibir asesoramiento en las **mejoras de diseño e instalaciones** que puedes realizar para que tu espacio sea más eficiente y confortable."
+  image : "images/Fotos web/eficiencia-energetica-vivienda2.jpg"
+
+########################### consultoria service #############################
+formacion:
+  enable : true
+  title : "TALLERES Y FORMACIONES DE BIOCONSTRUCCION"
+  content : "Si tienes interés en aprender técnicas relacionadas con la **Bioconstrucción**, este es tu lugar. Desde RAMA ofrecemos **talleres prácticos y presenciales** para que puedas tocar, hacer y entender los materiales naturales y sus diferentes aplicaciones. "
+  image : "images/Fotos web/formacion.jpg"
+
+########################## featured reforma ############################
+featured_reforma:
   enable : true
   title: "nuestros cimientos"
-  service_item:
+  reforma_item:
     # featured service item loop
-    - name : "CONFIANZA ·el soporte·"
-      icon : "ion-heart"
+    - name : "Reforma tu vivienda"
+      icon : "ion-ios-home-outline"
       color : "primary"
-      content : "Para nosotras, el vínculo con nuestros clientes es clave. Estamos convencidas de que, como arquitectas, nuestra responsabilidad no reside sólo en realizar un proyecto, sino en asesorar y estar presentes en cada fase del mismo."
+      content : "Realizamos proyectos de diseño, reforma y rehabilitación de viviendas. Desde el estudio previo a la dirección de la obra, te ayudamos a diseñar tu hogar, buscando la mejora del confort, la salubridad y de la eficiencia energética."
       
     # featured service item loop
-    - name : "DISEÑO  ·los pilares·"
-      icon : "ion-wrench"
+    - name : "Inicia tu negocio"
+      icon : "ion-ios-briefcase-outline"
       color : "primary-dark"
       content : "Buscamos en cada proyecto las opciones de diseño más acordes a las tendencias actuales en la arquitectura con un doble objetivo: satisfacer las necesidades de nuestros clientes y progresar continuamente como profesionales."
       
     # featured service item loop
-    - name : "INTEGRIDAD ·la envolvente·"
-      icon : "ion-loop"
+    - name : "Transforma tu local"
+      icon : "ion-ios-fastforward-outline"
+      color : "primary-darker"
+      content : "La premisa fundamental de nuestro trabajo es  ser coherentes con nuestros valores esenciales. Por ello, fomentamos soluciones arquitectónicas alternativas y materiales locales que contribuyan al respeto del medioambiente."
+
+      
+########################## featured consultoria ############################
+featured_consultoria:
+  enable : true
+  title: "nuestros cimientos"
+  image: ""
+  consultoria_item:
+    # featured service item loop
+    - name : "Estrategias de diseño bioclimático"
+      icon : "ion-ios-heart-outline"
+      color : "primary"
+      content : "Para nosotras, el vínculo con nuestros clientes es clave. Estamos convencidas de que, como arquitectas, nuestra responsabilidad no reside sólo en realizar un proyecto, sino en asesorar y estar presentes en cada fase del mismo."
+      
+    # featured service item loop
+    - name : "Certificado de Eficiencia Energética"
+      icon : "ion-ios-sunny-outline"
+      color : "primary-dark"
+      content : "Buscamos en cada proyecto las opciones de diseño más acordes a las tendencias actuales en la arquitectura con un doble objetivo: satisfacer las necesidades de nuestros clientes y progresar continuamente como profesionales."
+      
+    # featured service item loop
+    - name : "Asesoría y emisión de informes"
+      icon : "ion-ios-lightbulb-outline"
       color : "primary-darker"
       content : "La premisa fundamental de nuestro trabajo es  ser coherentes con nuestros valores esenciales. Por ello, fomentamos soluciones arquitectónicas alternativas y materiales locales que contribuyan al respeto del medioambiente."
 
@@ -32,55 +79,35 @@ featured_service:
 ############################# Service ###############################
 service:
   enable : true
-  title : "áreas de actividad"
-  description : "Contacta con nosotras y pide presupuesto sin compromiso"
+  title : "QUÉ HACEMOS"
+  description : ""
   service_item:
     # service item loop
     - icon : ion-ios-home #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
-      name: PROYECTOS DE EDIFICACIÓN
-      content: "Edificación y dirección de obras de nueva construcción en todas sus fases, de uso residencial y comercial."
+      name: REGENERACIÓN URBANA
+      content: "Redacción de proyectos y dirección de obras de viviendas y locales comerciales, incluyendo diseño de interiores y decoración."
 
     # service item loop
-    - icon : ion-edit #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
-      name: PROYECTOS  DE REFORMAS
-      content: "Planificación y dirección de reformas de viviendas y locales comerciales, incluyendo diseño de interiores y decoración."
-
-    # service item loop
-    - icon : ion-earth #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
-      name: REHABILITACIÓN ENERGÉTICA
-      content: "Gestión de ayudas y subvenciones. Redacción y dirección de obras de rehabilitación energética según normativa vigente."
+    - icon : ion-ios-loop-strong #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
+      name: REHABILITACIÓN DE ACCESIBILIDAD
+      content: "Gestión de ayudas y subvenciones. Trámites de licencias y dirección de obras de mejoras de accesibilidad para Comunidades de Propietarios"
 
     # service item loop
     - icon : ion-leaf #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
-      name: BIOCONSTRUCCIÓN
-      content: "Elaboración y dirección de proyectos de bioconstrucción, incluyendo los roles de autopromotores y autoconstructores."
+      name: CONSULTORÍA ENERGÉTICA SOSTENIBLE
+      content: "Asesoría y emisión de informes y certificados para la mejora de la eficiencia energética de viviendas y locales con criterios de sostenibilidad."
 
     # service item loop
-  #  - icon : ion-checkmark-round #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
-  #   name: IEE / ITE
-  #    content: "Elaboración del Informe de Evaluación del Edificio y de la Inspección Técnica del Edificio."
-
-    # service item loop
-  #  - icon : ion-flame #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
-  #    name: PLAN DE AUTOPROTECCION
-  #    content: "Asesoramiento, diagnosis de riesgos y planes de autoproteccion para empresas y comunidades de propietarios."
-
-    # service item loop
-  #  - icon : ion-paintbrush #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
-  #   name: DISEÑO DE INTERIORES
-  #    content: "Realización de proyectos de reformas, diseño, decoración e interiorismo en viviendas, locales y oficinas."
-
-    # service item loop
-  #  - icon : ion-earth #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
-  #    name: REHABILITACIÓN ENERGÉTICA
-  #    content: "Gestión de ayudas y subvenciones. Redacción y dirección de obras de rehabilitación energética según normativa vigente."
+    - icon : ion-edit #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
+      name: TALLERES Y FORMACIONES DE BIOCONSTRUCCIÓN
+      content: "Sesiones prácticas para la formación de grupos y colectivos en diferentes técnicas y materiales usadas en la bioconstrucción"
 
 ############################# funfacts #################################
 
 funfacts: #QUÉ HACEMOS CON ESTO?
   enable : true
   title : "PROYECTOS REALIZADOS"
-  description : " Cuenta con RA·MA para tu proyecto de arquitectura"
+  description : " Cuenta con RAMA para tu proyecto de arquitectura"
   funfact_item:
     # funfacts item loop
     - icon : "ion-ios-eye-outline" #ionicon pack v2 : https://ionicons.com/v2/

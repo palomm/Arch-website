@@ -1,5 +1,5 @@
 ---
-title: "RA·MA"
+title: "RAMA"
 email: "estudio@rama-arquitectas.es"
 bg_image: "images/logo1.jpg"
 keywords: "RAMA Arquitectas, arquitectura sostenible, bioconstruccion, reformas madrid, estudio de arquitectura"

@@ -1,24 +1,28 @@
-$primary-font: 'Playfair Display',
+$primary-font: 'Roboto',
 serif;
-$secondary-font: 'Poppins',
-serif;
+$secondary-font: 'Open Sans',
+sans-serif;
 $light: #fff;
 $primary-color:#ff7f4a;
-$secondary-color:#2E7EED;
+$secondary-color:#18af9b;
 
 body {
-	font-family: $primary-font;
+	font-family: $secondary-font;
 	-webkit-font-smoothing: antialiased;
 	overflow: hidden;
 }
 
 h1,
-h2,
-h3,
+h2{
+  font-family: $secondary-font;
+}
+h3 
 h4,
-h5,
+h5 {
+  font-family: $primary-font;
+}
 h6 {
-	font-family: $primary-font;
+  font-family: $tertiary-font;
 }
 
 h2 {
@@ -26,6 +30,7 @@ h2 {
 }
 
 p,
+
 .btn {
 	font-family: $secondary-font;
 	color: #777;
@@ -84,7 +89,7 @@ a {
 
 			>li {
 				>a {
-					color: #5C5C5C;
+					color: #18af9b;
 					padding: 10px 15px;
 
 					font : {
@@ -111,12 +116,12 @@ a {
 
 			a {
 				font-weight: normal;
-				color: #808080;
+				color: #18af9b;
 				padding: 10px 20px;
 				@include transition (all, 0.3s, ease);
 
 				&:hover {
-					background: $primary-color;
+					background: $secondary-color;
 					color: $light;
 					padding-left: 25px;
 				}

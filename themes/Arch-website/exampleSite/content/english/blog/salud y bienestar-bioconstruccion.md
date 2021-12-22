@@ -1,6 +1,6 @@
 ---
 title: APOSTAR POR BIOCONSTRUCCIÓN ES GANAR EN BIENESTAR Y SALUD PARA LAS PERSONAS
-seoTitle: Bioconstrucción - Arquitectura Sostenible | RA.MA
+seoTitle: Bioconstrucción - Arquitectura Sostenible | RAMA
 date: 2021-06-10T15:30:00.000+06:00
 author: Paloma Meléndez
 image: images/blog/mamacampo.jpg
