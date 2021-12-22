@@ -55,22 +55,61 @@
   }
 }
 
-.service-about {
+.service-reforma {
   
   p {
     line-height: 28px;
   }
   img {
-    width: 75%;
-    margin-left: 40px;
+    width: 90%;
+    margin-left: 0px;
   }
   h2 {
     text-align: center;
   }
 }
 
+.service-accesibilidad {
+  
+  p {
+    line-height: 28px;
+  }
+  img {
+    padding: 6% 20% 6%;
+    display: flex;
+  }
+  h2 {
+    text-align: center;
+  }
+}
 
+.service-consultoria {
+  
+  p {
+    line-height: 28px;
+  }
+  img {
+    padding: 4% 20% 6%;
+    display: flex;
+  }
+  h2 {
+    text-align: center;
+  }
+}
 
+.service-formacion {
+  
+  p {
+    line-height: 28px;
+  }
+  img {
+    padding: 4% 20% 6%;
+    display: flex;
+  }
+  h2 {
+    text-align: center;
+  }
+}
 
 
 .service-arrow {
@@ -80,21 +119,26 @@
     text-align: center;
 
     i {
-      color: #FFFF;
+      color: $secondary-color;
       font-size: 50px;
 
     }
     h3 {
-      color: #FFFF;
+      font-size: 18px;
+      color: #7b7b7b;
     }
     p {
-      color: #FFFF;
+      color: #7b7b7b;
     }
   }
 }
 
-
-
+.service-diagram {
+  img {
+     width: auto;
+     margin-left: 40px;
+  }
+}
 
 .service-list {
   .block {

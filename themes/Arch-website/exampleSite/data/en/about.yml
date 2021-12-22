@@ -10,6 +10,31 @@ button:
     label : "Descarga Portfolio"
     link : "#"
 
+########################## featured service ############################
+featured_about:
+  enable : true
+  title: "nuestros cimientos"
+  image: "images/Fotos web/Diagrama-servicios.png"
+  about_item:
+    # featured service item loop
+    - name : "CONFIANZA ·el soporte·"
+      icon : "ion-heart"
+      color : "primary"
+      content : "Para nosotras, el vínculo con nuestros clientes es clave. Estamos convencidas de que, como arquitectas, nuestra responsabilidad no reside sólo en realizar un proyecto, sino en asesorar y estar presentes en cada fase del mismo."
+      
+    # featured service item loop
+    - name : "DISEÑO  ·los pilares·"
+      icon : "ion-wrench"
+      color : "primary-dark"
+      content : "Buscamos en cada proyecto las opciones de diseño más acordes a las tendencias actuales en la arquitectura con un doble objetivo: satisfacer las necesidades de nuestros clientes y progresar continuamente como profesionales."
+      
+    # featured service item loop
+    - name : "INTEGRIDAD ·la envolvente·"
+      icon : "ion-loop"
+      color : "primary-darker"
+      content : "La premisa fundamental de nuestro trabajo es  ser coherentes con nuestros valores esenciales. Por ello, fomentamos soluciones arquitectónicas alternativas y materiales locales que contribuyan al respeto del medioambiente."
+
+      
 #he eliminado los "funfacts". Guardados en WEB\eliminados\eliminados_about.yml
 ################################ feature #####################################
 features:

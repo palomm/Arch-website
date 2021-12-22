@@ -4,16 +4,70 @@
 
 {{ $data := index site.Data site.Language.Lang }}
 
-{{ if $data.service.about.enable }}
-{{ with $data.service.about }}
-<section class="service-about section">
+
+<!-- Service -->
+<!-- Service{{ if $data.service.service.enable }}
+{{ partial "service.html" . }}
+{{ end }} -->
+
+{{ if $data.service.reforma.enable }}
+{{ with $data.service.reforma }}
+<section class="service-reforma section">
   <div class="container">
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-12">
+        <h2>{{ .title | markdownify }}</h2>
+        {{ if $data.service.featured_reforma.enable }}
+        {{ with $data.service.featured_reforma }}
+        <section class="service-arrow">
+         <div class="container-fluid">
+           <div class="row">
+           {{ range .reforma_item }}
+             <div class="col-md-4 bg-gray">
+               <div class="block">
+                <i class="{{ .icon }}"></i>
+                  <h6>{{ .name | markdownify }}</h6>
+                    <p>{{ .content | markdownify }}</p>
+                </div>
+              </div>
+              {{ end }}
+            </div>
+          </div>
+        </section>
+        {{ end }}
+        {{ end }} 
+        <h2 class="mt-10">{{ .content | markdownify }}</h2>
+      </div>
+  <section class="service-diagram">
+    <div class="block">
+      <div class="col-md-4">
+        <img class="img-responsive" src="/images/servicios1.png" alt="Estudio Arquitectura Sostenible Reformas Madrid">
+      </div>
+      <div class="col-md-4">
+        <img class="img-responsive" src="/images/servicios2.png" alt="Estudio Arquitectura Sostenible Reformas Madrid">
+      </div>
+      <div class="col-md-4">
+        <img class="img-responsive" src="/images/servicios3.png" alt="Estudio Arquitectura Sostenible Reformas Madrid">
+      </div>
+     </div>
+  </div>
+    <p class="mt-30">{{ .content2 | markdownify }}</p>
+  </section>
+</section>
+{{ end }}
+{{ end }} 
+
+ <hr width=600 color=#000000 >
+{{ if $data.service.accesibilidad.enable }}
+{{ with $data.service.accesibilidad }}
+<section class="service-accesibilidad section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
         <h2>{{ .title | markdownify }}</h2>
         <p class="mt-30">{{ .content | markdownify }}</p>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-12">
         <img class="img-responsive" src="{{ .image | absURL }}" alt="Estudio Arquitectura Sostenible Reformas Madrid">
       </div>
     </div>
@@ -22,16 +76,36 @@
 {{ end }}
 {{ end }}
 
-{{ if $data.service.featured_service.enable }}
-{{ with $data.service.featured_service }}
+ <hr width=600 color=#000000 >
+
+{{ if $data.service.consultoria.enable }}
+{{ with $data.service.consultoria }}
+<section class="service-consultoria section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2>{{ .title | markdownify }}</h2>
+        <p class="mt-30">{{ .content | markdownify }}</p>
+      </div>
+      <div class="col-md-12">
+        <img class="img-responsive" src="{{ .image | absURL }}" alt="Estudio Arquitectura Sostenible Reformas Madrid">
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+{{ if $data.service.featured_consultoria.enable }}
+{{ with $data.service.featured_consultoria }}
 <section class="service-arrow">
   <div class="container-fluid">
     <div class="row">
-      {{ range .service_item }}
-      <div class="col-md-4 bg-primary bg-{{ .color }}">
+      {{ range .consultoria_item }}
+      <div class="col-md-4 bg-gray">
         <div class="block">
           <i class="{{ .icon }}"></i>
-          <h3>{{ .name | markdownify }}</h3>
+          <h6>{{ .name | markdownify }}</h6>
           <p>{{ .content | markdownify }}</p>
         </div>
       </div>
@@ -42,11 +116,28 @@
 {{ end }}
 {{ end }}
 
-<!-- Service -->
-{{ if $data.service.service.enable }}
-{{ partial "service.html" . }}
+ <hr width=600 color=#000000 >
+
+{{ if $data.service.formacion.enable }}
+{{ with $data.service.formacion }}
+<section class="service-formacion section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2>{{ .title | markdownify }}</h2>
+        <p class="mt-30">{{ .content | markdownify }}</p>
+      </div>
+      <div class="col-md-12">
+        <img class="img-responsive" src="{{ .image | absURL }}" alt="Estudio Arquitectura Sostenible Reformas Madrid">
+      </div>
+    </div>
+  </div>
+</section>
 {{ end }}
-<!-- /service -->
+{{ end }}
+
+
+
 
 <!-- Call to action -->
 {{ if $data.service.cta.enable }}

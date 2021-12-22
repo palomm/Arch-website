@@ -1,6 +1,6 @@
 ---
-title: "Proyectos"
-description: "this is meta description"
+title: "REFORMAS"
+description: "de viviendas y locales comerciales"
 draft: false
-bg_image: "images/featue-bg.jpg"
+bg_image: "images/slider/proyectos1.jpg"
 ---

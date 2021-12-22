@@ -1,8 +1,8 @@
 ---
 title: FALSOS MITOS DE LA BIOCONSTRUCCIÓN
-seoTitle: Bioconstrucción - Arquitectura Sostenible | RA.MA
+seoTitle: Bioconstrucción - Arquitectura Sostenible | RAMA
 date: 2021-04-21T19:10:00.000+06:00
-author: RA·MA
+author: RAMA
 image: images/blog/2.jpg
 draft: false
 bg_image: "images/blog/1.jpg"
@@ -64,7 +64,7 @@ Tenemos los medios y el conocimiento para construir con altas prestaciones técn
 
 ______________________
 
-¿Quieres saber más sobre **bioconstrucción**? Suscríbete a [NUESTRA NEWSLETTER](https://tinyletter.com/RAMA_Arquitectas) para seguir descubriendo sus virtudes. En el siguiente post, hablaremos de la importancia de tener en cuenta la **TRADICIÓN en la arquitectura.**
+¿Quieres saber más sobre **bioconstrucción**? Suscríbete a [NUESTRA NEWSLETTER](https://tinyletter.com/RAMA_Arquitectas) para seguir descubriendo sus virtudes. En el siguiente post, hablaremos de la importancia de tener en cuenta la **SALUD Y CONFORT en nuestros espacios.**
 
 ¿Tienes algún proyecto entre manos y te interesa la bioconstrucción? [Contacta con nosotras](https://www.rama-arquitectas.es/contacto) y te asesoramos sin compromiso. 
 

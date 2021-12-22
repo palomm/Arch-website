@@ -85,6 +85,11 @@ sections:
   create: none
   match: "*"
 - type: directory
+  path: exampleSite/content/english/rehabilitacion
+  label: rehabilitacion (en)
+  create: none
+  match: "*"
+- type: directory
   path: exampleSite/content/english/faq
   label: FAQ (en)
   create: none

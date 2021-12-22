@@ -16,12 +16,12 @@ has_form: true
 
 ### ¿Cómo obtener el Certificado de Eficiencia Energética? 
 
-En RA·MA Arquitectas tenemos dilatada experiencia en la realización de Certificados de Eficiencia Energética en inmuebles comerciales y residenciales. 
+En RAMA Arquitectas tenemos dilatada experiencia en la realización de Certificados de Eficiencia Energética en inmuebles comerciales y residenciales. 
 A continuación, te contamos los pasos a seguir para su obtención: 
 
 #### 1.Visitamos tu vivienda o local
 
-Tras ponerte en contacto con RA·MA, fijaremos una fecha de visita de tu inmueble. Esta visita es importante para inspeccionar los elementos involucrados en el comportamiento energético del local o vivienda. 
+Tras ponerte en contacto con RAMA, fijaremos una fecha de visita de tu inmueble. Esta visita es importante para inspeccionar los elementos involucrados en el comportamiento energético del local o vivienda. 
 
 #### 2. Cálculo de la eficiencia energética de tu inmueble
 
