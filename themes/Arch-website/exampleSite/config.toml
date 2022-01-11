@@ -58,30 +58,30 @@ weight = 3
 #desactivado URL = "cee"
 #desactivado name = "CERTIFICADO ENERGÉTICO"
 #desactivado weight = 6
-#en proceso [[Languages.en.menu.main]]
-#en proceso URL = "project"
-#en proceso name = "proyectos"
-#en proceso weight = 5
-#en proceso [[Languages.en.menu.main]]
-#en proceso URL = "project"
-#en proceso name = "REFORMAS DE VIVIENDAS Y LOCALES"
-#en proceso parent = "proyectos"
-#en proceso weight= 5
-#en proceso [[Languages.en.menu.main]]
-#en proceso URL = "rehabilitacion"
-#en proceso name = "REHABILITACIÓN DE ACCESIBILIDAD"
-#en proceso parent = "proyectos"
-#en proceso weight= 6
-#en proceso [[Languages.en.menu.main]]
-#en proceso URL = "project"
-#en proceso name = "CONSULTORIA BIO"
-#en proceso parent = "proyectos"
-#en proceso weight= 7
-#en proceso [[Languages.en.menu.main]]
-#en proceso URL = "precios"
-#en proceso name = "TALLERES Y FORMACIONES"
-#en proceso parent = "proyectos"
-#en proceso weight= 8
+[[Languages.en.menu.main]]
+URL = "project"
+name = "proyectos"
+weight = 5
+[[Languages.en.menu.main]]
+URL = "project"
+name = "REFORMAS DE VIVIENDAS Y LOCALES"
+parent = "proyectos"
+weight= 5
+[[Languages.en.menu.main]]
+URL = "rehabilitacion"
+name = "REHABILITACIÓN DE ACCESIBILIDAD"
+parent = "proyectos"
+weight= 6
+#desactivado [[Languages.en.menu.main]]
+#desactivado URL = "consultoria"
+#desactivado name = "CONSULTORIA BIO"
+#desactivado parent = "proyectos"
+#desactivado weight= 7
+[[Languages.en.menu.main]]
+URL = "formaciones"
+name = "TALLERES Y FORMACIONES"
+parent = "proyectos"
+weight= 8
 [[Languages.en.menu.main]]
 URL = "blog"
 name = "Blog"
