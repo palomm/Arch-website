@@ -45,12 +45,23 @@ pricing:
 #        - 24/7 Tech Support
 
     # pricing table loop
-    - name : "Licencia de apertura"
-    #  image: "images/Fotos web/contacto.jpg"
-      price: "desde 700€ *"
-      content : "*Tasas municipales no incluidas"
+    - name : "Taller de Murales artísticos"
+      image: "/images/Fotos web/valores.jpg"
+      price: "en Collado Villalba"
+      content : "Marzo 2022"
       link : "/contacto/"
-      label : "contrátalo"
+      label : "+ info"
+      services:
+        - 2 días de formación
+        - Escríbenos para recibir más información
+
+    # pricing table loop
+    - name : "Taller de Construcción con Adobe"
+    #  image: "images/Fotos web/contacto.jpg"
+      price: "por confirmar"
+      content : "más información próximamente"
+#      link : ""
+#     label : "..."
 #      services:
 #        - Unlimited agents
 #        - 10 PSD Design
@@ -60,12 +71,12 @@ pricing:
 #        - 24/7 Tech Support
 
     # pricing table loop
-    - name : "Licencia de primera ocupación"
-    #  image: "images/Fotos web/contacto.jpg"
-      price: "desde 400€"
-      content : "Antes denominada Cédula de Habitabilidad"
-      link : "/contacto/"
-      label : "contrátalo"
+    - name : "Taller de Acabados naturales de arcilla"
+      image: "images/Fotos web/contacto.jpg"
+      price: "por confirmar"
+      content : "más información proximamente"
+#      link : ""
+#      label : "..."
 #      services:
 #        - Unlimited agents
 #        - 10 PSD Design
@@ -75,27 +86,12 @@ pricing:
 #        - 24/7 Tech Support
 
     # pricing table loop
-    - name : "Declaración responsable"
+ #   - name : "Plan de Seguridad y Salud"
     #  image: "images/Fotos web/contacto.jpg"
-      price: "desde 280€ *"
-      content : "*Tasas municipales no incluidas"
-      link : "/contacto/"
-      label : "contrátalo"
-#      services:
-#        - Unlimited agents
-#        - 10 PSD Design
-#        - HTML5 Markup
-#        - Basic SEO
-#        - Email Marketing
-#        - 24/7 Tech Support
-
-    # pricing table loop
-    - name : "Plan de Seguridad y Salud"
-    #  image: "images/Fotos web/contacto.jpg"
-      price: "desde 400€ *"
-      content : "Precio estimado para inmueble de 100 m2"
-      link : "/contacto/"
-      label : "contrátalo"
+#      price: "desde 400€ *"
+#      content : "Precio estimado para inmueble de 100 m2"
+#     link : "/contacto/"
+#      label : "contrátalo"
 #      services:
 #        - Unlimited agents
 #        - 10 PSD Design
@@ -105,12 +101,12 @@ pricing:
 #        - 24/7 Tech Support
         
     # pricing table loop
-    - name : "Certificado de Eficiencia Energética"
+#    - name : "Certificado de Eficiencia Energética"
     #  image: "images/Fotos web/contacto.jpg"
-      price: "desde 80€ *"
-      content : "*Visita de inmueble y tasas incluidas"
-      link : "/cee/"
-      label : "contrátalo"
+#      price: "desde 80€ *"
+#      content : "*Visita de inmueble y tasas incluidas"
+#      link : "/cee/"
+#      label : "contrátalo"
 #      services:
 #        - Unlimited agents
 #        - 10 PSD Design
@@ -148,12 +144,12 @@ pricing:
 #        - 24/7 Tech Support
 
     # pricing table loop
-    - name : "Plan de autoprotección"
-    #  image: "images/Fotos web/contacto.jpg"
-      price: "desde 500€ *"
-      content : "*Para superficies menores de 500 m2"
-      link : "/contacto/"
-      label : "contrátalo"
+#    - name : "Plan de autoprotección"
+#    #  image: "images/Fotos web/contacto.jpg"
+#      price: "desde 500€ *"
+#      content : "*Para superficies menores de 500 m2"
+ #     link : "/contacto/"
+#      label : "contrátalo"
 #      services:
 #        - Unlimited agents
 #        - 10 PSD Design

@@ -6,19 +6,38 @@
 <section class="page-wrapper">
   <div class="container">
     <div class="row">
-      <div class="col-md-4 sticky-top">
-        <h2><center>{{ .Title }}</center></h2>
-        <h3><center></center></h3>
-        <p>{{ .Params.Subtitle | markdownify }}</p>
-      <!--  <p>{{ i18n "last_update" }}: {{ .PublishDate.Format "January 2, 2006" }}{{ if ne .PublishDate .Lastmod }}, last updated {{ .Lastmod.Format "January 2, 2006" }}{{ end }}
-        <p>{{ i18n "phone" }}: <a href="tel:{{ site.Params.phone }}">{{ site.Params.phone }}</a></p>
-        <p>{{ i18n "email" }}: <a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a></p>
-        <p>{{ i18n "location" }}: {{ site.Params.location }}</p> -->
+      <div class="col-md-4 col-md-offset-1">
+        <img class="img-responsive" src="/images/Fotos web/accesibilidad.jpg" alt="Estudio Arquitectura Sostenible Reformas Madrid">
       </div>
-      <div class="col-md-8">
+      <div class="col-md-6">
         {{ .Content }}
       </div>
     </div>
   </div>
+  <div clas=col-md-12> 
+   <h3> La Colonia Histórica de Puerto Chico </h3>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-md-offset-1"> 
+        <p>  En la década de los años 60, Puerto Chico se conforma como barrio tras la ejecución del Plan Parcial "Ciudad Parque de Aluche".</p>
+        <p> Se trata de una zona residencial con una densidad de vivienda muy elevada (133 viviendas por héctarea, aproximadamente) que actualmente presenta problemáticas importantes en cuanto a eficiencia energética y de accesibilidad. </p>
+        <p> El trabajo de RAMA Arquitectas en esta colonia histórica madrileña consiste en alcanzar el objetivo que este barrio se propuso en el año 2008, gracias a la propuesta de intervención que se inció a través de la Asociación de Vecinos de Puerto Chico y Q-21 arquitectura. </p>
+      </div>
+      <div class="col-md-7">
+        <img class="img-responsive" src="/images/Fotos web/Puerto-Chico-Aluche.jpg">
+      </div>
+    </div>
+    </div>
+  </div>
+  </div>
 </section>
+      <!--  <h2><center>{{ .Title }}</center></h2>
+        <h3><center></center></h3>
+        <p>{{ .Params.Subtitle | markdownify }}</p>
+        <p>{{ i18n "last_update" }}: {{ .PublishDate.Format "January 2, 2006" }}{{ if ne .PublishDate .Lastmod }}, last updated {{ .Lastmod.Format "January 2, 2006" }}{{ end }}
+        <p>{{ i18n "phone" }}: <a href="tel:{{ site.Params.phone }}">{{ site.Params.phone }}</a></p>
+        <p>{{ i18n "email" }}: <a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a></p>
+        <p>{{ i18n "location" }}: {{ site.Params.location }}</p> -->
 {{ end }}
+

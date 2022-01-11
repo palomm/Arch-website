@@ -83,22 +83,22 @@ service:
   description : ""
   service_item:
     # service item loop
-    - icon : ion-ios-home #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
+    - icon : ion-ios-home-outline #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
       name: REGENERACIÓN URBANA
       content: "Redacción de proyectos y dirección de obras de viviendas y locales comerciales, incluyendo diseño de interiores y decoración."
 
     # service item loop
-    - icon : ion-ios-loop-strong #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
+    - icon : ion-ios-loop #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
       name: REHABILITACIÓN DE ACCESIBILIDAD
       content: "Gestión de ayudas y subvenciones. Trámites de licencias y dirección de obras de mejoras de accesibilidad para Comunidades de Propietarios"
 
     # service item loop
-    - icon : ion-leaf #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
+    - icon : ion-ios-flower-outline #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
       name: CONSULTORÍA ENERGÉTICA SOSTENIBLE
       content: "Asesoría y emisión de informes y certificados para la mejora de la eficiencia energética de viviendas y locales con criterios de sostenibilidad."
 
     # service item loop
-    - icon : ion-edit #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
+    - icon : ion-ios-compose-outline #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
       name: TALLERES Y FORMACIONES DE BIOCONSTRUCCIÓN
       content: "Sesiones prácticas para la formación de grupos y colectivos en diferentes técnicas y materiales usadas en la bioconstrucción"
 
