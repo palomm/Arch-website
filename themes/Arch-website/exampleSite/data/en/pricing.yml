@@ -45,15 +45,16 @@ pricing:
 #        - 24/7 Tech Support
 
     # pricing table loop
-    - name : "Taller de Murales artísticos"
+    - name : "Taller de murales artísticos con cal"
       image: "/images/Fotos web/valores.jpg"
-      price: "en Collado Villalba"
-      content : "Marzo 2022"
+      price: "23-24 de abril"
+      content : "en Collado Villalba, Madrid (de 10h a 19h)"
       link : "/contacto/"
-      label : "+ info"
+      label : "¡INSCRÍBETE!"
       services:
-        - 2 días de formación
-        - Escríbenos para recibir más información
+        - INCLUYE
+        - Material y herramientas
+        - Comida a medio día
 
     # pricing table loop
     - name : "Taller de Construcción con Adobe"
