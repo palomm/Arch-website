@@ -176,7 +176,7 @@ contact_form_action = "#"
 description = "Estudio de Arquitectura Madrid - Arquitectura Sostenible | RAMA"
 email = "estudio@rama-arquitectas.es"
 google_analitycs_id = "G-F7TQXXKCXZ"
-location = "Calle Áncora 5, 28045 Madrid"
+location = "IMPACT HUB Picasso - Plaza Pablo Ruiz Picasso 1, Madrid"
 instagram = "@rama_arquitectas"
 logo = "images/logo_vectorizado_2.png"
 logo_width = "150px"
@@ -186,8 +186,8 @@ sitename = "RAMA Arquitectas"
 [params.gmap]
 enable = true
 gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
-map_latitude = "40.403328079361586"
-map_longitude = "-3.6927922958572226"
+map_latitude = "40.450553066822074"
+map_longitude = "-3.6928182126941724"
 map_marker = "images/marker.png"
 [params.nav_button]
 enable = true

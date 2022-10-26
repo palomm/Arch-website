@@ -1,7 +1,7 @@
 ---
 title: PROBLEMÁTICAS DE LA CONSTRUCCIÓN CONVENCIONAL
 seoTitle: Bioconstrucción - Arquitectura Sostenible | RAMA
-date: 2021-02-03T11:39:00.000+06:00
+date: 2022-09-21T11:39:00.000+06:00
 author: Paloma Melendez
 image: images/blog/materiales 2.jpg
 draft: false

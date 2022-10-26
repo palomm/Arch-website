@@ -1,0 +1,26 @@
+---
+title: "La casita de Luis"
+description: "Reforma integral de vivienda en Cuatro Caminos"
+draft: false
+image : "images/portfolio/Margaritas/1-1_margaritas.jpg"
+image2 : "images/portfolio/Margaritas/1-2_margaritas.jpg"
+image3 : "images/portfolio/Margaritas/2_margaritas.jpg"
+image4 : "images/portfolio/Margaritas/2-1_margaritas.jpg"
+bg_image: "images/portfolio/Margaritas/1-1_margaritas.jpg"
+category: "Locales comerciales"
+information:
+  - label : "CLIENTE"
+    info : "Luis"
+  - label : "SERVICIO"
+    info : "Acondicionamiento puntual en vivienda en Cuatro Caminos"
+  - label : "UBICACIÓN"
+    info : "Dr. Federico Rubio y Gali, 23, Madrid"
+  - label : "ENTREGA DE PROYECTO"
+    info : "Dic, 2021"
+  - label : "FIN DE OBRA"
+    info : "Sept, 2022"
+---
+
+## La casa de Luis 
+
+ 
