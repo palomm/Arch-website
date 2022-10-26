@@ -1,10 +1,10 @@
 ---
-title: "CERTIFICACIÓN ENERGÉTICA"
-seoTitle: "Certificado Energético | Certificado Eficiencia Energética - RAMA"
-description: "certificado de eficiencia energética"
+title: "Certificado energético"
+seoTitle: "RAMA"
+description: "Elaboramos y tramitamos el CEE de tu propiedad"
 seo: "En RAMA Arquitectas tenemos experiencia en la realización de 
-Certificados de Eficiencia Energética en inmuebles comerciales y residenciales. Contacto para certificados energéticos en Madrid."
-keywords: "certificado eficiencia energética, certificado energético"
+Certificados de Eficiencia Energética en viviendas y locales comerciales. Contacto para certificados energéticos en Madrid."
+keywords: "certificado eficiencia energética madrid, certificado energético madrid, cee madrid"
 subtitle : "¿Quieres más información sobre los Certificados de Eficiencia Energética en la Comunidad de Madrid?
 Visita la página web:
 www.comunidad.madrid/servicios/consumo/eficiencia-energetica-edificios "
