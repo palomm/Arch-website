@@ -47,10 +47,10 @@ pricing:
     # pricing table loop
     - name : "Taller de murales artísticos con cal"
       image: "/images/Fotos web/valores.jpg"
-      price: "23-24 de abril"
+      price: "4-5 de junio"
       content : "en Collado Villalba, Madrid (de 10h a 19h)"
       link : "/contacto/"
-      label : "¡INSCRÍBETE!"
+      label : "AQUÍ EL RESULTADO"
       services:
         - INCLUYE
         - Material y herramientas

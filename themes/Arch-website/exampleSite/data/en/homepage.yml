@@ -8,7 +8,7 @@ banner:
   content : "por una arquitectura cercana y sostenible"
   button:
     enable : true
-    label : "ver servicios" #¿QUÉ OFRECEMOS
+    label : "conoce nuestros servicios" #¿QUÉ OFRECEMOS
     link : "servicios"
 
 ############################# Nuestros servicios ############################
@@ -19,7 +19,7 @@ service:
 ############################# nuestro metodo #################################
 about:
   enable : true
-  bg_image: "images/Fotos web/filosofia_blanco.jpg"
+  bg_image: "images/Fotos web/filosofia_prueba.jpg"
   bg_overlay: true
   title : "FILOSOFÍA"
   description : ""
@@ -27,12 +27,12 @@ about:
   image : "images/Fotos web/valores.png" 
 
 ############################# proyectos #################################
-portfolio:
-  enable : true
-  title : "PROYECTOS"
-  description : ""
-  content : ""
-  image : "images/Fotos web/obrador Nair.jpg" 
+# portfolio:
+#  enable : true
+#  title : "PROYECTOS"
+#  description : ""
+#  content : ""
+#  image : "images/Fotos web/obrador Nair.jpg" 
 
 ############################ contacta ###########################
 cta:

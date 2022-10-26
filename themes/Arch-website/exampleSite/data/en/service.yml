@@ -112,26 +112,26 @@ funfacts: #QUÉ HACEMOS CON ESTO?
     # funfacts item loop
     - icon : "ion-ios-eye-outline" #ionicon pack v2 : https://ionicons.com/v2/
       name : "Direcciones de Obra"
-      count : "20"
+      count : "16"
       
     # funfacts item loop
     - icon : "ion-ios-sunny-outline" #ionicon pack v2 : https://ionicons.com/v2/
       name : "Proyectos de Rehabilitación Energética"
-      count : "45"
+      count : "4"
       
     # funfacts item loop
     - icon : "ion-ios-loop" #ionicon pack v2 : https://ionicons.com/v2/
       name : "Colaboraciones en Arquitectura Sostenible"
-      count : "125"
+      count : "8"
       
     # funfacts item loop
     - icon : "ion-ios-paper-outline" #ionicon pack v2 : https://ionicons.com/v2/
       name : "Certificados de Eficiencia Energética"
-      count : "200"
+      count : "86"
     # funfacts item loop
     - icon : "ion-ios-checkmark-outline" #ionicon pack v2 : https://ionicons.com/v2/
       name : "Licencias de Arquitectura"
-      count : "200"
+      count : "7"
     
 ############################# call to action #################################
 cta:
