@@ -1,9 +1,9 @@
 ---
-title: "FORMACIONES"
-seoTitle: "Reformas - Arquitectura Sostenible | RAMA"
-description: "talleres presenciales en técnicas de bioconstrucción"
-seo: "Precios de RAMA Arquitectas para licencias de obra, declaración responsable, certificado energético, plan de autoprotección, plan seguridad y salud en Madrid"
-keywords: "precios, servicios arquitectura, declaracion responsable, licencias"
+title: "TALLERES Y FORMACIONES"
+seoTitle: "RAMA"
+description: "en técnicas de construcción natural"
+seo: "Talleres de construccion natural y bioconstruccion en madrid. Revestimientos naturales con cal y arcilla, construccion con tierra y construccion con madera en madrid."
+keywords: "talleres bioconstruccion, talleres bioconstruccion madrid, formacion arquitectura sostenible, taller arquitectura sostenible, taller arquitectura ecologica"
 draft: false
 bg_image: "images/Fotos web/precios.jpg"
 ---

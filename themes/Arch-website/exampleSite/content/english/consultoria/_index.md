@@ -1,6 +1,6 @@
 ---
-title: "CONSULTORIA SOSTENIBLE"
-seoTitle: "Rehabilitacion | Ascensores en Comunidades de Propietarios - RAMA"
+title: "REHABILITACION ASCENSORES"
+seoTitle: "RAMA"
 description: "en Comunidades de Propietarios"
 seo: "En RAMA Arquitectas tenemos experiencia en la realización de rehabilitación de accesibilidad en Comunidades de Propietarios. Contacto para ascensor en Madrid."
 keywords: "ascensor comunidades propietarios, rehabilitacion accesibilidad"

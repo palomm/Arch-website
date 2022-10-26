@@ -4,8 +4,9 @@ disqusShortname = ""
 paginate = "4"
 summaryLength = "30"
 theme = "Arch-website"
-title = "RAMA Arquitectas. Estudio de Arquitectura - Arquitectura Sostenible | RAMA"
-description = "RAMA Arquitectas. Estudio de arquitectura con valores de cercanía y sostenibilidad. Ofrecemos servicios de arquitectura en reformas y obra nueva, en Madrid."
+title = "RAMA | Estudio de arquitectura sostenible y cercana"
+seoTitle = "Arquitectura sostenible | RAMA"
+description = "Apostamos por una arquitectura sostenible y cercana. Realizamos proyectos de arquitectura y talleres de formación en técnicas de construcción ecológica en Madrid"
 [Languages.en]
 contentDir = "content/english"
 # copyright = "Copyright &copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved"
@@ -38,7 +39,7 @@ weight = 6
 # desactivado weight = 1
 [[Languages.en.menu.main]]
 URL = "equipo"
-name = "QUIÉNES SOMOS"
+name = "SOBRE NOSOTRAS"
 weight = 2
 [[Languages.en.menu.main]]
 URL = "servicios"
@@ -59,12 +60,12 @@ weight = 3
 #desactivado name = "CERTIFICADO ENERGÉTICO"
 #desactivado weight = 6
 [[Languages.en.menu.main]]
-URL = "project"
+URL = "proyectos"
 name = "proyectos"
 weight = 5
 [[Languages.en.menu.main]]
-URL = "project"
-name = "REFORMAS DE VIVIENDAS Y LOCALES"
+URL = "proyectos"
+name = "REFORMA DE VIVIENDAS Y LOCALES"
 parent = "proyectos"
 weight= 5
 [[Languages.en.menu.main]]
@@ -97,7 +98,7 @@ weight = 7
 
 [[Languages.en.menu.main]]
 URL = "contacto"
-name = "Contacto"
+name = "CONTACTO"
 weight = 8
 [Languages.fr]
 contentDir = "content/french"
