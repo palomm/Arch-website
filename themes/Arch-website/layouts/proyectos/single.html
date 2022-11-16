@@ -8,55 +8,11 @@
   <div class="container">
     <div class="row">
       <div class="col-md-8">
-         <div  class="carousel slide" data-ride="carousel">
-         <!-- Indicators -->
-          <ol class="carousel-indicators">
-            <li data-target=".carousel" data-slide-to="0" class="inactive"></li>
-            <li data-target=".carousel" data-slide-to="1"></li>
-            <li data-target=".carousel" data-slide-to="2"></li>
-            <li data-target=".carousel" data-slide-to="3"></li>
-          </ol>
-
-           <!-- Wrapper for slides -->
-          <div class="carousel-inner" role="listbox">
-           <div class="item active">
-              <img class="img-responsive w-100" src="{{ .Params.Image | relURL }}" alt="">
-             <div class="carousel-caption"></div>
-           </div>
-             <div class="item">
-              <img class="img-responsive w-100" src="{{ .Params.Image2 | relURL }}">
-                <div class="carousel-caption"></div>
-             </div>
-           <div class="item">
-              <img class="img-responsive w-100" src="{{ .Params.Image3 | relURL }}">
-                <div class="carousel-caption"></div>
-           </div>
-           <div class="item">
-              <img class="img-responsive w-100" src="{{ .Params.Image4 | relURL }}">
-                <div class="carousel-caption"></div>
-           </div>
-           <div class="item">
-              <img class="img-responsive w-100" src="{{ .Params.Image5 | relURL }}">
-                <div class="carousel-caption"></div>
-           </div>
-        </div>
-
-    <!-- Controls -->
-    <a class="left carousel-control" href=".carousel" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      <span class="sr-only"></span>
-    </a>
-    <a class="right carousel-control" href=".carousel" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      <span class="sr-only"></span>
-    </a>
-  </div>
-   <!-- Fin del carrusel -->
-
+        <img class="img-responsive w-100" src="{{ .Params.Image | relURL }}" alt="{{ .Title }}">
       </div>
       <div class="col-md-4">
         <div class="project-details">
-          <h4>Project Details</h4>
+          <h4>DETALLES DEL PROYECTO</h4>
           <ul>
             {{ range .Params.Information }}
             <li><span>{{ .label }} :</span> <strong>{{ .info | markdownify }}</strong></li>
