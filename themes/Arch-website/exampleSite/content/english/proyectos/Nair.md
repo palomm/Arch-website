@@ -3,10 +3,6 @@ title: "Luby Limón"
 description: "el Obrador de Nair"
 draft: false
 image : "images/portfolio/Nair/2_obrador-Nair.jpg"
-image2 : "images/portfolio/Nair/nair-2.jpg"
-image3 : "images/portfolio/Nair/nair-1.jpg"
-image4 : "images/portfolio/Nair/3_obrador-Nair.jpg"
-image5 : "images/portfolio/Nair/nair-3.jpg"
 bg_image: "images/portfolio/Nair2.jpg"
 category: "Locales comerciales"
 information:
