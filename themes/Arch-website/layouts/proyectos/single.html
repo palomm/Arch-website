@@ -30,5 +30,54 @@
     </div>
   </div>
 </section>
+<section class="portfolio-gallery-container">
+  <div class="container gallery-container">
+    <h2>Imágenes</h2>
+
+    <p class="page-description text-center"></p>
+    
+    <div class="tz-gallery">
+
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="{{ .Params.Image1 | relURL }}">
+                    <img class="img-responsive w-100" src="{{ .Params.Image1 | relURL }}" alt="Park">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="{{ .Params.Image2 | relURL }}">
+                    <img class="img-responsive w-100" src="{{ .Params.Image2 | relURL }}" alt="Bridge">
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <a class="lightbox" href="{{ .Params.Image3 | relURL }}">
+                    <img class="img-responsive w-100" src="{{ .Params.Image3 | relURL }}" alt="Tunnel">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="{{ .Params.Image4 | relURL }}">
+                    <img class="img-responsive w-100" src="{{ .Params.Image4 | relURL }}" alt="Coast">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="{{ .Params.Image5 | relURL }}">
+                    <img class="img-responsive w-100" src="{{ .Params.Image5 | relURL }}" alt="Rails">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="{{ .Params.Image6 | relURL }}">
+                    <img class="img-responsive w-100" src="{{ .Params.Image6 | relURL }}" alt="Rails">
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+
+</section>
+
+
 
 {{ end }}

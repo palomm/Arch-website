@@ -117,11 +117,24 @@
 				margin-bottom: 10px;
 			}
 		}
+
 	}
 }
 
+.portfolio-gallery-container {
+		a {
+    box-shadow: 0 15px 45px -9px rgba(0, 0, 0, 0.25);
+    display: block;
+
+    img {
+      border-radius: 5px;
+      -webkit-transition: .3s all;
+      -o-transition: .3s all;
+      transition: .3s all;
+    }
+  }
+}
 body{
   background:#fff;
 }
-
 
