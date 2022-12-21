@@ -9,9 +9,10 @@
 }
 
 .bg-2 {
-	background-size: contain;
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
+	background-attachment: unset;
+	background-position: 50%;
 
 	@include tablet {
 		background-attachment: scroll;
