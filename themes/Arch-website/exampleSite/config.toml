@@ -43,12 +43,12 @@ name = "SOBRE NOSOTRAS"
 weight = 2
 [[Languages.en.menu.main]]
 URL = "servicios"
-name = "QUÉ HACEMOS"
+name = "SERVICIOS"
 weight = 3
 # desactivado [[Languages.en.menu.main]]
 # desactivado URL = "servicios"
 # desactivado name = "SERVICIOS"
-# desactivado parent = "QUÉ HACEMOS"
+# desactivado parent = "SERVICIOS"
 # desactivado weight = 4
 # desactivado [[Languages.en.menu.main]]
 # desactivado URL = "precios"
@@ -64,25 +64,13 @@ URL = "proyectos"
 name = "proyectos"
 weight = 5
 [[Languages.en.menu.main]]
-URL = "proyectos"
-name = "REFORMA DE VIVIENDAS Y LOCALES"
-parent = "proyectos"
-weight= 5
-[[Languages.en.menu.main]]
-URL = "rehabilitacion"
-name = "REHABILITACIÓN DE ACCESIBILIDAD"
-parent = "proyectos"
-weight= 6
-#desactivado [[Languages.en.menu.main]]
-#desactivado URL = "consultoria"
-#desactivado name = "CONSULTORIA BIO"
-#desactivado parent = "proyectos"
-#desactivado weight= 7
+#desactivado URL = "rehabilitacion"
+#desactivado name = "REHABILITACIÓN DE ACCESIBILIDAD"
+#desactivado weight= 6
 [[Languages.en.menu.main]]
 URL = "formaciones"
-name = "TALLERES Y FORMACIONES"
-parent = "proyectos"
-weight= 8
+name = "FORMACIONES"
+weight= 6
 [[Languages.en.menu.main]]
 URL = "blog"
 name = "Blog"
@@ -95,7 +83,6 @@ weight = 7
 #desactivado URL = "pricing"
 #desactivado name = "IEE"
 #desactivado parent = "CEE/IEE"
-
 [[Languages.en.menu.main]]
 URL = "contacto"
 name = "CONTACTO"
