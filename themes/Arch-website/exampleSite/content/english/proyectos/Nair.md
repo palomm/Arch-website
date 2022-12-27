@@ -1,5 +1,5 @@
 ---
-title: "Obrador"
+title: "Luby Limón"
 description: "el Obrador de Nair"
 draft: false
 image : "images/portfolio/Nair/image-Nair.jpg"
