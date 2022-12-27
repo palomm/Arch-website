@@ -1,0 +1,139 @@
+  ########################### reforma service #############################
+reforma:
+  enable : true
+  title : "REGENERACIÓN URBANA"
+  content : "**Agrupamos nuestros servicios en función de tus necesidades**"
+  content2 : "Tramitamos toda la documentación relativa a la **gestión documental** del proyecto, para la consecución de la licencia de obra y otros trámites administrativos. Te acompañamos en el **diseño** de tu proyecto, adaptándonos a tus ideas y a tu presupuesto. Realizamos la **dirección de obra** de la reforma, gestionando a los proveedores y a los especialistas que intervengan en ella."
+  image : ""
+
+########################### accesibilidad service #############################
+accesibilidad:
+  enable : true
+  title : "REHABILITACIÓN DE ACCESIBILIDAD"
+  content : "Redactamos los proyectos y realizamos la dirección de obra e instalaciones para **mejorar la accesibilidad de tu edificio**. Tenemos amplia experiencia en el trabajo de **rehabilitación** en edificios de comunidades de propietarios y en la **gestión de subvenciones para edificios existentes**. Somos especialistas en la mejora de recorridos de acuerdo a la normativa vigente, diseñando la construcción de entornos a los que **todas las personas puedan acceder**. "
+  image : "images/Fotos web/ascensor2.jpg"
+
+########################### consultoria service #############################
+consultoria:
+  enable : true
+  title : "CONSULTORÍA ENERGÉTICA SOSTENIBLE"
+  content : "En RAMA te ayudamos a mejorar las condiciones de **eficiencia energética de tu local o vivienda**. Tanto si necesitas un **Certificado de Eficiencia Energética**, como si quieres recibir asesoramiento en las **mejoras de diseño e instalaciones** que puedes realizar para que tu espacio sea más eficiente y confortable."
+  image : "images/Fotos web/eficiencia-energetica-vivienda2.jpg"
+
+########################### consultoria service #############################
+formacion:
+  enable : true
+  title : "TALLERES Y FORMACIONES DE BIOCONSTRUCCION"
+  content : "Si tienes interés en aprender técnicas relacionadas con la **Bioconstrucción**, este es tu lugar. Desde RAMA ofrecemos **talleres prácticos y presenciales** para que puedas tocar, hacer y entender los materiales naturales y sus diferentes aplicaciones. "
+  image : "images/Fotos web/formacion.jpg"
+
+########################## featured reforma ############################
+featured_reforma:
+  enable : true
+  title: "nuestros cimientos"
+  reforma_item:
+    # featured service item loop
+    - name : "Reforma tu vivienda"
+      icon : "ion-ios-home-outline"
+      color : "primary"
+      content : "Realizamos proyectos de diseño, reforma y rehabilitación de viviendas. Desde el estudio previo a la dirección de la obra, te ayudamos a diseñar tu hogar, buscando la mejora del confort, la salubridad y de la eficiencia energética."
+      
+    # featured service item loop
+    - name : "Inicia tu negocio"
+      icon : "ion-ios-briefcase-outline"
+      color : "primary-dark"
+      content : "Buscamos en cada proyecto las opciones de diseño más acordes a las tendencias actuales en la arquitectura con un doble objetivo: satisfacer las necesidades de nuestros clientes y progresar continuamente como profesionales."
+      
+    # featured service item loop
+    - name : "Transforma tu local"
+      icon : "ion-ios-fastforward-outline"
+      color : "primary-darker"
+      content : "La premisa fundamental de nuestro trabajo es  ser coherentes con nuestros valores esenciales. Por ello, fomentamos soluciones arquitectónicas alternativas y materiales locales que contribuyan al respeto del medioambiente."
+
+      
+########################## featured consultoria ############################
+featured_consultoria:
+  enable : true
+  title: "nuestros cimientos"
+  image: ""
+  consultoria_item:
+    # featured service item loop
+    - name : "Estrategias de diseño bioclimático"
+      icon : "ion-ios-heart-outline"
+      color : "primary"
+      content : "Para nosotras, el vínculo con nuestros clientes es clave. Estamos convencidas de que, como arquitectas, nuestra responsabilidad no reside sólo en realizar un proyecto, sino en asesorar y estar presentes en cada fase del mismo."
+      
+    # featured service item loop
+    - name : "Certificado de Eficiencia Energética"
+      icon : "ion-ios-sunny-outline"
+      color : "primary-dark"
+      content : "Buscamos en cada proyecto las opciones de diseño más acordes a las tendencias actuales en la arquitectura con un doble objetivo: satisfacer las necesidades de nuestros clientes y progresar continuamente como profesionales."
+      
+    # featured service item loop
+    - name : "Asesoría y emisión de informes"
+      icon : "ion-ios-lightbulb-outline"
+      color : "primary-darker"
+      content : "La premisa fundamental de nuestro trabajo es  ser coherentes con nuestros valores esenciales. Por ello, fomentamos soluciones arquitectónicas alternativas y materiales locales que contribuyan al respeto del medioambiente."
+
+      
+############################# Service ###############################
+service:
+  enable : true
+  title : "QUÉ HACEMOS"
+  description : ""
+  service_item:
+    # service item loop
+    - icon : ion-ios-home-outline #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
+      name: REGENERACIÓN URBANA
+      content: "Redacción de proyectos y dirección de obras de viviendas y locales comerciales, incluyendo diseño de interiores y decoración."
+
+    # service item loop
+    - icon : ion-ios-loop #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
+      name: REHABILITACIÓN DE ACCESIBILIDAD
+      content: "Gestión de ayudas y subvenciones. Trámites de licencias y dirección de obras de mejoras de accesibilidad para Comunidades de Propietarios"
+
+    # service item loop
+    - icon : ion-ios-flower-outline #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
+      name: CONSULTORÍA ENERGÉTICA SOSTENIBLE
+      content: "Asesoría y emisión de informes y certificados para la mejora de la eficiencia energética de viviendas y locales con criterios de sostenibilidad."
+
+    # service item loop
+    - icon : ion-ios-compose-outline #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
+      name: TALLERES Y FORMACIONES DE BIOCONSTRUCCIÓN
+      content: "Sesiones prácticas para la formación de grupos y colectivos en diferentes técnicas y materiales usadas en la bioconstrucción"
+
+############################# funfacts #################################
+
+funfacts: #QUÉ HACEMOS CON ESTO?
+  enable : true
+  title : "PROYECTOS REALIZADOS"
+  description : " Cuenta con RAMA para tu proyecto de arquitectura"
+  funfact_item:
+    # funfacts item loop
+    - icon : "ion-ios-eye-outline" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Direcciones de Obra"
+      count : "16"
+      
+    # funfacts item loop
+    - icon : "ion-ios-sunny-outline" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Proyectos de Rehabilitación Energética"
+      count : "4"
+      
+    # funfacts item loop
+    - icon : "ion-ios-loop" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Colaboraciones en Arquitectura Sostenible"
+      count : "8"
+      
+    # funfacts item loop
+    - icon : "ion-ios-paper-outline" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Certificados de Eficiencia Energética"
+      count : "86"
+    # funfacts item loop
+    - icon : "ion-ios-checkmark-outline" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Licencias de Arquitectura"
+      count : "7"
+    
+############################# call to action #################################
+cta:
+  enable : true
+  # call to action content comes from "data/*/homepage.yml"

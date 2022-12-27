@@ -1,0 +1,195 @@
+################################ pricing ################################
+pricing:
+  enable : true
+  pricing_table:
+    # pricing table loop
+    #- name : "Proyecto de Obra Nueva"
+    #  image: "images/Fotos web/contacto.jpg"
+    #  price: "7000 €*"
+    #  content : "*Precio estimado para construcción de 100 m2"
+#      link : "#"
+#      services:
+#        - Unlimited agents
+#        - 10 PSD Design
+#        - HTML5 Markup
+#        - Basic SEO
+#        - Email Marketing
+#        - 24/7 Tech Support
+
+    # pricing table loop
+    #- name : "Proyecto de reforma"
+    #  image: "images/Fotos web/contacto.jpg"
+    #  price: "1000 €*"
+    #  content : "*Precio estimado para reforma de 100 m2"
+#      link : "#"
+#      services:
+#        - Unlimited agents
+#        - 10 PSD Design
+#        - HTML5 Markup
+#        - Basic SEO
+#        - Email Marketing
+#        - 24/7 Tech Support
+
+    # pricing table loop
+    #- name : "Redacción de planos"
+    #  image: "images/Fotos web/contacto.jpg"
+    #  price: "1500 €*"
+    #  content : "*Precio estimado para inmueble de 100 m2"
+#      link : "#"
+#      services:
+#        - Unlimited agents
+#        - 10 PSD Design
+#        - HTML5 Markup
+#        - Basic SEO
+#        - Email Marketing
+#        - 24/7 Tech Support
+
+    # pricing table loop
+    - name : "Taller de murales artísticos con cal"
+      image: "/images/Fotos web/valores.jpg"
+      price: "4-5 de junio"
+      content : "en Collado Villalba, Madrid (de 10h a 19h)"
+      link : "/contacto/"
+      label : "AQUÍ EL RESULTADO"
+      services:
+        - INCLUYE
+        - Material y herramientas
+        - Comida a medio día
+
+    # pricing table loop
+    - name : "Taller de Construcción con Adobe"
+    #  image: "images/Fotos web/contacto.jpg"
+      price: "por confirmar"
+      content : "más información próximamente"
+#      link : ""
+#     label : "..."
+#      services:
+#        - Unlimited agents
+#        - 10 PSD Design
+#        - HTML5 Markup
+#        - Basic SEO
+#        - Email Marketing
+#        - 24/7 Tech Support
+
+    # pricing table loop
+    - name : "Taller de Acabados naturales de arcilla"
+      image: "images/Fotos web/contacto.jpg"
+      price: "por confirmar"
+      content : "más información proximamente"
+#      link : ""
+#      label : "..."
+#      services:
+#        - Unlimited agents
+#        - 10 PSD Design
+#        - HTML5 Markup
+#        - Basic SEO
+#        - Email Marketing
+#        - 24/7 Tech Support
+
+    # pricing table loop
+ #   - name : "Plan de Seguridad y Salud"
+    #  image: "images/Fotos web/contacto.jpg"
+#      price: "desde 400€ *"
+#      content : "Precio estimado para inmueble de 100 m2"
+#     link : "/contacto/"
+#      label : "contrátalo"
+#      services:
+#        - Unlimited agents
+#        - 10 PSD Design
+#        - HTML5 Markup
+#        - Basic SEO
+#        - Email Marketing
+#        - 24/7 Tech Support
+        
+    # pricing table loop
+#    - name : "Certificado de Eficiencia Energética"
+    #  image: "images/Fotos web/contacto.jpg"
+#      price: "desde 80€ *"
+#      content : "*Visita de inmueble y tasas incluidas"
+#      link : "/cee/"
+#      label : "contrátalo"
+#      services:
+#        - Unlimited agents
+#        - 10 PSD Design
+#        - HTML5 Markup
+#        - Basic SEO
+#        - Email Marketing
+#        - 24/7 Tech Support
+
+    # pricing table loop
+    #- name : "Inspección técnica del edificio (ITE)"
+    #  image: "images/Fotos web/contacto.jpg"
+    #  price: "150 €*"
+    #  content : "Precio estimado para vivienda unifamiliar"
+#      link : "#"
+#      services:
+#        - Unlimited agents
+#        - 10 PSD Design
+#        - HTML5 Markup
+#        - Basic SEO
+#        - Email Marketing
+#        - 24/7 Tech Support
+
+    # pricing table loop
+    #- name : "Informe de evaluación del edificio (IEE)"
+    #  image: "images/Fotos web/contacto.jpg"
+    #  price: "300 €*"
+    #  content : "Precio estimado para vivienda unifamiliar"
+#      link : "#"
+#      services:
+#        - Unlimited agents
+#        - 10 PSD Design
+#        - HTML5 Markup
+#        - Basic SEO
+#        - Email Marketing
+#        - 24/7 Tech Support
+
+    # pricing table loop
+#    - name : "Plan de autoprotección"
+#    #  image: "images/Fotos web/contacto.jpg"
+#      price: "desde 500€ *"
+#      content : "*Para superficies menores de 500 m2"
+ #     link : "/contacto/"
+#      label : "contrátalo"
+#      services:
+#        - Unlimited agents
+#        - 10 PSD Design
+#        - HTML5 Markup
+#        - Basic SEO
+#        - Email Marketing
+#        - 24/7 Tech Support
+
+    # pricing table loop
+    #- name : "Proyecto de diseño de interiores"
+    #  image: "images/Fotos web/contacto.jpg"
+    #  price: "2500 €*"
+    #  content : "*Precio estimado para vivienda de 100 m2"
+#      link : "#"
+#      services:
+#        - Unlimited agents
+#        - 10 PSD Design
+#        - HTML5 Markup
+#        - Basic SEO
+#        - Email Marketing
+#        - 24/7 Tech Support
+
+
+    # pricing table loop
+    #- name : "Proyecto de rehabilitación energética"
+    #  image: "images/precios/sate.png"
+    #  price: "1500 €*"
+    #  content : "*Incluye gestión de subvenciones"
+#      link : "#"
+#      services:
+#        - Unlimited agents
+#        - 10 PSD Design
+#        - HTML5 Markup
+#        - Basic SEO
+#        - Email Marketing
+#        - 24/7 Tech Support
+
+      
+############################# call to action #################################
+cta:
+  enable : true
+  # call to action content comes from "data/*/homepage.yml"

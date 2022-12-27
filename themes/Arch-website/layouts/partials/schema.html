@@ -1,0 +1,51 @@
+{{ if or (eq .Section "post") (eq .Section "posts") (eq .Section "blog") (eq .Section "blogs") (eq .Section "news") (eq .Section "categories") (eq .Section "tags") }} 
+<script type= "application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": {{ .Title }},
+  "image": {{ .Params.logo | absURL }},
+  "datePublished": {{ .Params.PublishDate}},
+  "dateModified": {{ .Params.PublishDate }},
+  "author": {
+    "@type": "Person",
+    "name": {{ .Params.author }}
+  },
+  "mainEntityOfPage": { "@type": "WebPage" },
+  "publisher": {
+    "@type": "Organization",
+    "name": {{ .Site.Params.sitename }},
+    "logo": {
+      "@type": "ImageObject",
+      "url": {{ .Site.Params.logo }}
+    }
+  },
+  "description": {{ .Summary | plainify | safeHTML }},
+  "keywords": [{{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}]
+}
+</script>
+{{end}}
+<script type= "application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HomeAndConstructionBusiness",
+  "name": {{ .Site.Params.sitename }},
+  "sameAs": [
+    "https://www.linkedin.com/company/71724563/",
+    "https://www.instagram.com/rama_arquitectas/"
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Madrid",
+    "addressRegion": "Madrid",
+    "postalCode": "28045",
+    "streetAddress": "Calle Áncora 5, 6D"
+  },
+  "email": "mailto:estudio@rama-arquitectas.es",
+  "image": "{{ .Site.BaseURL }}/images/Fotos%20web/inicio.jpg",
+  "telephone": "+34654896795",
+  "url": "{{ .Site.BaseURL }}",
+  "openingHours": "Mo,Tu,We,Th,Fr 09:00-18:00",
+  "description": {{ .Site.Params.description }}
+}
+</script>

@@ -1,0 +1,23 @@
+{{ define "main" }}
+
+
+{{ $data := index site.Data site.Language.Lang }}
+
+{{ if $data.privacity.about.enable }}
+{{ with $data.privacity.about }}
+
+<section class="privacity-about section">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h2 class="mt-30"> <center> {{ .title | markdownify }}</center></h2>
+				<p class="mt-30">{{ .content | markdownify }}</p>
+				<p class="mt-30">{{ .description | markdownify }}</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+{{ end }}
+{{ end }}
+{{ end }}

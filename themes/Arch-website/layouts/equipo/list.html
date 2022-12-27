@@ -1,0 +1,115 @@
+{{ define "main" }}
+
+{{ partial "page-title.html" . }}
+
+{{ $data := index site.Data site.Language.Lang }}
+
+{{ if $data.about.about.enable }}
+{{ with $data.about.about }}
+<section class="about section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="about-img">
+          <img class="img-responsive" src="/images/equipo/equipo.jpg" alt="RAMA Arquitectas Arquitectura Sostenible">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h6 class="mt-40"> Confianza</h6>
+          <p> Para nosotras, el vínculo con nuestros clientes es clave. Estamos convencidas de que, como arquitectas, nuestra responsabilidad no reside sólo en realizar un proyecto, sino en asesorar y estar presentes en cada fase del mismo. </p>
+        <h6 class="mt-40"> Técnica</h6>
+          <p> Buscamos en cada proyecto las opciones de diseño más acordes a las tendencias actuales en la arquitectura con un doble objetivo: satisfacer las necesidades de nuestros clientes y progresar continuamente como profesionales. </p>
+        <h6 class="mt-40"> Integridad</h6>
+          <p> La premisa fundamental de nuestro trabajo es  ser coherentes con nuestros valores esenciales. Por ello, fomentamos soluciones arquitectónicas alternativas y materiales locales que contribuyan al respeto del medioambiente. </p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="about section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">  
+        <h2 class="mt-40">Paloma Meléndez</h2>
+        Arquitecta por la Universidad Politécnica de Madrid
+        <p>
+        <p>La mejor solución a un problema complejo suele ser una respuesta sencilla. La naturaleza es experta en ello, lo que ha llevado a Paloma a especializarse en el campo de la Bioconstrucción.
+        <p>Curiosa y aplicada, aúna recursos técnicos y capacidad de investigación para dar con el resultado idóneo para cada proyecto.
+        {{ if .button.enable }}
+        {{ with .button }}
+        <p>  
+        <p>
+        <p>
+        {{ end }}
+        {{ end }}
+      </div>
+      <div class="col-md-6">
+        <div class="about-img">
+          <ul class="social-icons">
+            <li>
+              <a href="https://www.linkedin.com/in/paloma-melendez-martinez" class="img-responsive">
+               <img class="img-responsive" src="/images/equipo/paloma.jpg" alt="Paloma Melendez Arquitectura Sostenible">
+               </img>
+              </a>
+            </li>
+        </ul>  
+        </div>
+      </div>
+    </div>
+<p>
+  <div class="container">
+    <div class="row">
+      <div class="row">
+      <div class="col-md-6">
+        <div class="about-img-2">
+        <ul class="social-icons">
+            <li>
+              <a href="https://www.linkedin.com/in/bel%C3%A9n-sierra-marco-941834134/" class="img-responsive">
+               <img class="img-responsive" src="/images/equipo/belen.jpg" alt="Belen Sierra Arquitectura Madrid">
+               </img>
+              </a>
+            </li>
+        </ul>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h2 class="mt-40">Belén Sierra</h2>
+        Arquitecta por la Universidad de Alcalá
+        <p>
+        <p> Sabemos que el término "Project Manager" son palabras vacías. 
+        <p>
+        Por eso, queremos simplificarlo: maestra en las relaciones públicas gracias a su capacidad para conciliar, y una amplia experiencia labrada a pie de obra en proyectos a gran escala por todo el país. 
+        <p>
+        En resumen, no hay conflicto que se le resista. 
+        {{ if .button.enable }}
+        {{ with .button }}
+        <p>
+        <p>
+        {{ end }}
+        {{ end }}
+      </div>
+    </div>
+    <div class="row counter-box text-center mt-50">
+      {{ range .funfacts }}
+      <div class="col-md-2">
+        <div class="counter-item">
+          <i class="{{ .icon }}"></i>
+          <h4 class="count" data-count="{{ .count }}">0</h4>
+          <span>{{ .name }}</span>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+
+
+<!-- Call to action -->
+{{ if $data.about.cta.enable }}
+{{ partial "cta.html" . }}
+{{ end }}
+<!-- /Call to action -->
+
+{{ end }}
