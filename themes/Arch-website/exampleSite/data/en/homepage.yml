@@ -1,0 +1,48 @@
+############################### portada ##############################
+banner:
+  enable : true
+  bg_image : "images/Fotos web/textura1.jpg" #imagen de estudio?
+  bg_overlay : true
+  title : "RAMA"
+  seo : "RAMA Arquitectas. Estudio de arquitectura con valores de cercanía y sostenibilidad. Ofrecemos servicios de arquitectura en reformas y obra nueva, en Madrid."
+  content : "por una arquitectura cercana y sostenible"
+  button:
+    enable : true
+    label : "conoce nuestros servicios" #¿QUÉ OFRECEMOS
+    link : "servicios"
+
+############################# Nuestros servicios ############################
+service:
+  enable : true
+  # service content comes from "data/*/service.yml" file
+
+############################# nuestro metodo #################################
+about:
+  enable : true
+  bg_image: "images/Fotos web/filosofia_prueba.jpg"
+  bg_overlay: true
+  title : "FILOSOFÍA"
+  description : ""
+  content : ""
+  image : "images/Fotos web/valores.png" 
+
+############################# proyectos #################################
+# portfolio:
+#  enable : true
+#  title : "PROYECTOS"
+#  description : ""
+#  content : ""
+#  image : "images/Fotos web/obrador Nair.jpg" 
+
+############################ contacta ###########################
+cta:
+  enable : true
+  bg_image : "images/Fotos web/contacto_3.jpg"
+  title : "¿Tienes una idea?"
+  content : ""
+  button:
+    enable : true
+    label : "TE ESCUCHAMOS"
+    link : "contacto"
+
+############################# Funfacts ###############################

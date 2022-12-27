@@ -1,0 +1,52 @@
+<head>
+{{ partial "schema.html" . }}
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-192263058-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-192263058-1');
+</script>
+  <!-- End Google Analytics -->
+
+  <meta charset="utf-8">
+
+  {{ "<!-- mobile responsive meta -->" | safeHTML }}
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title itemprop="name">{{ .Title }} | {{ .Params.seoTitle }}</title>
+  <meta property="og:title" content="{{ .Title }} | {{ .Site.Title }}" />
+  <meta itemprop="name" content='{{ if (isset .Params "seoTitle") }}{{ .Params.seoTitle }}{{ else if (isset .Params "title") }}{{ .Params.title }}{{ else }}{{site.Params.title }}{{ end }}' />
+  <meta name="application-name" content="{{ .Title }} | {{ .Site.Title }}" />
+  <meta property="og:site_name" content="{{ .Site.Params.sitename }}" />
+  <meta name="description" content='{{ if (isset .Params "seo") }}{{ .Params.seo }}{{ else if (isset .Params "description") }}{{ .Params.description }}{{ else }}{{ .Site.Params.description }}{{ end }}'/>
+  <meta name="keywords" content= "{{ .Params.keywords }}"/>
+  {{ with site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+  {{ hugo.Generator }}
+
+  {{ "<!-- plugins -->" | safeHTML }}
+  {{ range site.Params.plugins.css }}
+  <meta name="thumbnail" content="/Fotos web/inicio.jpg">
+  {{ if .Params.image }}
+    $original := print "images/" (path.Base .Params.image)
+    $originalImg := .Resources.GetMatch $original
+  {{ end  }}
+  <link rel="stylesheet" href="{{ .link | absURL }}">
+  {{ end }}
+
+  {{ "<!-- Main Stylesheet -->" | safeHTML }}
+  {{ $styles := resources.Get "scss/style.scss" | toCSS | minify }}
+  <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
+
+  {{ "<!--Favicon-->" | safeHTML }}
+  <link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
+  <link rel="icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
+  {{ if (and (isset .Params "has_form") (.Params.has_form)) }}
+    <script src="/plugins/jQuery/jquery.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  {{end}}
+
+  
+</head>

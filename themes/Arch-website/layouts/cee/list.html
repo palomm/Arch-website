@@ -1,0 +1,56 @@
+{{ define "main" }}
+
+{{ partial "page-title.html" . }}
+
+{{ $data := index site.Data site.Language.Lang }}
+<script src="/plugins/backend/backend.js"></script>
+<section class="contact form cee">
+  <div class="container" id="messageContactForm">
+    <div class="row">
+      <div style="padding:20px">
+      <form method="POST" id="formData" action="https://w6lew7ewph.execute-api.eu-west-3.amazonaws.com/dev//contactform">
+        <div class="col-md-6 col-sm-12">
+          <div class="block">
+            <div class="form-group">
+              <input name="fullname" type="text" class="form-control" placeholder="Nombre completo">
+            </div>
+            <div class="form-group">
+              <input name="email" type="text" class="form-control" placeholder="Teléfono de contacto">
+            </div>
+            <div class="form-group">
+              <input name="subject" type="text" class="form-control" placeholder="Dirección del inmueble">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="block">
+            <div class="form-group-2">
+              <textarea name="message" class="form-control" rows="4" placeholder="Indica si tu inmueble es una vivienda, un bloque de viviendas o un local comercial"></textarea>
+            </div>
+            <div class="g-recaptcha" data-sitekey="6LcM2XgaAAAAAF4-dSINI1lOk5FxmfqlcjVvFuvO" data-callback="ccb"></div>
+            <button class="btn btn-main" type="submit" disabled style="margin-top: 20px" > solicita tu certificado </button>
+          </div>
+        </div>
+      </form>
+    </div>
+    </div>
+</section>
+<section class="page-wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 sticky-top">
+        <h2><center>{{ .Title }}</center></h2>
+        <h3><center></center></h3>
+        <p>{{ .Params.Subtitle | markdownify }}</p>
+      <!--  <p>{{ i18n "last_update" }}: {{ .PublishDate.Format "January 2, 2006" }}{{ if ne .PublishDate .Lastmod }}, last updated {{ .Lastmod.Format "January 2, 2006" }}{{ end }}
+        <p>{{ i18n "phone" }}: <a href="tel:{{ site.Params.phone }}">{{ site.Params.phone }}</a></p>
+        <p>{{ i18n "email" }}: <a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a></p>
+        <p>{{ i18n "location" }}: {{ site.Params.location }}</p> -->
+      </div>
+      <div class="col-md-8">
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

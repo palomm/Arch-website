@@ -1,0 +1,234 @@
+baseURL = "https://rama-arquitectas.es"
+disableLanguages = []
+disqusShortname = ""
+paginate = "4"
+summaryLength = "30"
+theme = "Arch-website"
+title = "RAMA | Estudio de arquitectura sostenible y cercana"
+seoTitle = "Arquitectura sostenible | RAMA"
+description = "Apostamos por una arquitectura sostenible y cercana. Realizamos proyectos de arquitectura y talleres de formación en técnicas de construcción ecológica en Madrid"
+[Languages.en]
+contentDir = "content/english"
+# copyright = "Copyright &copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved"
+languageCode = "en-us"
+languageName = "Es"
+weight = 1
+[[Languages.en.menu.footer]]
+URL = "privacidad"
+name = "POLÍTICA DE PRIVACIDAD"
+weight = 1
+[[Languages.en.menu.footer]]
+URL = "servicios"
+name = "SERVICIOS"
+weight = 3
+# desactivado [[Languages.en.menu.footer]]
+# desactivado URL = "precios"
+# desactivado name = "PRECIOS"
+# desactivado weight = 4
+[[Languages.en.menu.footer]]
+URL = "cee"
+name = "CERTIFICADO ENERGÉTICO"
+weight = 5
+[[Languages.en.menu.footer]]
+URL = "contacto"
+name = "CONTACTO"
+weight = 6
+# desactivado [[Languages.en.menu.main]]
+# desactivado URL = "/"
+# desactivado name = "Inicio"
+# desactivado weight = 1
+[[Languages.en.menu.main]]
+URL = "equipo"
+name = "SOBRE NOSOTRAS"
+weight = 2
+[[Languages.en.menu.main]]
+URL = "servicios"
+name = "SERVICIOS"
+weight = 3
+# desactivado [[Languages.en.menu.main]]
+# desactivado URL = "servicios"
+# desactivado name = "SERVICIOS"
+# desactivado parent = "SERVICIOS"
+# desactivado weight = 4
+# desactivado [[Languages.en.menu.main]]
+# desactivado URL = "precios"
+# desactivado name = "PRECIOS"
+# desactivado parent = "QUÉ HACEMOS"
+# desactivado weight = 5
+[[Languages.en.menu.main]]
+#desactivado URL = "cee"
+#desactivado name = "CERTIFICADO ENERGÉTICO"
+#desactivado weight = 6
+[[Languages.en.menu.main]]
+URL = "proyectos"
+name = "proyectos"
+weight = 5
+[[Languages.en.menu.main]]
+#desactivado URL = "rehabilitacion"
+#desactivado name = "REHABILITACIÓN DE ACCESIBILIDAD"
+#desactivado weight= 6
+[[Languages.en.menu.main]]
+URL = "formaciones"
+name = "FORMACIONES"
+weight= 6
+[[Languages.en.menu.main]]
+URL = "blog"
+name = "Blog"
+weight = 7
+#desactivado [[Languages.en.menu.main]]
+#desactivado URL = "faq"
+#desactivado name = "Certificado Energético"
+#desactivado parent = "CEE/IEE"
+#desactivado [[Languages.en.menu.main]]
+#desactivado URL = "pricing"
+#desactivado name = "IEE"
+#desactivado parent = "CEE/IEE"
+[[Languages.en.menu.main]]
+URL = "contacto"
+name = "CONTACTO"
+weight = 8
+[Languages.fr]
+contentDir = "content/french"
+copyright = "Copyright &copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved"
+languageCode = "fr-fr"
+languageName = "En"
+weight = 2
+[[Languages.fr.menu.footer]]
+URL = "about"
+name = "About"
+weight = 1
+[[Languages.fr.menu.footer]]
+URL = "project"
+name = "Project"
+weight = 2
+[[Languages.fr.menu.footer]]
+URL = "service"
+name = "Service"
+weight = 3
+[[Languages.fr.menu.footer]]
+URL = "pricing"
+name = "Pricing"
+weight = 4
+[[Languages.fr.menu.footer]]
+URL = "faq"
+name = "FAQ"
+weight = 5
+[[Languages.fr.menu.footer]]
+URL = "contact"
+name = "Contact"
+weight = 6
+[[Languages.fr.menu.main]]
+URL = "/"
+name = "Home"
+weight = 1
+[[Languages.fr.menu.main]]
+URL = "about"
+name = "about"
+weight = 2
+[[Languages.fr.menu.main]]
+URL = "project"
+name = "Project"
+weight = 3
+[[Languages.fr.menu.main]]
+URL = "service"
+name = "service"
+weight = 4
+[[Languages.fr.menu.main]]
+URL = "blog"
+name = "Blog"
+weight = 5
+[[Languages.fr.menu.main]]
+hasChildren = true
+name = "Pages"
+weight = 6
+[[Languages.fr.menu.main]]
+URL = "faq"
+name = "FAQ"
+parent = "Pages"
+[[Languages.fr.menu.main]]
+URL = "pricing"
+name = "pricing"
+parent = "Pages"
+[[Languages.fr.menu.main]]
+URL = "contact"
+name = "Contact"
+weight = 7
+[markup.goldmark.renderer]
+unsafe = true
+[outputs]
+home = ["HTML"]
+[params]
+author = "RAMA Arquitectas"
+contact_form_action = "#"
+# ToDo := Change this to something reasonable
+description = "Estudio de Arquitectura Madrid - Arquitectura Sostenible | RAMA"
+email = "estudio@rama-arquitectas.es"
+google_analitycs_id = "G-F7TQXXKCXZ"
+location = "IMPACT HUB Picasso - Plaza Pablo Ruiz Picasso 1, Madrid"
+instagram = "@rama_arquitectas"
+logo = "images/logo_vectorizado_2.png"
+logo_width = "150px"
+phone = "Paloma: 654 89 67 95 / Belén: 662 51 69 12"
+multi_author = false
+sitename = "RAMA Arquitectas"
+[params.gmap]
+enable = true
+gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
+map_latitude = "40.450553066822074"
+map_longitude = "-3.6928182126941724"
+map_marker = "images/marker.png"
+[params.nav_button]
+enable = true
+label = "Get A Quote"
+link = "contact"
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/Ionicons/css/ionicons.min.css"
+[[params.plugins.css]]
+link = "plugins/magnific-popup/magnific-popup.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+link = "plugins/magnific-popup/jquery.magnific-popup.min.js"
+[[params.plugins.js]]
+link = "plugins/shuffle/shuffle.min.js"
+[[params.plugins.js]]
+link = "plugins/google-map/gmap.js"
+[params.preloader]
+enable = true
+preloader = ""
+[params.widgets]
+sidebar = ["recent_posts", "taxonomy_category", "taxonomy_tags"]
+#desactivado [[params.social]]
+#desactivado icon = "ion-social-googleplus-outline"
+#desactivado link = "#"
+[[params.social]]
+icon = "ion-social-linkedin-outline"
+link = "https://www.linkedin.com/in/paloma-melendez-martinez"
+[[params.social]]
+icon = "ion-social-linkedin-outline"
+link = "https://www.linkedin.com/in/belén-sierra-marco-941834134"
+#desactivado [[params.social]]
+#desactivado icon = "ion-social-pinterest-outline"
+#desactivado link = "#"
+#desactivado [[params.social]]
+#desactivado icon = "ion-social-dribbble-outline"
+#desactivado link = "#"
+#desactivado [[params.social]]
+#desactivado icon = "ion-social-twitter-outline"
+#desactivado link = "#"
+#desactivado [[params.social]]
+#desactivado icon = "ion-social-facebook-outline"
+#desactivado link = "#"
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
